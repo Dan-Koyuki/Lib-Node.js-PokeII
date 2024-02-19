@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getAllNature = exports.findNatureByDisliking = exports.findNatureByLiking = exports.findNatureByDecreaseStat = exports.findNatureByIncreaseStat = exports.findNatureByName = exports.getCustomPokemonPerPage = exports.getThirtyPokemon = exports.getAllPokemon = exports.findPokemonByTypes = exports.findPokemonByType = exports.findPokemonByRegion = exports.findPokemonByNormalAbility = exports.findPokemonByName = exports.findPokemonByHiddenAbility = exports.findPokemonByGenderRatio = exports.findPokemonByEggGroup = exports.findPokemonByBaseStat = exports.findPokemonByAbility = exports.findPokemonById = exports.sayHello = void 0;
+exports.getAllTypes = exports.findTypeByName = exports.getAllNature = exports.findNatureByDisliking = exports.findNatureByLiking = exports.findNatureByDecreaseStat = exports.findNatureByIncreaseStat = exports.findNatureByName = exports.getCustomPokemonPerPage = exports.getThirtyPokemon = exports.getAllPokemon = exports.findPokemonByTypes = exports.findPokemonByType = exports.findPokemonByRegion = exports.findPokemonByNormalAbility = exports.findPokemonByName = exports.findPokemonByHiddenAbility = exports.findPokemonByGenderRatio = exports.findPokemonByEggGroup = exports.findPokemonByBaseStat = exports.findPokemonByAbility = exports.findPokemonById = exports.sayHello = void 0;
 var hello_world_1 = require("./hello-world");
 Object.defineProperty(exports, "sayHello", { enumerable: true, get: function () { return hello_world_1.sayHello; } });
 var pokemon_core_1 = require("./core/pokemon.core");
@@ -25,3 +25,6 @@ Object.defineProperty(exports, "findNatureByDecreaseStat", { enumerable: true, g
 Object.defineProperty(exports, "findNatureByLiking", { enumerable: true, get: function () { return nature_core_1.findNatureByLiking; } });
 Object.defineProperty(exports, "findNatureByDisliking", { enumerable: true, get: function () { return nature_core_1.findNatureByDisliking; } });
 Object.defineProperty(exports, "getAllNature", { enumerable: true, get: function () { return nature_core_1.getAllNature; } });
+var type_core_1 = require("./core/type.core");
+Object.defineProperty(exports, "findTypeByName", { enumerable: true, get: function () { return type_core_1.findTypeByName; } });
+Object.defineProperty(exports, "getAllTypes", { enumerable: true, get: function () { return type_core_1.getAllTypes; } });
