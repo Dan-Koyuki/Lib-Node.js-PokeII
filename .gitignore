@@ -1,0 +1,9 @@
+# exclude modules folder from version control
+/node_modules
+
+#exclude compiler Source, Test File and test configuration
+/src
+/test
+jest.config.js
+package-lock.json
+tsconfig.json

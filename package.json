@@ -1,0 +1,32 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "npx jest",
+    "start": "npx tsc"
+  },
+  "keywords": [
+    "pokemon",
+    "jsonpokemon",
+    "pokemondata",
+    "pokemonitem"
+  ],
+  "author": "Dan Koyuki",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.11.19",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2"
+  }
+}
