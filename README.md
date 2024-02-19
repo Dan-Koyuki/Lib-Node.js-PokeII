@@ -1,4 +1,4 @@
-# Pokedex (Not Pubished yet.)
+# PKDATA-DAN
   A comprehensive library for accessing Pokémon data including species, items, moves, and more.
 
   Written in TypeScript make it flexible for both TypeScript and JavaScript Project.
@@ -40,11 +40,10 @@
   - Ability
 
 ## Installation
-- **Coming Soon!** Stay tuned for updates on how to install Pokedex.
-
-<!-- ```bash
-npm i Pokedex
-``` -->
+- Installation can be done using following command:
+  ```bash
+  npm i pkdata-dan
+  ```
 
 ## Usage
 - **To be added.** Instructions on how to use the library will be provided here once available.
