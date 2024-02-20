@@ -6,11 +6,11 @@
 ## Features
 - **Pokedex**: Filter and Search Pokemon easily by its ID, Name, Region, Stats and other to get its info.
 - **Natures**: Filter and Search Nature easily to get its info.
-
 - **Types**: Search Type weakness to gain advantages.
+- **Items**: Search for Items. Current Items Available:
+  - **TM (Technical Machine)**
   ### To Be Added:
   - Items (separate file):
-    - TM/HM
     - Berry
     - Story Item
     - Held Item
