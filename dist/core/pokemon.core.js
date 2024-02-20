@@ -276,7 +276,7 @@ exports.findPokemonByGenderRatio = findPokemonByGenderRatio;
  * @returns - all pokemon object you can have.. careful there are more or less around 890 object. big object in fact. use the page one if you worried..
  */
 const getAllPokemon = () => {
-    return pokemon_model_1.Pokemon;
+    return pokemon_model_1.Pokemon.slice(1);
 };
 exports.getAllPokemon = getAllPokemon;
 /**
@@ -286,9 +286,10 @@ exports.getAllPokemon = getAllPokemon;
  */
 const POKEMON_PER_PAGES = 30;
 const getThirtyPokemon = (pagesNumber) => {
+    const pokemon = pokemon_model_1.Pokemon.slice(1);
     const startIndex = (pagesNumber - 1) * POKEMON_PER_PAGES;
     const endIndex = startIndex + POKEMON_PER_PAGES;
-    return pokemon_model_1.Pokemon.slice(startIndex, endIndex);
+    return pokemon.slice(startIndex, endIndex);
 };
 exports.getThirtyPokemon = getThirtyPokemon;
 /**
@@ -298,9 +299,10 @@ exports.getThirtyPokemon = getThirtyPokemon;
  * @returns - An array of PokemonModel objects based on the specified page and items per page.
  */
 const getCustomPokemonPerPage = (pageNumber, itemsPerPage) => {
+    const pokemon = pokemon_model_1.Pokemon.slice(1);
     const startIndex = (pageNumber - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
-    return pokemon_model_1.Pokemon.slice(startIndex, endIndex);
+    return pokemon.slice(startIndex, endIndex);
 };
 exports.getCustomPokemonPerPage = getCustomPokemonPerPage;
 /**
