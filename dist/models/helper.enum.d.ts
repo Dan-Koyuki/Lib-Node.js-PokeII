@@ -53,3 +53,27 @@ export declare enum EggGroup {
     UNDISCOVERED = "No Eggs Discovered",
     UNKNOWN = "Gender Unknown"
 }
+export declare enum PokeBallFlag {
+    UB = "ULTRA BEAST",
+    SAFARI = "SAFARI",
+    PALPARK = "PAL PARK",
+    FISHING = "FISHING",
+    DIVING = "DIVING",
+    NIGHT = "NIGHT",
+    CAVE = "CAVE",
+    SPEED = "SPEED",
+    LEVEL1 = "LEVEL 1",
+    LEVEL2 = "LEVEL 2",
+    LEVEL3 = "LEVEL 3",
+    LEVEL4 = "LEVEL 4",
+    WEIGHT1 = "WEIGHT 1",
+    WEIGHT2 = "WEIGHT 2",
+    WEIGHT3 = "WEIGHT 3",
+    WEIGHT4 = "WEIGHT 4",
+    SPECIES = "SPECIES",
+    MOONEVO = "MOON EVO",
+    BUG = "BUG",
+    WATER = "WATER",
+    POKEDEX = "POKEDEX",
+    TURN = "TURN"
+}

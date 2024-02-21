@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.EggGroup = exports.PokemonType = exports.Flavor = exports.Stat = void 0;
+exports.PokeBallFlag = exports.EggGroup = exports.PokemonType = exports.Flavor = exports.Stat = void 0;
 var Stat;
 (function (Stat) {
     Stat["ATK"] = "atk";
@@ -60,3 +60,28 @@ var EggGroup;
     EggGroup["UNDISCOVERED"] = "No Eggs Discovered";
     EggGroup["UNKNOWN"] = "Gender Unknown";
 })(EggGroup || (exports.EggGroup = EggGroup = {}));
+var PokeBallFlag;
+(function (PokeBallFlag) {
+    PokeBallFlag["UB"] = "ULTRA BEAST";
+    PokeBallFlag["SAFARI"] = "SAFARI";
+    PokeBallFlag["PALPARK"] = "PAL PARK";
+    PokeBallFlag["FISHING"] = "FISHING";
+    PokeBallFlag["DIVING"] = "DIVING";
+    PokeBallFlag["NIGHT"] = "NIGHT";
+    PokeBallFlag["CAVE"] = "CAVE";
+    PokeBallFlag["SPEED"] = "SPEED";
+    PokeBallFlag["LEVEL1"] = "LEVEL 1";
+    PokeBallFlag["LEVEL2"] = "LEVEL 2";
+    PokeBallFlag["LEVEL3"] = "LEVEL 3";
+    PokeBallFlag["LEVEL4"] = "LEVEL 4";
+    PokeBallFlag["WEIGHT1"] = "WEIGHT 1";
+    PokeBallFlag["WEIGHT2"] = "WEIGHT 2";
+    PokeBallFlag["WEIGHT3"] = "WEIGHT 3";
+    PokeBallFlag["WEIGHT4"] = "WEIGHT 4";
+    PokeBallFlag["SPECIES"] = "SPECIES";
+    PokeBallFlag["MOONEVO"] = "MOON EVO";
+    PokeBallFlag["BUG"] = "BUG";
+    PokeBallFlag["WATER"] = "WATER";
+    PokeBallFlag["POKEDEX"] = "POKEDEX";
+    PokeBallFlag["TURN"] = "TURN";
+})(PokeBallFlag || (exports.PokeBallFlag = PokeBallFlag = {}));
