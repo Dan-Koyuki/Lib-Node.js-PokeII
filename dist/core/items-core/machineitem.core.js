@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getCustomTMsPerPage = exports.getTMsPerPage = exports.getAllMachine = exports.findMachineByRecipe = exports.findMachineByPrice = exports.findMachineByMoves = exports.findMachineByID = void 0;
+const items_model_1 = require("../../models/items-model/items.model");
 const machineitem_model_1 = require("../../models/items-model/machineitem.model");
 const helper_tools_1 = require("../tools/helper.tools");
 /**
@@ -18,7 +19,7 @@ const findMachineByID = (idNumber) => {
         throw new Error("Invalid ID format. ID must be a string!");
     }
     // search for a TM in the Array, return first element if no matching ID.
-    const res = machineitem_model_1.TM.find((tm) => tm.id === idNumber) || machineitem_model_1.TM[0];
+    const res = machineitem_model_1.TM.find((tm) => tm.id === idNumber) || items_model_1.TMError;
     // throw an error if res return first element of the Array.
     if (res.id === "000") {
         throw new Error("TM not found!");
@@ -35,7 +36,7 @@ const findMachineByMoves = (moveName) => {
     if (typeof moveName !== "string") {
         throw new Error("Invalid Move Name format. Move Name must be a string!");
     }
-    const res = machineitem_model_1.TM.find((tm) => tm.moves === (0, helper_tools_1.capitalize)(moveName)) || machineitem_model_1.TM[0];
+    const res = machineitem_model_1.TM.find((tm) => tm.moves === (0, helper_tools_1.capitalize)(moveName)) || items_model_1.TMError;
     if (res.id === "000") {
         throw new Error("TM not found! ");
     }
@@ -71,21 +72,19 @@ const findMachineByRecipe = (ingredient) => {
 };
 exports.findMachineByRecipe = findMachineByRecipe;
 const getAllMachine = () => {
-    return machineitem_model_1.TM.slice(1);
+    return machineitem_model_1.TM;
 };
 exports.getAllMachine = getAllMachine;
 const TMsPerPage = 10;
 const getTMsPerPage = (pageNumber) => {
-    const TMs = machineitem_model_1.TM.slice(1);
     const startIndex = (pageNumber - 1) * TMsPerPage;
     const endIndex = startIndex + TMsPerPage;
-    return TMs.slice(startIndex, endIndex);
+    return machineitem_model_1.TM.slice(startIndex, endIndex);
 };
 exports.getTMsPerPage = getTMsPerPage;
 const getCustomTMsPerPage = (pageNumber, itemsPerPage) => {
-    const TMs = machineitem_model_1.TM.slice(1);
     const startIndex = (pageNumber - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
-    return TMs.slice(startIndex, endIndex);
+    return machineitem_model_1.TM.slice(startIndex, endIndex);
 };
 exports.getCustomTMsPerPage = getCustomTMsPerPage;

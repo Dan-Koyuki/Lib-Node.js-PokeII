@@ -9,6 +9,7 @@
 - **Types**: Search Type weakness to gain advantages.
 - **Items**: Search for Items. Current Items Available:
   - **TM (Technical Machine)**
+  - **PokeBalls**
   ### To Be Added:
   - Items (separate file):
     - Berry
@@ -17,7 +18,6 @@
     - Evolution Item
     - Misc
     - Key
-    - Balls
   - Moves
   - Learnset (separate file):
     - Level Up

@@ -1,4 +1,4 @@
-import { PokemonModel } from "../models/pokemon.model";
+import { PokemonModel } from "../models/pokemons-model/pokemons.model";
 /**
  * ?findPokemonById - Find a specific Pokemon by its ID.
  * @param {string} id - 4-digit ID of the Pokemon (e.g., "0001" - "0898").

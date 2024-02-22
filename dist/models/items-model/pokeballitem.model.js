@@ -4,19 +4,6 @@ exports.PokeBall = void 0;
 const helper_enum_1 = require("../helper.enum");
 exports.PokeBall = [
     {
-        id: "000",
-        name: "Broken Ball",
-        gen: "BROKEN",
-        price: 0,
-        sell_price: 0,
-        catch_rate: {
-            normal: 0,
-        },
-        description: "Always Failed.",
-        notes: "This is an Error Flag.",
-        category: helper_enum_1.BagCategory.BALLS
-    },
-    {
         id: "001",
         name: "Poke Ball",
         gen: "I",

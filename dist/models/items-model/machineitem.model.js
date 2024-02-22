@@ -4,15 +4,6 @@ exports.TM = void 0;
 const helper_enum_1 = require("../helper.enum");
 exports.TM = [
     {
-        id: "000",
-        name: "TM000",
-        moves: "Unknown",
-        description: "Teaches Nothing to compatible Pokemon.",
-        price: 0,
-        recipe: ["Arceus Ring"],
-        category: helper_enum_1.BagCategory.MACHINES
-    },
-    {
         id: "001",
         name: "TM001",
         moves: "Take Down",

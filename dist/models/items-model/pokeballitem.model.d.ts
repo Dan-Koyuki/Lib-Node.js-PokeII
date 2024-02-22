@@ -1,17 +1,13 @@
-import { BagCategory, PokeBallFlag } from "../helper.enum";
-export interface PokeBallModel {
-    id: string;
-    name: string;
+import { PokeBallFlag } from "../helper.enum";
+import { ItemsModel } from "./items.model";
+export interface PokeBallModel extends ItemsModel {
     gen: string;
-    price: number;
     sell_price: number;
     catch_rate: {
         normal: number;
         condition?: ConditionPokeBall[];
     };
-    description: string;
     notes?: string;
-    category: BagCategory.BALLS;
 }
 export interface ConditionPokeBall {
     conditionFlag: PokeBallFlag;

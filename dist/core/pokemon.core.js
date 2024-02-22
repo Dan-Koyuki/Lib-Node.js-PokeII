@@ -1,7 +1,17 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getCustomPokemonPerPage = exports.getThirtyPokemon = exports.getAllPokemon = exports.findPokemonByGenderRatio = exports.findPokemonByEggGroup = exports.findPokemonByBaseStat = exports.findPokemonByNormalAbility = exports.findPokemonByHiddenAbility = exports.findPokemonByAbility = exports.findPokemonByTypes = exports.findPokemonByType = exports.findPokemonByRegion = exports.findPokemonByName = exports.findPokemonById = void 0;
-const pokemon_model_1 = require("../models/pokemon.model");
+const alola_model_1 = require("../models/pokemons-model/alola.model");
+const galar_model_1 = require("../models/pokemons-model/galar.model");
+const hisui_model_1 = require("../models/pokemons-model/hisui.model");
+const hoenn_model_1 = require("../models/pokemons-model/hoenn.model");
+const johto_model_1 = require("../models/pokemons-model/johto.model");
+const kalos_model_1 = require("../models/pokemons-model/kalos.model");
+const kanto_model_1 = require("../models/pokemons-model/kanto.model");
+const paldea_model_1 = require("../models/pokemons-model/paldea.model");
+const pokemons_model_1 = require("../models/pokemons-model/pokemons.model");
+const sinnoh_model_1 = require("../models/pokemons-model/sinnoh.model");
+const unova_model_1 = require("../models/pokemons-model/unova.model");
 const helper_tools_1 = require("./tools/helper.tools");
 /**
  * ?findPokemonById - Find a specific Pokemon by its ID.
@@ -12,7 +22,17 @@ const findPokemonById = (id) => {
     if (typeof id !== "string" || id.length !== 4) {
         throw new Error("Invalid ID format. Please provide a 4-digit numeric ID.");
     }
-    const res = pokemon_model_1.Pokemon.find((pokemon) => pokemon.id === id) || pokemon_model_1.Pokemon[0];
+    const res = kanto_model_1.KantoPokemon.find((pokemon) => pokemon.id === id) ||
+        johto_model_1.JohtoPokemon.find((pokemon) => pokemon.id === id) ||
+        hoenn_model_1.HoennPokemon.find((pokemon) => pokemon.id === id) ||
+        sinnoh_model_1.SinnohPokemon.find((pokemon) => pokemon.id === id) ||
+        unova_model_1.UnovaPokemon.find((pokemon) => pokemon.id === id) ||
+        kalos_model_1.KalosPokemon.find((pokemon) => pokemon.id === id) ||
+        alola_model_1.AlolaPokemon.find((pokemon) => pokemon.id === id) ||
+        galar_model_1.GalarPokemon.find((pokemon) => pokemon.id === id) ||
+        hisui_model_1.HisuiPokemon.find((pokemon) => pokemon.id === id) ||
+        paldea_model_1.PaldeaPokemon.find((pokemon) => pokemon.id === id) ||
+        pokemons_model_1.MissingNo;
     if (res.id === "0000") {
         throw new Error("MissingNo!");
     }
@@ -29,7 +49,17 @@ const findPokemonByName = (name) => {
         throw new Error("Invalid Pokemon Name. Please Provide a correct Pokemon Name.");
     }
     const req = (0, helper_tools_1.capitalize)(name);
-    const res = pokemon_model_1.Pokemon.find((pokemon) => pokemon.name === req) || pokemon_model_1.Pokemon[0];
+    const res = kanto_model_1.KantoPokemon.find((pokemon) => (pokemon.name === req)) ||
+        johto_model_1.JohtoPokemon.find((pokemon) => (pokemon.name === req)) ||
+        hoenn_model_1.HoennPokemon.find((pokemon) => (pokemon.name === req)) ||
+        sinnoh_model_1.SinnohPokemon.find((pokemon) => (pokemon.name === req)) ||
+        unova_model_1.UnovaPokemon.find((pokemon) => (pokemon.name === req)) ||
+        kalos_model_1.KalosPokemon.find((pokemon) => (pokemon.name === req)) ||
+        alola_model_1.AlolaPokemon.find((pokemon) => (pokemon.name === req)) ||
+        galar_model_1.GalarPokemon.find((pokemon) => (pokemon.name === req)) ||
+        hisui_model_1.HisuiPokemon.find((pokemon) => (pokemon.name === req)) ||
+        paldea_model_1.PaldeaPokemon.find((pokemon) => (pokemon.name === req)) ||
+        pokemons_model_1.MissingNo;
     if (res.id === "0000") {
         throw new Error("MissingNo!");
     }
@@ -58,13 +88,55 @@ const findPokemonByRegion = (region) => {
         throw new Error("Invalid Region Name. Please Provide a correct Region Name.");
     }
     const req = (0, helper_tools_1.capitalize)(region);
-    const res = pokemon_model_1.Pokemon.filter((pokemon) => {
-        return pokemon.region === req;
-    });
-    (0, helper_tools_1.throwErrorIfEmpty)(res, `No Pokemon Found from ${region}!`);
+    let res = [pokemons_model_1.MissingNo];
+    if (req === "Kanto") {
+        res = kanto_model_1.KantoPokemon;
+    }
+    else if (req === "Johto") {
+        res = johto_model_1.JohtoPokemon;
+    }
+    else if (req === "Hoenn") {
+        res = hoenn_model_1.HoennPokemon;
+    }
+    else if (req === "Sinnoh") {
+        res = sinnoh_model_1.SinnohPokemon;
+    }
+    else if (req === "Unova") {
+        res = unova_model_1.UnovaPokemon;
+    }
+    else if (req === "Kalos") {
+        res = kalos_model_1.KalosPokemon;
+    }
+    else if (req === "Alola") {
+        res = alola_model_1.AlolaPokemon;
+    }
+    else if (req === "Galar") {
+        res = galar_model_1.GalarPokemon;
+    }
+    else if (req === "Hisui") {
+        res = hisui_model_1.HisuiPokemon;
+    }
+    else if (req === "Paldea") {
+        res = paldea_model_1.PaldeaPokemon;
+    }
     return res;
 };
 exports.findPokemonByRegion = findPokemonByRegion;
+/**
+ * @var {PokemonModel[]} Pokemon  - combined Array from all Region Array
+ */
+const Pokemon = [
+    ...kanto_model_1.KantoPokemon,
+    ...johto_model_1.JohtoPokemon,
+    ...hoenn_model_1.HoennPokemon,
+    ...sinnoh_model_1.SinnohPokemon,
+    ...unova_model_1.UnovaPokemon,
+    ...kalos_model_1.KalosPokemon,
+    ...alola_model_1.AlolaPokemon,
+    ...galar_model_1.GalarPokemon,
+    ...hisui_model_1.HisuiPokemon,
+    ...paldea_model_1.PaldeaPokemon,
+];
 /**
  * ?findPokemonByType - Find all Pokemon with certain Type.
  * @param {string} type - name of Type (e.g., 'grass', 'fire').
@@ -95,7 +167,7 @@ const findPokemonByType = (type) => {
         throw new Error("Invalid Type! Please provide a correct Type of Pokemon");
     }
     const req = (0, helper_tools_1.capitalize)(type);
-    const res = pokemon_model_1.Pokemon.filter((pokemon) => {
+    const res = Pokemon.filter((pokemon) => {
         return pokemon.types.includes(req);
     });
     (0, helper_tools_1.throwErrorIfEmpty)(res, `No Pokemon with ${type} type!`);
@@ -133,7 +205,7 @@ const findPokemonByTypes = (types) => {
         throw new Error("Invalid Type of Pokemon! Please provide a correct Type of Pokemon");
     }
     const req = types.map((type) => (0, helper_tools_1.capitalize)(type));
-    const res = pokemon_model_1.Pokemon.filter((pokemon) => {
+    const res = Pokemon.filter((pokemon) => {
         return req.every((type) => pokemon.types.includes(type));
     });
     (0, helper_tools_1.throwErrorIfEmpty)(res, `No Pokemon with combination type of ${types.join(", ")}!`);
@@ -150,7 +222,7 @@ const findPokemonByAbility = (ability) => {
         throw new Error("Invalid Ability Name. Please provide a correct Ability Name.");
     }
     const req = (0, helper_tools_1.capitalize)(ability);
-    const res = pokemon_model_1.Pokemon.filter((pokemon) => {
+    const res = Pokemon.filter((pokemon) => {
         return (pokemon.abilities.normal.includes(req) || pokemon.abilities.hidden === req);
     });
     (0, helper_tools_1.throwErrorIfEmpty)(res, `No Pokemon with ${ability} is found!`);
@@ -167,7 +239,7 @@ const findPokemonByHiddenAbility = (ability) => {
         throw new Error("Invalid Ability Name. Please provide a correct Ability Name.");
     }
     const req = (0, helper_tools_1.capitalize)(ability);
-    const res = pokemon_model_1.Pokemon.filter((pokemon) => {
+    const res = Pokemon.filter((pokemon) => {
         return pokemon.abilities.hidden === req;
     });
     (0, helper_tools_1.throwErrorIfEmpty)(res, `No Pokemon have ${ability} as Hidden Ability!`);
@@ -184,7 +256,7 @@ const findPokemonByNormalAbility = (ability) => {
         throw new Error("Invalid Ability Name. Please provide a correct Ability Name.");
     }
     const req = (0, helper_tools_1.capitalize)(ability);
-    const res = pokemon_model_1.Pokemon.filter((pokemon) => {
+    const res = Pokemon.filter((pokemon) => {
         return pokemon.abilities.normal.includes(req);
     });
     (0, helper_tools_1.throwErrorIfEmpty)(res, `No Pokemon have ${ability} as Normal Ability!`);
@@ -207,7 +279,7 @@ const findPokemonByBaseStat = (stat, statType) => {
         throw new Error("Invalid Stat Type! StatType should be one of 'hp', 'atk', 'def', 'spa', 'spd', 'speed'.");
     }
     const req = stat.toString();
-    const res = pokemon_model_1.Pokemon.filter((pokemon) => {
+    const res = Pokemon.filter((pokemon) => {
         return pokemon.stats[statType] === req;
     });
     (0, helper_tools_1.throwErrorIfEmpty)(res, `No Pokemon found with ${statType} base stat of ${stat}.`);
@@ -242,7 +314,7 @@ const findPokemonByEggGroup = (eggGroup) => {
         throw new Error("Invalid Egg Group! Egg Group should be one of 'monster', 'human-like', 'water 1', 'water 3', 'bug', 'mineral', 'flying', 'amorphous', 'field', 'water 2', 'fairy', 'ditto', 'grass', 'dragon' or 'no eggs discovered'!");
     }
     const req = (0, helper_tools_1.capitalize)(eggGroup);
-    const res = pokemon_model_1.Pokemon.filter((pokemon) => {
+    const res = Pokemon.filter((pokemon) => {
         return pokemon.eggGroups.includes(req);
     });
     (0, helper_tools_1.throwErrorIfEmpty)(res, `No Pokemon from ${eggGroup} Egg Groups!`);
@@ -265,7 +337,7 @@ const findPokemonByGenderRatio = (ratio, gender) => {
     }
     // change male into 0 and female into 1
     const type = gender.toLowerCase() === "male" ? 0 : 1;
-    const res = pokemon_model_1.Pokemon.filter((pokemon) => {
+    const res = Pokemon.filter((pokemon) => {
         return pokemon.genderRatios[type] === ratio;
     });
     (0, helper_tools_1.throwErrorIfEmpty)(res, `No Pokemon with ${gender} ratio of ${ratio}!`);
@@ -276,7 +348,7 @@ exports.findPokemonByGenderRatio = findPokemonByGenderRatio;
  * @returns - all pokemon object you can have.. careful there are more or less around 890 object. big object in fact. use the page one if you worried..
  */
 const getAllPokemon = () => {
-    return pokemon_model_1.Pokemon.slice(1);
+    return Pokemon;
 };
 exports.getAllPokemon = getAllPokemon;
 /**
@@ -286,10 +358,9 @@ exports.getAllPokemon = getAllPokemon;
  */
 const POKEMON_PER_PAGES = 30;
 const getThirtyPokemon = (pagesNumber) => {
-    const pokemon = pokemon_model_1.Pokemon.slice(1);
     const startIndex = (pagesNumber - 1) * POKEMON_PER_PAGES;
     const endIndex = startIndex + POKEMON_PER_PAGES;
-    return pokemon.slice(startIndex, endIndex);
+    return Pokemon.slice(startIndex, endIndex);
 };
 exports.getThirtyPokemon = getThirtyPokemon;
 /**
@@ -299,10 +370,9 @@ exports.getThirtyPokemon = getThirtyPokemon;
  * @returns - An array of PokemonModel objects based on the specified page and items per page.
  */
 const getCustomPokemonPerPage = (pageNumber, itemsPerPage) => {
-    const pokemon = pokemon_model_1.Pokemon.slice(1);
     const startIndex = (pageNumber - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
-    return pokemon.slice(startIndex, endIndex);
+    return Pokemon.slice(startIndex, endIndex);
 };
 exports.getCustomPokemonPerPage = getCustomPokemonPerPage;
 /**
