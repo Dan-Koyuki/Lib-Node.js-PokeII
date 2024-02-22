@@ -17,6 +17,13 @@
     "pokemondata",
     "pokemonitem"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dan-Koyuki/Lib-Node.js-PokeII.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dan-Koyuki/Lib-Node.js-PokeII/issues"
+  },
   "author": "Dan Koyuki",
   "license": "ISC",
   "dependencies": {
