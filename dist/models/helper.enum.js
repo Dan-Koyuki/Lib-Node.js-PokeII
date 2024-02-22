@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.PokeBallFlag = exports.EggGroup = exports.PokemonType = exports.Flavor = exports.Stat = void 0;
+exports.BagCategory = exports.PokeBallFlag = exports.EggGroup = exports.PokemonType = exports.Flavor = exports.Stat = void 0;
 var Stat;
 (function (Stat) {
     Stat["ATK"] = "atk";
@@ -84,4 +84,13 @@ var PokeBallFlag;
     PokeBallFlag["WATER"] = "WATER";
     PokeBallFlag["POKEDEX"] = "POKEDEX";
     PokeBallFlag["TURN"] = "TURN";
+    PokeBallFlag["SLEEP"] = "SLEEP";
+    PokeBallFlag["BOOSTED"] = "BOOSTED";
+    PokeBallFlag["ORIGIN"] = "ORIGIN";
 })(PokeBallFlag || (exports.PokeBallFlag = PokeBallFlag = {}));
+var BagCategory;
+(function (BagCategory) {
+    BagCategory["BALLS"] = "POKEBALL";
+    BagCategory["BERRIES"] = "BERRY";
+    BagCategory["MACHINES"] = "MACHINE";
+})(BagCategory || (exports.BagCategory = BagCategory = {}));

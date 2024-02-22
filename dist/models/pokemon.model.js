@@ -26,6 +26,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNKNOWN],
         genderRatios: [0, 0],
         description: "No Pokemon Found!",
+        height: 0,
+        weight: 0
     },
     {
         id: "0001",
@@ -55,6 +57,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.GRASS],
         genderRatios: [87.5, 12.5],
         description: "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
+        height: 0.7,
+        weight: 15.2
     },
     {
         id: "0002",
@@ -84,6 +88,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.GRASS],
         genderRatios: [87.5, 12.5],
         description: "There is a bud on this Pokémon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon.",
+        height: 1,
+        weight: 28.7
     },
     {
         id: "0003",
@@ -113,6 +119,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.GRASS],
         genderRatios: [87.5, 12.5],
         description: "There is a large flower on Venusaur's back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.",
+        height: 2,
+        weight: 220.5
     },
     {
         id: "0004",
@@ -142,6 +150,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [87.5, 12.5],
         description: "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.",
+        height: 0.6,
+        weight: 18.7
     },
     {
         id: "0005",
@@ -171,6 +181,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [87.5, 12.5],
         description: "Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.",
+        height: 1.1,
+        weight: 41.9
     },
     {
         id: "0006",
@@ -200,6 +212,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [87.5, 12.5],
         description: "Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.",
+        height: 1.7,
+        weight: 199.5
     },
     {
         id: "0007",
@@ -229,6 +243,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.WATER1],
         genderRatios: [87.5, 12.5],
         description: "Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds.",
+        height: 0.5,
+        weight: 19.8
     },
     {
         id: "0008",
@@ -258,6 +274,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.WATER1],
         genderRatios: [87.5, 12.5],
         description: "Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pokémon's toughness as a battler.",
+        height: 1.0,
+        weight: 49.6
     },
     {
         id: "0009",
@@ -287,6 +305,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.WATER1],
         genderRatios: [87.5, 12.5],
         description: "Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water with enough accuracy to strike empty cans from a distance of over 160 feet.",
+        height: 1.6,
+        weight: 188.5
     },
     {
         id: "0010",
@@ -316,6 +336,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.",
+        height: 0.3,
+        weight: 6.4
     },
     {
         id: "0011",
@@ -345,6 +367,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "The shell covering this Pokémon's body is as hard as an iron slab. Metapod does not move very much. It stays still because it is preparing its soft innards for evolution inside the hard shell.",
+        height: 0.7,
+        weight: 21.8
     },
     {
         id: "0012",
@@ -374,6 +398,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Butterfree has a superior ability to search for delicious honey from flowers. It can even search out, extract, and carry honey from flowers that are blooming over six miles from its nest.",
+        height: 1.1,
+        weight: 70.5
     },
     {
         id: "0013",
@@ -403,6 +429,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Weedle has an extremely acute sense of smell. It is capable of distinguishing its favorite kinds of leaves from those it dislikes just by sniffing with its big red proboscis (nose).",
+        height: 0.3,
+        weight: 7.1
     },
     {
         id: "0014",
@@ -432,6 +460,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Kakuna remains virtually immobile as it clings to a tree. However, on the inside, it is extremely busy as it prepares for its coming evolution. This is evident from how hot the shell becomes to the touch.",
+        height: 0.6,
+        weight: 22
     },
     {
         id: "0015",
@@ -461,6 +491,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Beedrill is extremely territorial. No one should ever approach its nest—this is for their own safety. If angered, they will attack in a furious swarm.",
+        height: 1,
+        weight: 65
     },
     {
         id: "0016",
@@ -490,6 +522,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "Pidgey has an extremely sharp sense of direction. It is capable of unerringly returning home to its nest, however far it may be removed from its familiar surroundings.",
+        height: 0.3,
+        weight: 4
     },
     {
         id: "0017",
@@ -519,6 +553,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "Pidgeotto claims a large area as its own territory. This Pokémon flies around, patrolling its living space. If its territory is violated, it shows no mercy in thoroughly punishing the foe with its sharp claws.",
+        height: 1.1,
+        weight: 66.1
     },
     {
         id: "0018",
@@ -548,6 +584,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "This Pokémon has a dazzling plumage of beautifully glossy feathers. Many Trainers are captivated by the striking beauty of the feathers on its head, compelling them to choose Pidgeot as their Pokémon.",
+        height: 1.5,
+        weight: 87.1
     },
     {
         id: "0019",
@@ -577,6 +615,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Rattata is cautious in the extreme. Even while it is asleep, it constantly listens by moving its ears around. It is not picky about where it lives—it will make its nest anywhere.",
+        height: 0.3,
+        weight: 7.7
     },
     {
         id: "0020",
@@ -606,6 +646,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Raticate's sturdy fangs grow steadily. To keep them ground down, it gnaws on rocks and logs. It may even chew on the walls of houses.",
+        height: 0.7,
+        weight: 40.8
     },
     {
         id: "0021",
@@ -635,6 +677,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "Spearow has a very loud cry that can be heard over half a mile away. If its high, keening cry is heard echoing all around, it is a sign that they are warning each other of danger.",
+        height: 0.3,
+        weight: 4.4
     },
     {
         id: "0022",
@@ -664,6 +708,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "Fearow is recognized by its long neck and elongated beak. They are conveniently shaped for catching prey in soil or water. It deftly moves its long and skinny beak to pluck prey.",
+        height: 1.2,
+        weight: 83.8
     },
     {
         id: "0023",
@@ -693,6 +739,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "Ekans curls itself up in a spiral while it rests. Assuming this position allows it to quickly respond to a threat from any direction with a glare from its upraised head.",
+        height: 2.0,
+        weight: 15.2
     },
     {
         id: "0024",
@@ -722,6 +770,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "This Pokémon is terrifically strong in order to constrict things with its body. It can even flatten steel oil drums. Once Arbok wraps its body around its foe, escaping its crunching embrace is impossible.",
+        height: 3.5,
+        weight: 143.3
     },
     {
         id: "0025",
@@ -751,6 +801,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.FAIRY],
         genderRatios: [50, 50],
         description: "This Pokémon has electricity-storing pouches on its cheeks. These appear to become electrically charged during the night while Pikachu sleeps. It occasionally discharges electricity when it is dozy after waking up.",
+        height: 0.4,
+        weight: 13.2
     },
     {
         id: "0026",
@@ -780,6 +832,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.FAIRY],
         genderRatios: [50, 50],
         description: "This Pokémon exudes a weak electrical charge from all over its body that makes it take on a slight glow in darkness. Raichu plants its tail in the ground to discharge electricity.",
+        height: 0.8,
+        weight: 66.1
     },
     {
         id: "0027",
@@ -809,6 +863,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Sandshrew has a very dry hide that is extremely tough. The Pokémon can roll into a ball that repels any attack. At night, it burrows into the desert sand to sleep.",
+        height: 0.6,
+        weight: 26.5
     },
     {
         id: "0028",
@@ -838,6 +894,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Sandslash can roll up its body as if it were a ball covered with large spikes. In battle, this Pokémon will try to make the foe flinch by jabbing it with its spines. It then leaps at the stunned foe to tear wildly with its sharp claws.",
+        height: 1.0,
+        weight: 65
     },
     {
         id: "0029",
@@ -867,6 +925,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.FIELD],
         genderRatios: [0, 100],
         description: "Nidoran_F has barbs that secrete a powerful poison. They are thought to have developed as protection for this small-bodied Pok茅mon. When enraged, it releases a horrible toxin from its horn.",
+        height: 0.4,
+        weight: 15.4
     },
     {
         id: "0030",
@@ -896,6 +956,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 100],
         description: "When Nidorina are with their friends or family, they keep their barbs tucked away to prevent hurting each other. This Pokémon appears to become nervous if separated from the others.",
+        height: 0.8,
+        weight: 44.1
     },
     {
         id: "0031",
@@ -925,6 +987,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 100],
         description: "Nidoqueen's body is encased in extremely hard scales. It is adept at sending foes flying with harsh tackles. This Pokémon is at its strongest when it is defending its young.",
+        height: 1.3,
+        weight: 132.3
     },
     {
         id: "0032",
@@ -954,6 +1018,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.FIELD],
         genderRatios: [100, 0],
         description: "Nidoran♂ has developed muscles for moving its ears. Thanks to them, the ears can be freely moved in any direction. Even the slightest sound does not escape this Pokémon's notice.",
+        height: 0.5,
+        weight: 19.8
     },
     {
         id: "0033",
@@ -983,6 +1049,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.FIELD],
         genderRatios: [100, 0],
         description: "Nidorino has a horn that is harder than a diamond. If it senses a hostile presence, all the barbs on its back bristle up at once, and it challenges the foe with all its might.",
+        height: 0.9,
+        weight: 43
     },
     {
         id: "0034",
@@ -1012,6 +1080,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.FIELD],
         genderRatios: [100, 0],
         description: "Nidoking's thick tail packs enormously destructive power. With one swing, it can topple a metal transmission tower. Once this Pokémon goes on a rampage, there is no stopping it.",
+        height: 1.4,
+        weight: 136.7
     },
     {
         id: "0035",
@@ -1041,6 +1111,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY],
         genderRatios: [25, 75],
         description: "On every night of a full moon, groups of this Pokémon come out to play. When dawn arrives, the tired Clefairy return to their quiet mountain retreats and go to sleep nestled up against each other.",
+        height: 0.6,
+        weight: 16.5
     },
     {
         id: "0036",
@@ -1070,6 +1142,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY],
         genderRatios: [25, 75],
         description: "Clefable moves by skipping lightly as if it were flying using its wings. Its bouncy step lets it even walk on water. It is known to take strolls on lakes on quiet, moonlit nights.",
+        height: 1.3,
+        weight: 88.2
     },
     {
         id: "0037",
@@ -1099,6 +1173,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [25, 75],
         description: "Inside Vulpix's body burns a flame that never goes out. During the daytime, when the temperatures rise, this Pokémon releases flames from its mouth to prevent its body from growing too hot.",
+        height: 0.6,
+        weight: 21.8
     },
     {
         id: "0038",
@@ -1128,6 +1204,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [25, 75],
         description: "Legend has it that Ninetales came into being when nine wizards possessing sacred powers merged into one. This Pokémon is highly intelligent—it can understand human speech.",
+        height: 1.1,
+        weight: 43.9
     },
     {
         id: "0039",
@@ -1157,6 +1235,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY],
         genderRatios: [25, 75],
         description: "Jigglypuff's vocal cords can freely adjust the wavelength of its voice. This Pokémon uses this ability to sing at precisely the right wavelength to make its foes most drowsy.",
+        height: 0.5,
+        weight: 12.1
     },
     {
         id: "0040",
@@ -1186,6 +1266,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY],
         genderRatios: [25, 75],
         description: "Wigglytuff has large, saucerlike eyes. The surfaces of its eyes are always covered with a thin layer of tears. If any dust gets in this Pokémon's eyes, it is quickly washed away.",
+        height: 1.0,
+        weight: 26.5
     },
     {
         id: "0041",
@@ -1215,6 +1297,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "Zubat avoids sunlight because exposure causes it to become unhealthy. During the daytime, it stays in caves or under the eaves of old houses, sleeping while hanging upside down.",
+        height: 0.8,
+        weight: 16.5
     },
     {
         id: "0042",
@@ -1244,6 +1328,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "Golbat bites down on prey with its four fangs and drinks the victim's blood. It becomes active on inky dark moonless nights, flying around to attack people and Pokémon.",
+        height: 1.6,
+        weight: 121.3
     },
     {
         id: "0043",
@@ -1273,6 +1359,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "Oddish searches for fertile, nutrient-rich soil, then plants itself. During the daytime, while it is planted, this Pokémon's feet are thought to change shape and become similar to the roots of trees.",
+        height: 0.5,
+        weight: 11.9
     },
     {
         id: "0044",
@@ -1302,6 +1390,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "Gloom releases a foul fragrance from the pistil of its flower. When faced with danger, the stench worsens. If this Pokémon is feeling calm and secure, it does not release its usual stinky aroma.",
+        height: 0.8,
+        weight: 19
     },
     {
         id: "0045",
@@ -1331,6 +1421,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "Vileplume has the world's largest petals. They are used to attract prey that are then doused with toxic spores. Once the prey are immobilized, this Pokémon catches and devours them.",
+        height: 1.2,
+        weight: 41
     },
     {
         id: "0046",
@@ -1360,6 +1452,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG, helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "Paras has parasitic mushrooms growing on its back called tochukaso. They grow large by drawing nutrients from this Bug Pokémon host. They are highly valued as a medicine for extending life.",
+        height: 0.3,
+        weight: 11.9
     },
     {
         id: "0047",
@@ -1389,6 +1483,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG, helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "Parasect is known to infest large trees en masse and drain nutrients from the lower trunk and roots. When an infested tree dies, they move onto another tree all at once.",
+        height: 1,
+        weight: 65
     },
     {
         id: "0048",
@@ -1418,6 +1514,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Venonat is said to have evolved with a coat of thin, stiff hair that covers its entire body for protection. It possesses large eyes that never fail to spot even minuscule prey.",
+        height: 1,
+        weight: 66.1
     },
     {
         id: "0049",
@@ -1447,6 +1545,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Venomoth is nocturnal—it is a Pokémon that only becomes active at night. Its favorite prey are small insects that gather around streetlights, attracted by the light in the darkness.",
+        height: 1.5,
+        weight: 27.6
     },
     {
         id: "0050",
@@ -1476,6 +1576,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Diglett are raised in most farms. The reason is simple— wherever this Pokémon burrows, the soil is left perfectly tilled for planting crops. This soil is made ideal for growing delicious vegetables.",
+        height: 0.2,
+        weight: 1.8
     },
     {
         id: "0051",
@@ -1505,6 +1607,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Dugtrio are actually triplets that emerged from one body. As a result, each triplet thinks exactly like the other two triplets. They work cooperatively to burrow endlessly.",
+        height: 0.7,
+        weight: 73.4
     },
     {
         id: "0052",
@@ -1534,6 +1638,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Meowth withdraws its sharp claws into its paws to slinkily sneak about without making any incriminating footsteps. For some reason, this Pokémon loves shiny coins that glitter with light.",
+        height: 0.4,
+        weight: 9.3
     },
     {
         id: "0053",
@@ -1563,6 +1669,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Persian has six bold whiskers that give it a look of toughness. The whiskers sense air movements to determine what is in the Pokémon's surrounding vicinity. It becomes docile if grabbed by the whiskers.",
+        height: 1.0,
+        weight: 70.5
     },
     {
         id: "0054",
@@ -1592,6 +1700,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "If it uses its mysterious power, Psyduck can't remember having done so. It apparently can't form a memory of such an event because it goes into an altered state that is much like deep sleep.",
+        height: 0.8,
+        weight: 43.2
     },
     {
         id: "0055",
@@ -1621,6 +1731,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Golduck is the fastest swimmer among all Pokémon. It swims effortlessly, even in a rough, stormy sea. It sometimes rescues people from wrecked ships floundering in high seas.",
+        height: 1.7,
+        weight: 168.9
     },
     {
         id: "0056",
@@ -1650,6 +1762,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "When Mankey starts shaking and its nasal breathing turns rough, it's a sure sign that it is becoming angry. However, because it goes into a towering rage almost instantly, it is impossible for anyone to flee its wrath.",
+        height: 0.5,
+        weight: 61.7
     },
     {
         id: "0057",
@@ -1679,6 +1793,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "When Primeape becomes furious, its blood circulation is boosted. In turn, its muscles are made even stronger. However, it also becomes much less intelligent at the same time.",
+        height: 1.0,
+        weight: 70.5
     },
     {
         id: "0058",
@@ -1708,6 +1824,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [75, 25],
         description: "Growlithe has a superb sense of smell. Once it smells anything, this Pokémon won't forget the scent, no matter what. It uses its advanced olfactory sense to determine the emotions of other living things.",
+        height: 0.7,
+        weight: 41.9
     },
     {
         id: "0059",
@@ -1737,6 +1855,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [75, 25],
         description: "Arcanine is known for its high speed. It is said to be capable of running over 6,200 miles in a single day and night. The fire that blazes wildly within this Pokémon's body is its source of power.",
+        height: 1.9,
+        weight: 341.7
     },
     {
         id: "0060",
@@ -1766,6 +1886,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1],
         genderRatios: [50, 50],
         description: "Poliwag has a very thin skin. It is possible to see the Pokémon's spiral innards right through the skin. Despite its thinness, however, the skin is also very flexible. Even sharp fangs bounce right off it.",
+        height: 0.6,
+        weight: 27.3
     },
     {
         id: "0061",
@@ -1795,6 +1917,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1],
         genderRatios: [50, 50],
         description: "The surface of Poliwhirl's body is always wet and slick with a slimy fluid. Because of this slippery covering, it can easily slip and slide out of the clutches of any enemy in battle.",
+        height: 1.0,
+        weight: 44.1
     },
     {
         id: "0062",
@@ -1824,6 +1948,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1],
         genderRatios: [50, 50],
         description: "Poliwrath's highly developed, brawny muscles never grow fatigued, however much it exercises. It is so tirelessly strong, this Pokémon can swim back and forth across the ocean without effort.",
+        height: 1.3,
+        weight: 119
     },
     {
         id: "0063",
@@ -1853,6 +1979,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [75, 25],
         description: "Abra needs to sleep for eighteen hours a day. If it doesn't, this Pokémon loses its ability to use telekinetic powers. If it is attacked, Abra escapes using Teleport while it is still sleeping.",
+        height: 0.9,
+        weight: 43
     },
     {
         id: "0064",
@@ -1882,6 +2010,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [75, 25],
         description: "Kadabra holds a silver spoon in its hand. The spoon is used to amplify the alpha waves in its brain. Without the spoon, the Pokémon is said to be limited to half the usual amount of its telekinetic powers.",
+        height: 1.3,
+        weight: 124.6
     },
     {
         id: "0065",
@@ -1911,6 +2041,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [75, 25],
         description: "Alakazam's brain continually grows, infinitely multiplying brain cells. This amazing brain gives this Pokémon an astoundingly high IQ of 5,000. It has a thorough memory of everything that has occurred in the world.",
+        height: 1.5,
+        weight: 105.8
     },
     {
         id: "0066",
@@ -1940,6 +2072,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [75, 25],
         description: "Machop's muscles are special—they never get sore no matter how much they are used in exercise. This Pokémon has sufficient power to hurl a hundred adult humans.",
+        height: 0.8,
+        weight: 43
     },
     {
         id: "0067",
@@ -1969,6 +2103,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [75, 25],
         description: "Machoke undertakes bodybuilding every day even as it helps people with tough, physically demanding labor. On its days off, this Pokémon heads to the fields and mountains to exercise and train.",
+        height: 1.5,
+        weight: 155.4
     },
     {
         id: "0068",
@@ -1998,6 +2134,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [75, 25],
         description: "Machamp is known as the Pokémon that has mastered every kind of martial arts. If it grabs hold of the foe with its four arms, the battle is all but over. The hapless foe is thrown far over the horizon.",
+        height: 1.6,
+        weight: 286.6
     },
     {
         id: "0069",
@@ -2027,6 +2165,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "Bellsprout's thin and flexible body lets it bend and sway to avoid any attack, however strong it may be. From its mouth, this Pokémon spits a corrosive fluid that melts even iron.",
+        height: 0.7,
+        weight: 8.8
     },
     {
         id: "0070",
@@ -2056,6 +2196,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "Weepinbell has a large hook on its rear end. At night, the Pokémon hooks on to a tree branch and goes to sleep. If it moves around in its sleep, it may wake up to find itself on the ground.",
+        height: 1.0,
+        weight: 14.1
     },
     {
         id: "0071",
@@ -2085,6 +2227,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "Victreebel has a long vine that extends from its head. This vine is waved and flicked about as if it were an animal to attract prey. When an unsuspecting prey draws near, this Pokémon swallows it whole.",
+        height: 1.7,
+        weight: 34.2
     },
     {
         id: "0072",
@@ -2114,6 +2258,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER3],
         genderRatios: [50, 50],
         description: "Tentacool absorbs sunlight and refracts it using water inside its body to convert it into beam energy. This Pokémon shoots beams from the small round organ above its eyes.",
+        height: 0.9,
+        weight: 100.3
     },
     {
         id: "0073",
@@ -2143,6 +2289,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER3],
         genderRatios: [50, 50],
         description: "Tentacruel has tentacles that can be freely elongated and shortened at will. It ensnares prey with its tentacles and weakens the prey by dosing it with a harsh toxin. It can catch up to 80 prey at the same time.",
+        height: 1.6,
+        weight: 121.3
     },
     {
         id: "0074",
@@ -2172,6 +2320,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "When Geodude sleeps deeply, it buries itself halfway into the ground. It will not awaken even if hikers step on it unwittingly. In the morning, this Pokémon rolls downhill in search of food.",
+        height: 0.4,
+        weight: 44.1
     },
     {
         id: "0075",
@@ -2201,6 +2351,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "Rocks are Graveler's favorite food. This Pokémon will climb a mountain from the base to the summit, crunchingly feasting on rocks all the while. Upon reaching the peak, it rolls back down to the bottom.",
+        height: 1,
+        weight: 231.5
     },
     {
         id: "0076",
@@ -2230,6 +2382,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "Golem is known for rolling down from mountains. To prevent them from rolling into the homes of people downhill, grooves have been dug into the sides of mountains to serve as guideways for diverting this Pokémon's course.",
+        height: 1.4,
+        weight: 661.4
     },
     {
         id: "0077",
@@ -2259,6 +2413,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Ponyta is very weak at birth. It can barely stand up. This Pokémon becomes stronger by stumbling and falling to keep up with its parent.",
+        height: 1,
+        weight: 66.1
     },
     {
         id: "0078",
@@ -2288,6 +2444,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Rapidash usually can be seen casually cantering in the fields and plains. However, when this Pokémon turns serious, its fiery manes flare and blaze as it gallops its way up to 150 mph.",
+        height: 1.7,
+        weight: 209.4
     },
     {
         id: "0079",
@@ -2317,6 +2475,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.WATER1],
         genderRatios: [50, 50],
         description: "Slowpoke uses its tail to catch prey by dipping it in water at the side of a river. However, this Pokémon often forgets what it's doing and often spends entire days just loafing at water's edge.",
+        height: 1.2,
+        weight: 79.4
     },
     {
         id: "0080",
@@ -2346,6 +2506,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.WATER1],
         genderRatios: [50, 50],
         description: "Slowbro's tail has a Shellder firmly attached with a bite. As a result, the tail can't be used for fishing anymore. This causes Slowbro to grudgingly swim and catch prey instead.",
+        height: 1.6,
+        weight: 173.1
     },
     {
         id: "0081",
@@ -2375,6 +2537,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [0, 0],
         description: "Magnemite floats in the air by emitting electromagnetic waves from the units at its sides. These waves block gravity. This Pokémon becomes incapable of flight if its internal electrical supply is depleted.",
+        height: 0.3,
+        weight: 13.2
     },
     {
         id: "0082",
@@ -2404,6 +2568,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [0, 0],
         description: "Magneton emits a powerful magnetic force that is fatal to electronics and precision instruments. Because of this, it is said that some towns warn people to keep this Pokémon inside a Poké Ball.",
+        height: 1,
+        weight: 132.3
     },
     {
         id: "0083",
@@ -2433,6 +2599,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING, helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Farfetch'd is always seen with a stalk from a plant of some sort. Apparently, there are good stalks and bad stalks. This Pokémon has been known to fight with others over stalks.",
+        height: 0.8,
+        weight: 33.1
     },
     {
         id: "0084",
@@ -2462,6 +2630,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "Doduo's two heads contain completely identical brains. A scientific study reported that on rare occasions, there will be examples of this Pokémon possessing different sets of brains.",
+        height: 1.4,
+        weight: 86.4
     },
     {
         id: "0085",
@@ -2491,6 +2661,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "Apparently, the heads aren't the only parts of the body that Dodrio has three of. It has three sets of hearts and lungs as well, so it is capable of running long distances without rest.",
+        height: 1.8,
+        weight: 187.8
     },
     {
         id: "0086",
@@ -2520,6 +2692,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Seel hunts for prey in the frigid sea underneath sheets of ice. When it needs to breathe, it punches a hole through the ice with the sharply protruding section of its head.",
+        height: 1.1,
+        weight: 198.4
     },
     {
         id: "0087",
@@ -2549,6 +2723,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Dewgong loves to snooze on bitterly cold ice. The sight of this Pokémon sleeping on a glacier was mistakenly thought to be a mermaid by a mariner long ago.",
+        height: 1.7,
+        weight: 264.6
     },
     {
         id: "0088",
@@ -2578,6 +2754,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "Grimer emerged from the sludge that settled on a polluted seabed. This Pokémon loves anything filthy. It constantly leaks a horribly germ-infested fluid from all over its body.",
+        height: 0.9,
+        weight: 66.1
     },
     {
         id: "0089",
@@ -2607,6 +2785,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "This Pokémon's favorite food is anything that is repugnantly filthy. In dirty towns where people think nothing of throwing away litter on the streets, Muk are certain to gather.",
+        height: 1.2,
+        weight: 66.1
     },
     {
         id: "0090",
@@ -2636,6 +2816,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER3],
         genderRatios: [50, 50],
         description: "At night, this Pokémon uses its broad tongue to burrow a hole in the seafloor sand and then sleep in it. While it is sleeping, Shellder closes its shell, but leaves its tongue hanging out.",
+        height: 0.3,
+        weight: 8.8
     },
     {
         id: "0091",
@@ -2665,6 +2847,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER3],
         genderRatios: [50, 50],
         description: "Cloyster is capable of swimming in the sea. It does so by swallowing water, then jetting it out toward the rear. This Pokémon shoots spikes from its shell using the same system.",
+        height: 1.5,
+        weight: 292.1
     },
     {
         id: "0092",
@@ -2694,6 +2878,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "Gastly is largely composed of gaseous matter. When exposed to a strong wind, the gaseous body quickly dwindles away. Groups of this Pokémon cluster under the eaves of houses to escape the ravages of wind.",
+        height: 1.3,
+        weight: 0.2
     },
     {
         id: "0093",
@@ -2723,6 +2909,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "Haunter is a dangerous Pokémon. If one beckons you while floating in darkness, you must never approach it. This Pokémon will try to lick you with its tongue and steal your life away.",
+        height: 1.6,
+        weight: 0.2
     },
     {
         id: "0094",
@@ -2752,6 +2940,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "Sometimes, on a dark night, your shadow thrown by a streetlight will suddenly and startlingly overtake you. It is actually a Gengar running past you, pretending to be your shadow.",
+        height: 1.6,
+        weight: 89.3
     },
     {
         id: "0095",
@@ -2781,6 +2971,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "Onix has a magnet in its brain. It acts as a compass so that this Pokémon does not lose direction while it is tunneling. As it grows older, its body becomes increasingly rounder and smoother.",
+        height: 8.8,
+        weight: 463
     },
     {
         id: "0096",
@@ -2810,6 +3002,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [50, 50],
         description: "If your nose becomes itchy while you are sleeping, it's a sure sign that one of these Pokémon is standing above your pillow and trying to eat your dream through your nostrils.",
+        height: 1.0,
+        weight: 71.4
     },
     {
         id: "0097",
@@ -2839,6 +3033,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [50, 50],
         description: "Hypno holds a pendulum in its hand. The arcing movement and glitter of the pendulum lull the foe into a deep state of hypnosis. While this Pokémon searches for prey, it polishes the pendulum.",
+        height: 1.6,
+        weight: 166.7
     },
     {
         id: "0098",
@@ -2868,6 +3064,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER3],
         genderRatios: [50, 50],
         description: "Krabby live on beaches, burrowed inside holes dug into the sand. On sandy beaches with little in the way of food, these Pokémon can be seen squabbling with each other over territory.",
+        height: 0.4,
+        weight: 14.3
     },
     {
         id: "0099",
@@ -2897,6 +3095,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER3],
         genderRatios: [50, 50],
         description: "Kingler has an enormous, oversized claw. It waves this huge claw in the air to communicate with others. However, because the claw is so heavy, the Pokémon quickly tires.",
+        height: 1.3,
+        weight: 132.3
     },
     {
         id: "0100",
@@ -2926,6 +3126,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [0, 0],
         description: "Voltorb was first sighted at a company that manufactures Poké Balls. The link between that sighting and the fact that this Pokémon looks very similar to a Poké Ball remains a mystery.",
+        height: 0.5,
+        weight: 22.9
     },
     {
         id: "0101",
@@ -2955,6 +3157,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [0, 0],
         description: "Electrode eats electricity in the atmosphere. On days when lightning strikes, you can see this Pokémon exploding all over the place from eating too much electricity.",
+        height: 1.2,
+        weight: 146.8
     },
     {
         id: "0102",
@@ -2984,6 +3188,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "This Pokémon consists of six eggs that form a closely knit cluster. The six eggs attract each other and spin around. When cracks increasingly appear on the eggs, Exeggcute is close to evolution.",
+        height: 0.4,
+        weight: 5.5
     },
     {
         id: "0103",
@@ -3013,6 +3219,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "Exeggutor originally came from the tropics. Its heads steadily grow larger from exposure to strong sunlight. It is said that when the heads fall off, they group together to form Exeggcute.",
+        height: 2,
+        weight: 264.6
     },
     {
         id: "0104",
@@ -3042,6 +3250,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER],
         genderRatios: [50, 50],
         description: "Cubone pines for the mother it will never see again. Seeing a likeness of its mother in the full moon, it cries. The stains on the skull the Pokémon wears are made by the tears it sheds.",
+        height: 0.4,
+        weight: 14.3
     },
     {
         id: "0105",
@@ -3071,6 +3281,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER],
         genderRatios: [50, 50],
         description: "Marowak is the evolved form of a Cubone that has overcome its sadness at the loss of its mother and grown tough. This Pokémon's tempered and hardened spirit is not easily broken.",
+        height: 1,
+        weight: 99.2
     },
     {
         id: "0106",
@@ -3100,6 +3312,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [100, 0],
         description: "Hitmonlee's legs freely contract and stretch. Using these springlike legs, it bowls over foes with devastating kicks. After battle, it rubs down its legs and loosens the muscles to overcome fatigue.",
+        height: 1.5,
+        weight: 109.8
     },
     {
         id: "0107",
@@ -3129,6 +3343,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [100, 0],
         description: "Hitmonchan is said to possess the spirit of a boxer who had been working toward a world championship. This Pokémon has an indomitable spirit and will never give up in the face of adversity.",
+        height: 1.4,
+        weight: 110.7
     },
     {
         id: "0108",
@@ -3158,6 +3374,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER],
         genderRatios: [50, 50],
         description: "Whenever Lickitung comes across something new, it will unfailingly give it a lick. It does so because it memorizes things by texture and by taste. It is somewhat put off by sour things.",
+        height: 1.2,
+        weight: 144.4
     },
     {
         id: "0109",
@@ -3187,6 +3405,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "Koffing embodies toxic substances. It mixes the toxins with raw garbage to set off a chemical reaction that results in a terribly powerful poison gas. The higher the temperature, the more gas is concocted by this Pokémon.",
+        height: 0.6,
+        weight: 2.2
     },
     {
         id: "0110",
@@ -3216,6 +3436,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "Weezing loves the gases given off by rotted kitchen garbage. This Pokémon will find a dirty, unkempt house and make it its home. At night, when the people in the house are asleep, it will go through the trash.",
+        height: 1.2,
+        weight: 20.9
     },
     {
         id: "0111",
@@ -3245,6 +3467,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Rhyhorn runs in a straight line, smashing everything in its path. It is not bothered even if it rushes headlong into a block of steel. This Pokémon may feel some pain from the collision the next day, however.",
+        height: 1,
+        weight: 253.5
     },
     {
         id: "0112",
@@ -3274,6 +3498,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Rhydon's horn can crush even uncut diamonds. One sweeping blow of its tail can topple a building. This Pokémon's hide is extremely tough. Even direct cannon hits don't leave a scratch.",
+        height: 1.9,
+        weight: 264.6
     },
     {
         id: "0113",
@@ -3303,6 +3529,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY],
         genderRatios: [0, 100],
         description: "Chansey lays nutritionally excellent eggs on an everyday basis. The eggs are so delicious, they are easily and eagerly devoured by even those people who have lost their appetite.",
+        height: 1.1,
+        weight: 76.3
     },
     {
         id: "0114",
@@ -3332,6 +3560,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "Tangela's vines snap off easily if they are grabbed. This happens without pain, allowing it to make a quick getaway. The lost vines are replaced by newly grown vines the very next day.",
+        height: 1,
+        weight: 77.2
     },
     {
         id: "0115",
@@ -3361,6 +3591,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER],
         genderRatios: [0, 100],
         description: "If you come across a young Kangaskhan playing by itself, you must never disturb it or attempt to catch it. The baby Pokémon's parent is sure to be in the area, and it will become violently enraged at you.",
+        height: 2.2,
+        weight: 176.4
     },
     {
         id: "0116",
@@ -3390,6 +3622,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "Horsea eats small insects and moss off of rocks. If the ocean current turns fast, this Pokémon anchors itself by wrapping its tail around rocks or coral to prevent being washed away.",
+        height: 0.4,
+        weight: 17.6
     },
     {
         id: "0117",
@@ -3419,6 +3653,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "Seadra sleeps after wriggling itself between the branches of coral. Those trying to harvest coral are occasionally stung by this Pokémon's poison barbs if they fail to notice it.",
+        height: 1.2,
+        weight: 55.1
     },
     {
         id: "0118",
@@ -3448,6 +3684,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER2],
         genderRatios: [50, 50],
         description: "Goldeen loves swimming wild and free in rivers and ponds. If one of these Pokémon is placed in an aquarium, it will shatter even the thickest glass with one ram of its horn and make its escape.",
+        height: 0.6,
+        weight: 33.1
     },
     {
         id: "0119",
@@ -3477,6 +3715,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER2],
         genderRatios: [50, 50],
         description: "Seaking is very protective of its eggs. The male and female will take turns patrolling around their nest and eggs. The guarding of eggs by these Pokémon goes on for over a month.",
+        height: 1.3,
+        weight: 86
     },
     {
         id: "0120",
@@ -3506,6 +3746,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER3],
         genderRatios: [0, 0],
         description: "Staryu apparently communicates with the stars in the night sky by flashing the red core at the center of its body. If parts of its body are torn, this Pokémon simply regenerates the missing pieces and limbs.",
+        height: 0.8,
+        weight: 76.1
     },
     {
         id: "0121",
@@ -3535,6 +3777,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER3],
         genderRatios: [0, 0],
         description: "Starmie swims through water by spinning its star-shaped body as if it were a propeller on a ship. The core at the center of this Pokémon's body glows in seven colors.",
+        height: 1.1,
+        weight: 176.4
     },
     {
         id: "0122",
@@ -3564,6 +3808,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [50, 50],
         description: "Mr. Mime is a master of pantomime. Its gestures and motions convince watchers that something unseeable actually exists. Once the watchers are convinced, the unseeable thing exists as if it were real.",
+        height: 1.3,
+        weight: 120.2
     },
     {
         id: "0123",
@@ -3593,6 +3839,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Scyther is blindingly fast. Its blazing speed enhances the effectiveness of the twin scythes on its forearms. This Pokémon's scythes are so effective, they can slice through thick logs in one wicked stroke.",
+        height: 1.5,
+        weight: 123.5
     },
     {
         id: "0124",
@@ -3622,6 +3870,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [0, 100],
         description: "Jynx walks rhythmically, swaying and shaking its hips as if it were dancing. Its motions are so bouncingly alluring, people seeing it are compelled to shake their hips without giving any thought to what they are doing.",
+        height: 1.4,
+        weight: 89.5
     },
     {
         id: "0125",
@@ -3651,6 +3901,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [75, 25],
         description: "When a storm arrives, gangs of this Pokémon compete with each other to scale heights that are likely to be stricken by lightning bolts. Some towns use Electabuzz in place of lightning rods.",
+        height: 1.1,
+        weight: 66.1
     },
     {
         id: "0126",
@@ -3680,6 +3932,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [75, 25],
         description: "In battle, Magmar blows out intensely hot flames from all over its body to intimidate its opponent. This Pokémon's fiery bursts create heat waves that ignite grass and trees in its surroundings.",
+        height: 1.3,
+        weight: 98.1
     },
     {
         id: "0127",
@@ -3709,6 +3963,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Pinsir has a pair of massive horns. Protruding from the surface of these horns are thorns. These thorns are driven deeply into the foe's body when the pincer closes, making it tough for the foe to escape.",
+        height: 1.5,
+        weight: 121.3
     },
     {
         id: "0128",
@@ -3738,6 +3994,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [100, 0],
         description: "This Pokémon is not satisfied unless it is rampaging at all times. If there is no opponent for Tauros to battle, it will charge at thick trees and knock them down to calm itself.",
+        height: 1.4,
+        weight: 194.9
     },
     {
         id: "0129",
@@ -3767,6 +4025,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER2, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "Magikarp is virtually useless in battle as it can only splash around. As a result, it is considered to be weak. However, it is actually a very hardy Pokémon that can survive in any body of water no matter how polluted it is.",
+        height: 0.9,
+        weight: 22
     },
     {
         id: "0130",
@@ -3796,6 +4056,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER2, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "Once Gyarados goes on a rampage, its ferociously violent blood doesn't calm until it has burned everything down. There are records of this Pokémon's rampages lasting a whole month.",
+        height: 6.5,
+        weight: 518.1
     },
     {
         id: "0131",
@@ -3825,6 +4087,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.WATER1],
         genderRatios: [50, 50],
         description: "People have driven Lapras almost to the point of extinction. In the evenings, this Pokémon is said to sing plaintively as it seeks what few others of its kind still remain.",
+        height: 2.5,
+        weight: 485
     },
     {
         id: "0132",
@@ -3854,6 +4118,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.DITTO],
         genderRatios: [0, 0],
         description: "Ditto rearranges its cell structure to transform itself into other shapes. However, if it tries to transform itself into something by relying on its memory, this Pokémon manages to get details wrong.",
+        height: 0.3,
+        weight: 8.8
     },
     {
         id: "0133",
@@ -3883,6 +4149,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "Eevee has an unstable genetic makeup that suddenly mutates due to the environment in which it lives. Radiation from various stones causes this Pokémon to evolve.",
+        height: 0.3,
+        weight: 14.3
     },
     {
         id: "0134",
@@ -3912,6 +4180,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "Vaporeon underwent a spontaneous mutation and grew fins and gills that allow it to live underwater. This Pokémon has the ability to freely control water.",
+        height: 1,
+        weight: 63.9
     },
     {
         id: "0135",
@@ -3941,6 +4211,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "Jolteon's cells generate a low level of electricity. This power is amplified by the static electricity of its fur, enabling the Pokémon to drop thunderbolts. The bristling fur is made of electrically charged needles.",
+        height: 0.8,
+        weight: 54
     },
     {
         id: "0136",
@@ -3970,6 +4242,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "Flareon's fluffy fur has a functional purpose—it releases heat into the air so that its body does not get excessively hot. This Pokémon's body temperature can rise to a maximum of 1,650 degrees Fahrenheit.",
+        height: 0.9,
+        weight: 55.1
     },
     {
         id: "0137",
@@ -3999,6 +4273,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [0, 0],
         description: "Porygon is capable of reverting itself entirely back to program data and entering cyberspace. This Pokémon is copy protected so it cannot be duplicated by copying.",
+        height: 0.8,
+        weight: 80.5
     },
     {
         id: "0138",
@@ -4028,6 +4304,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.WATER3],
         genderRatios: [87.5, 12.5],
         description: "Omanyte is one of the ancient and long-since-extinct Pokémon that have been regenerated from fossils by people. If attacked by an enemy, it withdraws itself inside its hard shell.",
+        height: 0.4,
+        weight: 16.5
     },
     {
         id: "0139",
@@ -4057,6 +4335,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.WATER3],
         genderRatios: [87.5, 12.5],
         description: "Omastar uses its tentacles to capture its prey. It is believed to have become extinct because its shell grew too large and heavy, causing its movements to become too slow and ponderous.",
+        height: 1,
+        weight: 77.2
     },
     {
         id: "0140",
@@ -4086,6 +4366,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.WATER3],
         genderRatios: [87.5, 12.5],
         description: "Kabuto is a Pokémon that has been regenerated from a fossil. However, in extremely rare cases, living examples have been discovered. The Pokémon has not changed at all for 300 million years.",
+        height: 0.5,
+        weight: 25.4
     },
     {
         id: "0141",
@@ -4115,6 +4397,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.WATER3],
         genderRatios: [87.5, 12.5],
         description: "Kabutops swam underwater to hunt for its prey in ancient times. The Pokémon was apparently evolving from being a water dweller to living on land as evident from the beginnings of change in its gills and legs.",
+        height: 1.3,
+        weight: 89.3
     },
     {
         id: "0142",
@@ -4144,6 +4428,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [87.5, 12.5],
         description: "Aerodactyl is a Pokémon from the age of dinosaurs. It was regenerated from genetic material extracted from amber. It is imagined to have been the king of the skies in ancient times",
+        height: 1.8,
+        weight: 130.1
     },
     {
         id: "0143",
@@ -4173,6 +4459,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER],
         genderRatios: [87.5, 12.5],
         description: "Snorlax's typical day consists of nothing more than eating and sleeping. It is such a docile Pokémon that there are children who use its expansive belly as a place to play.",
+        height: 2.1,
+        weight: 1014.1
     },
     {
         id: "0144",
@@ -4202,6 +4490,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Articuno is a legendary bird Pokémon that can control ice. The flapping of its wings chills the air. As a result, it is said that when this Pokémon flies, snow will fall.",
+        height: 1.7,
+        weight: 122.1
     },
     {
         id: "0145",
@@ -4231,6 +4521,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Zapdos is a legendary bird Pokémon that has the ability to control electricity. It usually lives in thunderclouds. The Pokémon gains power if it is stricken by lightning bolts.",
+        height: 1.6,
+        weight: 116
     },
     {
         id: "0146",
@@ -4260,6 +4552,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Moltres is a legendary bird Pokémon that has the ability to control fire. If this Pokémon is injured, it is said to dip its body in the molten magma of a volcano to burn and heal itself.",
+        height: 2,
+        weight: 132.3
     },
     {
         id: "0147",
@@ -4289,6 +4583,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "Dratini continually molts and sloughs off its old skin. It does so because the life energy within its body steadily builds to reach uncontrollable levels.",
+        height: 1.8,
+        weight: 7.3
     },
     {
         id: "0148",
@@ -4318,6 +4614,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "Dragonair stores an enormous amount of energy inside its body. It is said to alter weather conditions in its vicinity by discharging energy from the crystals on its neck and tail.",
+        height: 4,
+        weight: 36.4
     },
     {
         id: "0149",
@@ -4347,6 +4645,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "Dragonite is capable of circling the globe in just 16 hours. It is a kindhearted Pokémon that leads lost and foundering ships in a storm to the safety of land.",
+        height: 2.2,
+        weight: 463
     },
     {
         id: "0150",
@@ -4376,6 +4676,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Mewtwo is a Pokémon that was created by genetic manipulation. However, even though the scientific power of humans created this Pokémon's body, they failed to endow Mewtwo with a compassionate heart.",
+        height: 2,
+        weight: 269
     },
     {
         id: "0151",
@@ -4405,6 +4707,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Mew is said to possess the genetic composition of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.",
+        height: 0.4,
+        weight: 8.8
     },
     {
         id: "0152",
@@ -4434,6 +4738,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.GRASS],
         genderRatios: [87.5, 12.5],
         description: "In battle, Chikorita waves its leaf around to keep the foe at bay. However, a sweet fragrance also wafts from the leaf, becalming the battling Pokémon and creating a cozy, friendly atmosphere all around.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0153",
@@ -4463,6 +4769,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.GRASS],
         genderRatios: [87.5, 12.5],
         description: "Bayleef's neck is ringed by curled-up leaves. Inside each tubular leaf is a small shoot of a tree. The fragrance of this shoot makes people peppy.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0154",
@@ -4492,6 +4800,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.GRASS],
         genderRatios: [87.5, 12.5],
         description: "The fragrance of Meganium's flower soothes and calms emotions. In battle, this Pokémon gives off more of its becalming scent to blunt the foe's fighting spirit.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0155",
@@ -4521,6 +4831,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "Cyndaquil protects itself by flaring up the flames on its back. The flames are vigorous if the Pokémon is angry. However, if it is tired, the flames splutter fitfully with incomplete combustion.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0156",
@@ -4550,6 +4862,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "Quilava keeps its foes at bay with the intensity of its flames and gusts of superheated air. This Pokémon applies its outstanding nimbleness to dodge attacks even while scorching the foe with flames.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0157",
@@ -4579,6 +4893,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "Typhlosion obscures itself behind a shimmering heat haze that it creates using its intensely hot flames. This Pokémon creates blazing explosive blasts that burn everything to cinders.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0158",
@@ -4608,6 +4924,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.WATER1],
         genderRatios: [87.5, 12.5],
         description: "Despite the smallness of its body, Totodile's jaws are very powerful. While the Pokémon may think it is just playfully nipping, its bite has enough power to cause serious injury.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0159",
@@ -4637,6 +4955,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.WATER1],
         genderRatios: [87.5, 12.5],
         description: "Once Croconaw has clamped its jaws on its foe, it will absolutely not let go. Because the tips of its fangs are forked back like barbed fishhooks, they become impossible to remove when they have sunk in.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0160",
@@ -4666,6 +4986,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.WATER1],
         genderRatios: [87.5, 12.5],
         description: "Feraligatr intimidates its foes by opening its huge mouth. In battle, it will kick the ground hard with its thick and powerful hind legs to charge at the foe at an incredible speed.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0161",
@@ -4695,6 +5017,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "When Sentret sleeps, it does so while another stands guard. The sentry wakes the others at the first sign of danger. When this Pokémon becomes separated from its pack, it becomes incapable of sleep due to fear.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0162",
@@ -4724,6 +5048,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Furret has a very slim build. When under attack, it can slickly squirm through narrow spaces and get away. In spite of its short limbs, this Pokémon is very nimble and fleet.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0163",
@@ -4753,6 +5079,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "Hoothoot has an internal organ that senses and tracks the earth's rotation. Using this special organ, this Pokémon begins hooting at precisely the same time every day.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0164",
@@ -4782,6 +5110,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "Noctowl never fails at catching prey in darkness. This Pokémon owes its success to its superior vision that allows it to see in minimal light, and to its soft, supple wings that make no sound in flight.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0165",
@@ -4811,6 +5141,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Ledyba secretes an aromatic fluid from where its legs join its body. This fluid is used for communicating with others. This Pokémon conveys its feelings to others by altering the fluid's scent.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0166",
@@ -4840,6 +5172,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "It is said that in lands with clean air, where the stars fill the sky, there live Ledian in countless numbers. There is a good reason for this—the Pokémon uses the light of the stars as its energy.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0167",
@@ -4869,6 +5203,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "The web spun by Spinarak can be considered its second nervous system. It is said that this Pokémon can determine what kind of prey is touching its web just by the tiny vibrations it feels through the web's strands.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0168",
@@ -4898,6 +5234,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Ariados's feet are tipped with tiny hooked claws that enable it to scuttle on ceilings and vertical walls. This Pokémon constricts the foe with thin and strong silk webbing.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0169",
@@ -4927,6 +5265,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "If this Pokémon is flying by fluttering only a pair of wings on either the forelegs or hind legs, it's proof that Crobat has been flying a long distance. It switches the wings it uses if it is tired.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0170",
@@ -4956,6 +5296,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER2],
         genderRatios: [50, 50],
         description: "Chinchou lets loose positive and negative electrical charges from its two antennas to make its prey faint. This Pokémon flashes its electric lights to exchange signals with others.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0171",
@@ -4985,6 +5327,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER2],
         genderRatios: [50, 50],
         description: "Lanturn is known to emit light. If you peer down into the dark sea from a ship at night, you can sometimes see this Pokémon's light rising from the depths where it swims. It gives the sea an appearance of a starlit night.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0172",
@@ -5014,6 +5358,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [50, 50],
         description: "When Pichu plays with others, it may short out electricity with another Pichu, creating a shower of sparks. In that event, this Pokémon will begin crying, startled by the flash of sparks.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0173",
@@ -5043,6 +5389,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [25, 75],
         description: "On nights with many shooting stars, Cleffa can be seen dancing in a ring. They dance through the night and stop only at the break of day, when these Pokémon quench their thirst with the morning dew.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0174",
@@ -5072,6 +5420,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [25, 75],
         description: "Igglybuff has a soft and plushy body that feels very much like a marshmallow. From this body wafts a gently sweet fragrance that soothes and calms the emotions of its foes.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0175",
@@ -5101,6 +5451,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [87.5, 12.5],
         description: "As its energy, Togepi uses the positive emotions of compassion and pleasure exuded by people and Pokémon. This Pokémon stores up feelings of happiness inside its shell, then shares them with others.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0176",
@@ -5130,6 +5482,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING, helper_enum_1.EggGroup.FAIRY],
         genderRatios: [87.5, 12.5],
         description: "Togetic is said to be a Pokémon that brings good fortune. When the Pokémon spots someone who is pure of heart, it is said to appear and share its happiness with that person.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0177",
@@ -5159,6 +5513,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "Natu cannot fly because its wings are not yet fully grown. If your eyes meet with this Pokémon's eyes, it will stare back intently at you. But if you move even slightly, it will hop away to safety.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0178",
@@ -5188,6 +5544,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "Xatu is known to stand motionless while staring at the sun all day long. Some people revere it as a mystical Pokémon out of their belief that Xatu is in possession of the power to see into the future.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0179",
@@ -5217,6 +5575,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Mareep's fluffy coat of wool rubs together and builds a static charge. The more static electricity is charged, the more brightly the lightbulb at the tip of its tail glows.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0180",
@@ -5246,6 +5606,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Flaaffy's wool quality changes so that it can generate a high amount of static electricity with a small amount of wool. The bare and slick parts of its hide are shielded against electricity.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0181",
@@ -5275,6 +5637,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Ampharos gives off so much light that it can be seen even from space. People in the old days used the light of this Pokémon to send signals back and forth with others far away.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0182",
@@ -5304,6 +5668,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "A Bellossom grows flowers more beautifully if it has evolved from a smelly Gloom—the more stinky the better. At night, this Pokémon closes its petals and goes to sleep.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0183",
@@ -5333,6 +5699,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FAIRY],
         genderRatios: [50, 50],
         description: "Marill's oil-filled tail acts much like a life preserver. If you see just its tail bobbing on the water's surface, it's a sure indication that this Pokémon is diving beneath the water to feed on aquatic plants.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0184",
@@ -5362,6 +5730,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FAIRY],
         genderRatios: [50, 50],
         description: "Azumarill's long ears are indispensable sensors. By focusing its hearing, this Pokémon can identify what kinds of prey are around, even in rough and fast-running rivers.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0185",
@@ -5391,6 +5761,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "Sudowoodo camouflages itself as a tree to avoid being attacked by enemies. However, because its hands remain green throughout the year, the Pokémon is easily identified as a fake during the winter.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0186",
@@ -5420,6 +5792,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1],
         genderRatios: [50, 50],
         description: "The curled hair on Politoed's head is proof of its status as a king. It is said that the longer and more curled the hair, the more respect this Pokémon earns from its peers.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0187",
@@ -5449,6 +5823,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY, helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "This Pokémon drifts and floats with the wind. If it senses the approach of strong winds, Hoppip links its leaves with other Hoppip to prepare against being blown away.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0188",
@@ -5478,6 +5854,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY, helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "Skiploom's flower blossoms when the temperature rises above 64 degrees Fahrenheit. How much the flower opens depends on the temperature. For that reason, this Pokémon is sometimes used as a thermometer.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0189",
@@ -5507,6 +5885,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY, helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "Jumpluff rides warm southern winds to cross the sea and fly to foreign lands. The Pokémon descends to the ground when it encounters cold air while it is floating.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0190",
@@ -5536,6 +5916,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Aipom's tail ends in a hand-like appendage that can be cleverly manipulated. However, because the Pokémon uses its tail so much, its real hands have become rather clumsy.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0191",
@@ -5565,6 +5947,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "Sunkern tries to move as little as it possibly can. It does so because it tries to conserve all the nutrients it has stored in its body for its evolution. It will not eat a thing, subsisting only on morning dew.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0192",
@@ -5594,6 +5978,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "Sunflora converts solar energy into nutrition. It moves around actively in the daytime when it is warm. It stops moving as soon as the sun goes down for the night.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0193",
@@ -5623,6 +6009,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Yanma is capable of seeing 360 degrees without having to move its eyes. It is a great flier that is adept at making sudden stops and turning midair. This Pokémon uses its flying ability to quickly chase down targeted prey.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0194",
@@ -5652,6 +6040,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Wooper usually lives in water. However, it occasionally comes out onto land in search of food. On land, it coats its body with a gooey, toxic film.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0195",
@@ -5681,6 +6071,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Quagsire hunts for food by leaving its mouth wide open in water and waiting for its prey to blunder in unaware. Because the Pokémon does not move, it does not get very hungry.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0196",
@@ -5710,6 +6102,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "Espeon is extremely loyal to any Trainer it considers to be worthy. It is said that this Pokémon developed its precognitive powers to protect its Trainer from harm.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0197",
@@ -5739,6 +6133,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "Umbreon evolved as a result of exposure to the moon's waves. It hides silently in darkness and waits for its foes to make a move. The rings on its body glow when it leaps to attack.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0198",
@@ -5768,6 +6164,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "Murkrow was feared and loathed as the alleged bearer of ill fortune. This Pokémon shows strong interest in anything that sparkles or glitters. It will even try to steal rings from women.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0199",
@@ -5797,6 +6195,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.WATER1],
         genderRatios: [50, 50],
         description: "Slowking undertakes research every day in an effort to solve the mysteries of the world. However, this Pokémon apparently forgets everything it has learned if the Shellder on its head comes off.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0200",
@@ -5826,6 +6226,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "Misdreavus frightens people with a creepy, sobbing cry. The Pokémon apparently uses its red spheres to absorb the fearful feelings of foes and turn them into nutrition.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0201",
@@ -5855,6 +6257,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0202",
@@ -5884,6 +6288,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "If two or more Wobbuffet meet, they will turn competitive and try to outdo each other's endurance. However, they may try to see which one can endure the longest without food. Trainers need to beware of this habit.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0203",
@@ -5913,6 +6319,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Girafarig's rear head also has a brain, but it is small. The rear head attacks in response to smells and sounds. Approaching this Pokémon from behind can cause the rear head to suddenly lash out and bite.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0204",
@@ -5942,6 +6350,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Pineco hangs from a tree branch and patiently waits for prey to come along. If the Pokémon is disturbed while eating by someone shaking its tree, it drops down to the ground and explodes with no warning.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0205",
@@ -5971,6 +6381,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Forretress conceals itself inside its hardened steel shell. The shell is opened when the Pokémon is catching prey, but it does so at such a quick pace that the shell's inside cannot be seen.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0206",
@@ -6000,6 +6412,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Dunsparce has a drill for its tail. It uses this tail to burrow into the ground backward. This Pokémon is known to make its nest in complex shapes deep under the ground.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0207",
@@ -6029,6 +6443,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Gligar glides through the air without a sound as if it were sliding. This Pokémon hangs on to the face of its foe using its clawed hind legs and the large pincers on its forelegs, then injects the prey with its poison barb.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0208",
@@ -6058,6 +6474,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "Steelix lives even further underground than Onix. This Pokémon is known to dig toward the earth's core. There are records of this Pokémon reaching a depth of over six-tenths of a mile underground.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0209",
@@ -6087,6 +6505,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.FAIRY],
         genderRatios: [25, 75],
         description: "By baring its fangs and making a scary face, Snubbull sends smaller Pokémon scurrying away in terror. However, this Pokémon seems a little sad at making its foes flee.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0210",
@@ -6116,6 +6536,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.FAIRY],
         genderRatios: [25, 75],
         description: "Granbull has a particularly well-developed lower jaw. The enormous fangs are heavy, causing the Pokémon to tip its head back for balance. Unless it is startled, it will not try to bite indiscriminately.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0211",
@@ -6145,6 +6567,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER2],
         genderRatios: [50, 50],
         description: "Qwilfish sucks in water, inflating itself. This Pokémon uses the pressure of the water it swallowed to shoot toxic quills all at once from all over its body. It finds swimming somewhat challenging.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0212",
@@ -6174,6 +6598,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Scizor has a body with the hardness of steel. It is not easily fazed by ordinary sorts of attacks. This Pokémon flaps its wings to regulate its body temperature.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0213",
@@ -6203,6 +6629,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Shuckle quietly hides itself under rocks, keeping its body concealed inside its hard shell while eating berries it has stored away. The berries mix with its body fluids to become a juice.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0214",
@@ -6232,6 +6660,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Heracross charges in a straight line at its foe, slips beneath the foe's grasp, and then scoops up and hurls the opponent with its mighty horn. This Pokémon even has enough power to topple a massive tree.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0215",
@@ -6261,6 +6691,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Sneasel scales trees by punching its hooked claws into the bark. This Pokémon seeks out unguarded nests and steals eggs for food while the parents are away.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0216",
@@ -6290,6 +6722,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "This Pokémon likes to lick its palms that are sweetened by being soaked in honey. Teddiursa concocts its own honey by blending fruits and pollen collected by Beedrill.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0217",
@@ -6319,6 +6753,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "In the forests inhabited by Ursaring, it is said that there are many streams and towering trees where they gather food. This Pokémon walks through its forest gathering food every day.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0218",
@@ -6348,6 +6784,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "Molten magma courses throughout Slugma's circulatory system. If this Pokémon is chilled, the magma cools and hardens. Its body turns brittle and chunks fall off, reducing its size.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0219",
@@ -6377,6 +6815,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "Magcargo's shell is actually its skin that hardened as a result of cooling. Its shell is very brittle and fragile—just touching it causes it to crumble apart. This Pokémon returns to its original size by dipping itself in magma.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0220",
@@ -6406,6 +6846,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Swinub roots for food by rubbing its snout against the ground. Its favorite food is a mushroom that grows under the cover of dead grass. This Pokémon occasionally roots out hot springs.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0221",
@@ -6435,6 +6877,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Piloswine is covered by a thick coat of long hair that enables it to endure the freezing cold. This Pokémon uses its tusks to dig up food that has been buried under ice.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0222",
@@ -6464,6 +6908,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.WATER3],
         genderRatios: [25, 75],
         description: "Clusters of Corsola congregate in warm seas where they serve as ideal hiding places for smaller Pokémon. When the water temperature falls, this Pokémon migrates to the southern seas.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0223",
@@ -6493,6 +6939,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.WATER2],
         genderRatios: [50, 50],
         description: "Remoraid sucks in water, then expels it at high velocity using its abdominal muscles to shoot down flying prey. When evolution draws near, this Pokémon travels downstream from rivers.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0224",
@@ -6522,6 +6970,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.WATER2],
         genderRatios: [50, 50],
         description: "Octillery grabs onto its foe using its tentacles. This Pokémon tries to immobilize it before delivering the finishing blow. If the foe turns out to be too strong, Octillery spews ink to escape.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0225",
@@ -6551,6 +7001,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Delibird carries its food bundled up in its tail. There once was a famous explorer who managed to reach the peak of the world's highest mountain, thanks to one of these Pokémon sharing its food.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0226",
@@ -6580,6 +7032,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1],
         genderRatios: [50, 50],
         description: "On sunny days, schools of Mantine can be seen elegantly leaping over the sea's waves. This Pokémon is not bothered by the Remoraid that hitches rides.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0227",
@@ -6609,6 +7063,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "Skarmory's steel wings become tattered and bashed in from repeated battles. Once a year, the battered wings grow back completely, restoring the cutting edges to their pristine state.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0228",
@@ -6638,6 +7094,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Houndour hunt as a coordinated pack. They communicate with each other using a variety of cries to corner their prey. This Pokémon's remarkable teamwork is unparalleled.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0229",
@@ -6667,6 +7125,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "In a Houndoom pack, the one with its horns raked sharply toward the back serves a leadership role. These Pokémon choose their leader by fighting among themselves.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0230",
@@ -6696,6 +7156,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "Kingdra lives at extreme ocean depths that are otherwise uninhabited. It has long been believed that the yawning of this Pokémon creates spiraling ocean currents.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0231",
@@ -6725,6 +7187,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Phanpy uses its long nose to shower itself. When others gather around, they thoroughly douse each other with water. These Pokémon can be seen drying their soaking-wet bodies at the edge of water.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0232",
@@ -6754,6 +7218,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "If Donphan were to tackle with its hard body, even a house could be destroyed. Using its massive strength, the Pokémon helps clear rock and mud slides that block mountain trails.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0233",
@@ -6783,6 +7249,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [0, 0],
         description: "Porygon2 was created by humans using the power of science. The man-made Pokémon has been endowed with artificial intelligence that enables it to learn new gestures and emotions on its own.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0234",
@@ -6812,6 +7280,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Stantler's magnificent antlers were traded at high prices as works of art. As a result, this Pokémon was hunted close to extinction by those who were after the priceless antlers.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0235",
@@ -6841,6 +7311,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Smeargle marks the boundaries of its territory using a body fluid that leaks out from the tip of its tail. Over 5,000 different marks left by this Pokémon have been found.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0236",
@@ -6870,6 +7342,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [100, 0],
         description: "Tyrogue becomes stressed out if it does not get to train every day. When raising this Pokémon, the Trainer must establish and uphold various training methods.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0237",
@@ -6899,6 +7373,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [100, 0],
         description: "Hitmontop spins on its head at high speed, all the while delivering kicks. This technique is a remarkable mix of both offense and defense at the same time. The Pokémon travels faster spinning than it does walking.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0238",
@@ -6928,6 +7404,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 100],
         description: "Smoochum actively runs about, but also falls quite often. Whenever the chance arrives, it will look for its reflection to make sure its face hasn't become dirty.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0239",
@@ -6957,6 +7435,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [75, 25],
         description: "Elekid stores electricity in its body. If it touches metal and accidentally discharges all its built-up electricity, this Pokémon begins swinging its arms in circles to recharge itself.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0240",
@@ -6986,6 +7466,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [75, 25],
         description: "Magby's state of health is determined by observing the fire it breathes. If the Pokémon is spouting yellow flames from its mouth, it is in good health. When it is fatigued, black smoke will be mixed in with the flames.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0241",
@@ -7015,6 +7497,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [0, 100],
         description: "Miltank gives over five gallons of milk on a daily basis. Its sweet milk is enjoyed by children and grown-ups alike. People who can't drink milk turn it into yogurt and eat it instead.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0242",
@@ -7044,6 +7528,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY],
         genderRatios: [0, 100],
         description: "Blissey senses sadness with its fluffy coat of fur. If it does so, this Pokémon will rush over to a sad person, no matter how far away, to share a Lucky Egg that brings a smile to any face.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0243",
@@ -7073,6 +7559,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Raikou embodies the speed of lightning. The roars of this Pokémon send shock waves shuddering through the air and shake the ground as if lightning bolts had come crashing down.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0244",
@@ -7102,6 +7590,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Entei embodies the passion of magma. This Pokémon is thought to have been born in the eruption of a volcano. It sends up massive bursts of fire that utterly consume all that they touch.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0245",
@@ -7131,6 +7621,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Suicune embodies the compassion of a pure spring of water. It runs across the land with gracefulness. This Pokémon has the power to purify dirty water.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0246",
@@ -7160,6 +7652,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER],
         genderRatios: [50, 50],
         description: "Larvitar is born deep under the ground. To come up to the surface, this Pokémon must eat its way through the soil above. Until it does so, Larvitar cannot see its parents.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0247",
@@ -7189,6 +7683,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER],
         genderRatios: [50, 50],
         description: "Pupitar creates a gas inside its body that it compresses and forcefully ejects to propel itself like a jet. The body is very durable—it avoids damage even if it hits solid steel.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0248",
@@ -7218,6 +7714,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER],
         genderRatios: [50, 50],
         description: "Tyranitar is so overwhelmingly powerful, it can bring down a whole mountain to make its nest. This Pokémon wanders about in mountains seeking new opponents to fight.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0249",
@@ -7247,6 +7745,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Lugia's wings pack devastating power—a light fluttering of its wings can blow apart regular houses. As a result, this Pokémon chooses to live out of sight deep under the sea.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0250",
@@ -7276,6 +7776,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Ho-Oh's feathers glow in seven colors depending on the angle at which they are struck by light. These feathers are said to bring happiness to the bearers. This Pokémon is said to live at the foot of a rainbow.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0251",
@@ -7305,6 +7807,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "This Pokémon came from the future by crossing over time. It is thought that so long as Celebi appears, a bright and shining future awaits us.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0252",
@@ -7334,6 +7838,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [87.5, 12.5],
         description: "Treecko is cool, calm, and collected—it never panics under any situation. If a bigger foe were to glare at this Pokémon, it would glare right back without conceding an inch of ground.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0253",
@@ -7363,6 +7869,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [87.5, 12.5],
         description: "The leaves growing out of Grovyle's body are convenient for camouflaging it from enemies in the forest. This Pokémon is a master at climbing trees in jungles.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0254",
@@ -7392,6 +7900,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [87.5, 12.5],
         description: "The leaves growing on Sceptile's body are very sharp edged. This Pokémon is very agile—it leaps all over the branches of trees and jumps on its foe from above or behind.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0255",
@@ -7421,6 +7931,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "Torchic sticks with its Trainer, following behind with unsteady steps. This Pokémon breathes fire of over 1,800 degrees Fahrenheit, including fireballs that leave the foe scorched black.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0256",
@@ -7450,6 +7962,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "Combusken toughens up its legs and thighs by running through fields and mountains. This Pokémon's legs possess both speed and power, enabling it to dole out 10 kicks in one second.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0257",
@@ -7479,6 +7993,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "In battle, Blaziken blows out intense flames from its wrists and attacks foes courageously. The stronger the foe, the more intensely this Pokémon's wrists burn.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0258",
@@ -7508,6 +8024,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.WATER1],
         genderRatios: [87.5, 12.5],
         description: "In water, Mudkip breathes using the gills on its cheeks. If it is faced with a tight situation in battle, this Pokémon will unleash its amazing power—it can crush rocks bigger than itself.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0259",
@@ -7537,6 +8055,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.WATER1],
         genderRatios: [87.5, 12.5],
         description: "Marshtomp is much faster at traveling through mud than it is at swimming. This Pokémon's hindquarters exhibit obvious development, giving it the ability to walk on just its hind legs.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0260",
@@ -7566,6 +8086,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.WATER1],
         genderRatios: [87.5, 12.5],
         description: "Swampert predicts storms by sensing subtle differences in the sounds of waves and tidal winds with its fins. If a storm is approaching, it piles up boulders to protect itself.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0261",
@@ -7595,6 +8117,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Poochyena is an omnivore—it will eat anything. A distinguishing feature is how large its fangs are compared to its body. This Pokémon tries to intimidate its foes by making the hair on its tail bristle out.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0262",
@@ -7624,6 +8148,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Mightyena travel and act as a pack in the wild. The memory of its life in the wild compels the Pokémon to obey only those Trainers that it recognizes to possess superior skill.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0263",
@@ -7653,6 +8179,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "The hair on Zigzagoon's back is bristly. It rubs the hard back hair against trees to leave its territorial markings. This Pokémon may play dead to fool foes in battle.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0264",
@@ -7682,6 +8210,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "When hunting, Linoone will make a beeline straight for the prey at a full run. While this Pokémon is capable of topping 60 mph, it has to come to a screeching halt before it can turn.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0265",
@@ -7711,6 +8241,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Wurmple is targeted by Swellow as prey. This Pokémon will try to resist by pointing the spikes on its rear at the attacking predator. It will weaken the foe by leaking poison from the spikes.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0266",
@@ -7740,6 +8272,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Silcoon was thought to endure hunger and not consume anything before its evolution. However, it is now thought that this Pokémon slakes its thirst by drinking rainwater that collects on its silk.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0267",
@@ -7769,6 +8303,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Beautifly's favorite food is the sweet pollen of flowers. If you want to see this Pokémon, just leave a potted flower by an open window. Beautifly is sure to come looking for pollen.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0268",
@@ -7798,6 +8334,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Cascoon makes its protective cocoon by wrapping its body entirely with a fine silk from its mouth. Once the silk goes around its body, it hardens. This Pokémon prepares for its evolution inside the cocoon.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0269",
@@ -7827,6 +8365,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "When Dustox flaps its wings, a fine dust is scattered all over. This dust is actually a powerful poison that will even make a pro wrestler sick. This Pokémon searches for food using its antennae like radar.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0270",
@@ -7856,6 +8396,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "Lotad is said to have dwelled on land before. However, this Pokémon is thought to have returned to water because the leaf on its head grew large and heavy. It now lives by floating atop the water.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0271",
@@ -7885,6 +8427,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "Lombre is nocturnal—it will get active after dusk. It is also a mischief maker. When this Pokémon spots anglers, it tugs on their fishing lines from beneath the surface and enjoys their consternation.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0272",
@@ -7914,6 +8458,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "Upon hearing an upbeat and cheerful rhythm, the cells in Ludicolo's body become very energetic and active. Even in battle, this Pokémon will exhibit an amazing amount of power.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0273",
@@ -7943,6 +8489,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "Seedot attaches itself to a tree branch using the top of its head. It sucks moisture from the tree while hanging off the branch. The more water it drinks, the glossier this Pokémon's body becomes.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0274",
@@ -7972,6 +8520,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "This Pokémon pulls out the leaf on its head and makes a flute with it. The sound of Nuzleaf's flute strikes fear and uncertainty in the hearts of people lost in a forest.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0275",
@@ -8001,6 +8551,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "Shiftry's large fans generate awesome gusts of wind at a speed close to 100 feet per second. The whipped-up wind blows anything away. This Pokémon chooses to live quietly deep in forests.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0276",
@@ -8030,6 +8582,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "Taillow courageously stands its ground against foes, however strong they may be. This gutsy Pokémon will remain defiant even after a loss. On the other hand, it cries loudly if it becomes hungry.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0277",
@@ -8059,6 +8613,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "Swellow flies high above our heads, making graceful arcs in the sky. This Pokémon dives at a steep angle as soon as it spots its prey. The hapless prey is tightly grasped by Swellow's clawed feet, preventing escape.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0278",
@@ -8088,6 +8644,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "Wingull has the habit of carrying prey and valuables in its beak and hiding them in all sorts of locations. This Pokémon rides the winds and flies as if it were skating across the sky.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0279",
@@ -8117,6 +8675,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "Pelipper searches for food while in flight by skimming the wave tops. This Pokémon dips its large bill in the sea to scoop up food, then swallows everything in one big gulp.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0280",
@@ -8146,6 +8706,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE, helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "Ralts senses the emotions of people using the horns on its head. This Pokémon rarely appears before people. But when it does, it draws closer if it senses that the person has a positive disposition.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0281",
@@ -8175,6 +8737,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE, helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "Kirlia uses the horns on its head to amplify its psychokinetic power. When the Pokémon uses its power, the air around it becomes distorted, creating mirages of -xistent scenery.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0282",
@@ -8204,6 +8768,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE, helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "Gardevoir has the psychokinetic power to distort the dimensions and create a small black hole. This Pokémon will try to protect its Trainer even at the risk of its own life.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0283",
@@ -8233,6 +8799,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "From the tips of its feet, Surskit secretes an oil that enables it to walk on water as if it were skating. This Pokémon feeds on microscopic organisms in ponds and lakes.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0284",
@@ -8262,6 +8830,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Masquerain's antennas have eyelike patterns that usually give it an angry look. If the “eyes” are droopy and appear sad, it is said to be a sign that a heavy rainfall is on its way.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0285",
@@ -8291,6 +8861,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY, helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "If Shroomish senses danger, it shakes its body and scatters spores from the top of its head. This Pokémon's spores are so toxic, they make trees and weeds wilt.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0286",
@@ -8320,6 +8892,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY, helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "The seeds ringing Breloom's tail are made of hardened toxic spores. It is horrible to eat the seeds. Just taking a bite of this Pokémon's seed will cause your stomach to rumble.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0287",
@@ -8349,6 +8923,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Slakoth lolls around for over 20 hours every day. Because it moves so little, it does not need much food. This Pokémon's sole daily meal consists of just three leaves.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0288",
@@ -8378,6 +8954,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Vigoroth is simply incapable of remaining still. Even when it tries to sleep, the blood in its veins grows agitated, compelling this Pokémon to run wild throughout the jungle before it can settle down.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0289",
@@ -8407,6 +8985,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Wherever Slaking live, rings of over a yard in diameter appear in grassy fields. They are made by the Pokémon as it eats all the grass within reach while lying prone on the ground.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0290",
@@ -8436,6 +9016,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Nincada lives underground. It uses its sharp claws to carve the roots of trees and absorb moisture and nutrients. This Pokémon can't withstand bright sunlight so avoids it.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0291",
@@ -8465,6 +9047,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "If Ninjask is not trained properly, it will refuse to obey the Trainer and cry loudly continuously. Because of this quality, this Pokémon is said to be one that puts the Trainer's abilities to the test.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0292",
@@ -8494,6 +9078,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [0, 0],
         description: "Shedinja's hard body doesn't move—not even a twitch. In fact, its body appears to be merely a hollow shell. It is believed that this Pokémon will steal the spirit of anyone peering into its hollow body from its back.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0293",
@@ -8523,6 +9109,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Whismur is very timid. If it starts to cry loudly, it becomes startled by its own crying and cries even harder. When it finally stops crying, the Pokémon goes to sleep, all tired out.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0294",
@@ -8552,6 +9140,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Loudred shouts while stamping its feet. After it finishes shouting, this Pokémon becomes incapable of hearing anything for a while. This is considered to be a weak point.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0295",
@@ -8581,6 +9171,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Exploud triggers earthquakes with the tremors it creates by bellowing. If this Pokémon violently inhales from the ports on its body, it's a sign that it is preparing to let loose a huge bellow.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0296",
@@ -8610,6 +9202,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [75, 25],
         description: "Makuhita is tenacious—it will keep getting up and attacking its foe however many times it is knocked down. Every time it gets back up, this Pokémon stores more energy in its body for evolving.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0297",
@@ -8639,6 +9233,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [75, 25],
         description: "Hariyama practices its straight-arm slaps in any number of locations. One hit of this Pokémon's powerful, openhanded, straight-arm punches could snap a telephone pole in two.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0298",
@@ -8668,6 +9264,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [25, 75],
         description: "Azurill spins its tail as if it were a lasso, then hurls it far. The momentum of the throw sends its body flying, too. Using this unique action, one of these Pokémon managed to hurl itself a record 33 feet.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0299",
@@ -8697,6 +9295,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "Nosepass had been said to be completely unmoving, with its magnetic nose pointed due north. However, close observation has revealed that the Pokémon actually moves by a little over 3/8 of an inch every year.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0300",
@@ -8726,6 +9326,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.FAIRY],
         genderRatios: [25, 75],
         description: "Skitty is known to chase around playfully after its own tail. In the wild, this Pokémon lives in holes in the trees of forests. It is very popular as a pet because of its adorable looks.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0301",
@@ -8755,6 +9357,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.FAIRY],
         genderRatios: [25, 75],
         description: "Delcatty sleeps anywhere it wants without keeping a permanent nest. If other Pokémon approach it as it sleeps, this Pokémon will never fight—it will just move away somewhere else.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0302",
@@ -8784,6 +9388,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [50, 50],
         description: "Sableye lead quiet lives deep inside caverns. They are feared, however, because these Pokémon are thought to steal the spirits of people when their eyes burn with a sinister glow in the darkness.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0303",
@@ -8813,6 +9419,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.FAIRY],
         genderRatios: [50, 50],
         description: "Don't be taken in by this Pokémon's cute face—it's very dangerous. Mawile fools the foe into letting down its guard, then chomps down with its massive jaws. The steel jaws are really horns that have been transformed.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0304",
@@ -8842,6 +9450,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER],
         genderRatios: [50, 50],
         description: "Aron has a body of steel. With one all-out charge, this Pokémon can demolish even a heavy dump truck. The destroyed dump truck then becomes a handy meal for the Pokémon.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0305",
@@ -8871,6 +9481,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER],
         genderRatios: [50, 50],
         description: "Lairon feeds on iron contained in rocks and water. It makes its nest on mountains where iron ore is buried. As a result, the Pokémon often clashes with humans mining the iron ore.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0306",
@@ -8900,6 +9512,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER],
         genderRatios: [50, 50],
         description: "Aggron is protective of its environment. If its mountain is ravaged by a landslide or a fire, this Pokémon will haul topsoil to the area, plant trees, and beautifully restore its own territory.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0307",
@@ -8929,6 +9543,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [50, 50],
         description: "Meditite undertakes rigorous mental training deep in the mountains. However, whenever it meditates, this Pokémon always loses its concentration and focus. As a result, its training never ends.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0308",
@@ -8958,6 +9574,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [50, 50],
         description: "Through the power of meditation, Medicham developed its sixth sense. It gained the ability to use psychokinetic powers. This Pokémon is known to meditate for a whole month without eating.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0309",
@@ -8987,6 +9605,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Electrike stores electricity in its long body hair. This Pokémon stimulates its leg muscles with electric charges. These jolts of power give its legs explosive acceleration performance.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0310",
@@ -9016,6 +9636,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Manectric discharges strong electricity from its mane. The mane is used for collecting electricity in the atmosphere. This Pokémon creates thunderclouds above its head.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0311",
@@ -9045,6 +9667,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY],
         genderRatios: [50, 50],
         description: "Plusle always acts as a cheerleader for its partners. Whenever a teammate puts out a good effort in battle, this Pokémon shorts out its body to create the crackling noises of sparks to show its joy.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0312",
@@ -9074,6 +9698,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY],
         genderRatios: [50, 50],
         description: "Minun is more concerned about cheering on its partners than its own safety. It shorts out the electricity in its body to create brilliant showers of sparks to cheer on its teammates.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0313",
@@ -9103,6 +9729,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG, helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [100, 0],
         description: "With the arrival of night, Volbeat emits light from its tail. It communicates with others by adjusting the intensity and flashing of its light. This Pokémon is attracted by the sweet aroma of Illumise.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0314",
@@ -9132,6 +9760,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG, helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [0, 100],
         description: "Illumise attracts a swarm of Volbeat using a sweet fragrance. Once the Volbeat have gathered, this Pokémon leads the lit-up swarm in drawing geometric designs on the canvas of the night sky.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0315",
@@ -9161,6 +9791,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY, helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "Roselia shoots sharp thorns as projectiles at any opponent that tries to steal the flowers on its arms. The aroma of this Pokémon brings serenity to living things.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0316",
@@ -9190,6 +9822,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "Most of Gulpin's body is made up of its stomach—its heart and brain are very small in comparison. This Pokémon's stomach contains special enzymes that dissolve anything.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0317",
@@ -9219,6 +9853,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "When Swalot spots prey, it spurts out a hideously toxic fluid from its pores and sprays the target. Once the prey has weakened, this Pokémon gulps it down whole with its cavernous mouth.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0318",
@@ -9248,6 +9884,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER2],
         genderRatios: [50, 50],
         description: "Carvanha's strongly developed jaws and its sharply pointed fangs pack the destructive power to rip out boat hulls. Many boats have been attacked and sunk by this Pokémon.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0319",
@@ -9277,6 +9915,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER2],
         genderRatios: [50, 50],
         description: "Nicknamed “the bully of the sea,” Sharpedo is widely feared. Its cruel fangs grow back immediately if they snap off. Just one of these Pokémon can thoroughly tear apart a supertanker.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0320",
@@ -9306,6 +9946,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.WATER2],
         genderRatios: [50, 50],
         description: "Wailmer can store water inside its body to transform itself into a ball for bouncing around on the ground. By filling itself up with more water, this Pokémon can elevate the height of its bounces.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0321",
@@ -9335,6 +9977,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.WATER2],
         genderRatios: [50, 50],
         description: "When chasing prey, Wailord herds them by leaping out of the water and making a humongous splash. It is breathtaking to see this Pokémon leaping out of the sea with others in its pod.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0322",
@@ -9364,6 +10008,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Numel stores magma of almost 2,200 degrees Fahrenheit within its body. If it gets wet, the magma cools and hardens. In that event, the Pokémon's body grows heavy and its movements become sluggish.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0323",
@@ -9393,6 +10039,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Camerupt has a volcano inside its body. Magma of 18,000 degrees Fahrenheit courses through its body. Occasionally, the humps on this Pokémon's back erupt, spewing the superheated magma.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0324",
@@ -9422,6 +10070,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Torkoal digs through mountains in search of coal. If it finds some, it fills hollow spaces on its shell with the coal and burns it. If it is attacked, this Pokémon spouts thick black smoke to beat a retreat.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0325",
@@ -9451,6 +10101,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Spoink bounces around on its tail. The shock of its bouncing makes its heart pump. As a result, this Pokémon cannot afford to stop bouncing—if it stops, its heart will stop.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0326",
@@ -9480,6 +10132,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Grumpig uses the black pearls on its body to amplify its psychic power waves for gaining total control over its foe. When this Pokémon uses its special power, its snorting breath grows labored.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0327",
@@ -9509,6 +10163,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [50, 50],
         description: "No two Spinda are said to have identical spot patterns on their hides. This Pokémon moves in a curious manner as if it is stumbling in dizziness. Its lurching movements can cause the opponent to become confused.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0328",
@@ -9538,6 +10194,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "Trapinch is a patient hunter. It digs an inescapable pit in a desert and waits for its prey to come tumbling down. This Pokémon can go a whole week without access to any water.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0329",
@@ -9567,6 +10225,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "To make prey faint, Vibrava generates ultrasonic waves by vigorously making its two wings vibrate. This Pokémon's ultrasonic waves are so powerful, they can bring on headaches in people.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0330",
@@ -9596,6 +10256,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "Flygon whips up a sandstorm by flapping its wings. The wings create a series of notes that sound like singing. Because the “singing” is the only thing that can be heard in a sandstorm, this Pokémon is said to be the desert spirit.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0331",
@@ -9625,6 +10287,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS, helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [50, 50],
         description: "Cacnea lives in arid locations such as deserts. It releases a strong aroma from its flower to attract prey. When prey comes near, this Pokémon shoots sharp thorns from its body to bring the victim down.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0332",
@@ -9654,6 +10318,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS, helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [50, 50],
         description: "If a traveler is going through a desert in the thick of night, Cacturne will follow in a ragtag group. The Pokémon are biding their time, waiting for the traveler to tire and become incapable of moving.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0333",
@@ -9683,6 +10349,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "Swablu loves to make things clean. If it spots something dirty, it will wipe and polish it with its cottony wings. If its wings become dirty, this Pokémon finds a stream and showers itself.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0334",
@@ -9712,6 +10380,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "Altaria dances and wheels through the sky among billowing, cotton-like clouds. By singing melodies in its crystal-clear voice, this Pokémon makes its listeners experience dreamy wonderment.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0335",
@@ -9741,6 +10411,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Zangoose usually stays on all fours, but when angered, it gets up on its hind legs and extends its claws. This Pokémon shares a bitter rivalry with Seviper that dates back over generations.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0336",
@@ -9770,6 +10442,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "Seviper's swordlike tail serves two purposes—it slashes foes and douses them with secreted poison. This Pokémon will not give up its long-running blood feud with Zangoose.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0337",
@@ -9799,6 +10473,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [0, 0],
         description: "Lunatone becomes active around the time of the full moon. Instead of walking, it moves by floating in midair. The Pokémon's intimidating red eyes cause all those who see it to become transfixed with fear.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0338",
@@ -9828,6 +10504,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [0, 0],
         description: "Solrock is a new species of Pokémon that is said to have fallen from space. It floats in air and moves silently. In battle, this Pokémon releases intensely bright light.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0339",
@@ -9857,6 +10535,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER2],
         genderRatios: [50, 50],
         description: "Barboach's body is covered with a slimy film. If a foe grabs it, this Pokémon just slips out of the enemy's grip. This Pokémon grows weak if the slimy coating dries up.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0340",
@@ -9886,6 +10566,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER2],
         genderRatios: [50, 50],
         description: "Whiscash is extremely territorial. Just one of these Pokémon will claim a large pond as its exclusive territory. If a foe approaches it, it thrashes about and triggers a massive earthquake.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0341",
@@ -9915,6 +10597,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.WATER3],
         genderRatios: [50, 50],
         description: "Corphish were originally foreign Pokémon that were imported as pets. They eventually turned up in the wild. This Pokémon is very hardy and has greatly increased its population.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0342",
@@ -9944,6 +10628,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.WATER3],
         genderRatios: [50, 50],
         description: "Crawdaunt molts (sheds) its shell regularly. Immediately after molting, its shell is soft and tender. Until the shell hardens, this Pokémon hides in its streambed burrow to avoid attack from its foes.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0343",
@@ -9973,6 +10659,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [0, 0],
         description: "As soon as it spots others of its kind, Baltoy congregates with them and then begins crying noisily in unison. This Pokémon sleeps while cleverly balancing itself on its one foot.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0344",
@@ -10002,6 +10690,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [0, 0],
         description: "Claydol are said to be dolls of mud made by primitive humans and brought to life by exposure to a mysterious ray. This Pokémon moves about while levitating.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0345",
@@ -10031,6 +10721,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER3],
         genderRatios: [87.5, 12.5],
         description: "Lileep became extinct approximately a hundred million years ago. This ancient Pokémon attaches itself to a rock on the seafloor and catches approaching prey using tentacles shaped like flower petals.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0346",
@@ -10060,6 +10752,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER3],
         genderRatios: [87.5, 12.5],
         description: "Cradily roams around the ocean floor in search of food. This Pokémon freely extends its tree trunk-like neck and captures unwary prey using its eight tentacles.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0347",
@@ -10089,6 +10783,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER3],
         genderRatios: [87.5, 12.5],
         description: "Anorith is said to be a type of Pokémon predecessor, with eight wings at the sides of its body. This Pokémon swam in the primordial sea by undulating these eight wings.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0348",
@@ -10118,6 +10814,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER3],
         genderRatios: [87.5, 12.5],
         description: "Armaldo is a Pokémon species that became extinct in prehistoric times. This Pokémon is said to have walked on its hind legs, which would have been more convenient for life on land.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0349",
@@ -10147,6 +10845,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "While Feebas's body is in tatters, it has a hardy and tenacious life force that enables it to live anywhere. However, this Pokémon is also slow and dimwitted, making it an easy catch.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0350",
@@ -10176,6 +10876,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "Milotic live at the bottom of large lakes. When this Pokémon's body glows a vivid pink, it releases a pulsing wave of energy that brings soothing calm to troubled hearts.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0351",
@@ -10205,6 +10907,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY, helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "Castform borrows the power of nature to transform itself into the guises of the sun, rain, and snow-clouds. This Pokémon's feelings change with the weather.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0352",
@@ -10234,6 +10938,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Kecleon alters its body coloration to blend in with its surroundings, allowing it to sneak up on its prey unnoticed. Then it lashes out with its long, stretchy tongue to instantly ensnare the unsuspecting target.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0353",
@@ -10263,6 +10969,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "Shuppet is attracted by feelings of jealousy and vindictiveness. If someone develops strong feelings of vengeance, this Pokémon will appear in a swarm and line up beneath the eaves of that person's home.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0354",
@@ -10292,6 +11000,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "A cursed energy permeated the stuffing of a discarded and forgotten plush doll, giving it new life as Banette. The Pokémon's energy would escape if it were to ever open its mouth.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0355",
@@ -10321,6 +11031,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "Duskull wanders lost among the deep darkness of midnight. There is an oft-told admonishment given to misbehaving children that this Pokémon will spirit away bad children who earn scoldings from their mothers.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0356",
@@ -10350,6 +11062,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "Dusclops absorbs anything, however large the object may be. This Pokémon hypnotizes its foe by waving its hands in a macabre manner and by bringing its single eye to bear. The hypnotized foe is made to do Dusclops's bidding.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0357",
@@ -10379,6 +11093,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "The bunches of fruit around Tropius's neck are very popular with children. This Pokémon loves fruit, and eats it continuously. Apparently, its love for fruit resulted in its own outgrowth of fruit.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0358",
@@ -10408,6 +11124,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "In high winds, Chimecho cries as it hangs from a tree branch or the eaves of a building using a suction cup on its head. This Pokémon plucks berries with its long tail and eats them.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0359",
@@ -10437,6 +11155,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Absol has the ability to foretell the coming of natural disasters. It lives in a harsh, rugged mountain environment. This Pokémon very rarely ventures down from the mountains.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0360",
@@ -10466,6 +11186,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [50, 50],
         description: "Wynaut gather on moonlit nights to play by squeezing up against each other. By being squeezed, this Pokémon gains endurance and is trained to dole out powerful counterattacks.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0361",
@@ -10495,6 +11217,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY, helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "Snorunt live in regions with heavy snowfall. In seasons without snow, such as spring and summer, this Pokémon steals away to live quietly among stalactites and stalagmites deep in caverns.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0362",
@@ -10524,6 +11248,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY, helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "Glalie has the ability to freely control ice. For example, it can instantly freeze its prey solid. After immobilizing its prey in ice, this Pokémon enjoys eating it in leisurely fashion.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0363",
@@ -10553,6 +11279,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Spheal is much faster rolling than walking to get around. When groups of this Pokémon eat, they all clap at once to show their pleasure. Because of this, their mealtimes are noisy.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0364",
@@ -10582,6 +11310,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Sealeo often balances and rolls things on the tip of its nose. While the Pokémon is rolling something, it checks the object's aroma and texture to determine whether it likes the object or not.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0365",
@@ -10611,6 +11341,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Walrein's two massively developed tusks can totally shatter blocks of ice weighing 10 tons with one blow. This Pokémon's thick coat of blubber insulates it from subzero temperatures.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0366",
@@ -10640,6 +11372,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1],
         genderRatios: [50, 50],
         description: "Clamperl grows while being protected by its rock-hard shell. When its body becomes too large to fit inside the shell, it is sure evidence that this Pokémon is getting close to evolution.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0367",
@@ -10669,6 +11403,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1],
         genderRatios: [50, 50],
         description: "Huntail's tail is shaped like a fish. It uses the tail to attract prey, then swallows the prey whole with its large, gaping mouth. This Pokémon swims by wiggling its slender body like a snake.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0368",
@@ -10698,6 +11434,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1],
         genderRatios: [50, 50],
         description: "Gorebyss lives in the southern seas at extreme depths. Its body is built to withstand the enormous pressure of water at incredible depths. Because of this, this Pokémon's body is unharmed by ordinary attacks.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0369",
@@ -10727,6 +11465,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.WATER2],
         genderRatios: [87.5, 12.5],
         description: "Relicanth is a rare species that was discovered in deep-sea explorations. This Pokémon's body withstands the enormous water pressure of the ocean depths. Its body is covered in tough scales that are like craggy rocks.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0370",
@@ -10756,6 +11496,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER2],
         genderRatios: [25, 75],
         description: "Luvdisc's heart-shaped body is a symbol of love and romance. It is said that any couple meeting this Pokémon is promised a loving relationship that never ends.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0371",
@@ -10785,6 +11527,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "Bagon harbors a never-ending dream of one day soaring high among the clouds. As if trying to dispel its frustration over its inability to fly, this Pokémon slams its hard head against huge rocks and shatters them into pebbles.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0372",
@@ -10814,6 +11558,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "Inside Shelgon's armor-like shell, cells are in the midst of transformation to create an entirely new body. This Pokémon's shell is extremely heavy, making its movements sluggish.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0373",
@@ -10843,6 +11589,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "Salamence came about as a result of a strong, long-held dream of growing wings. It is said that this powerful desire triggered a sudden mutation in this Pokémon's cells, causing it to sprout its magnificent wings.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0374",
@@ -10872,6 +11620,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [0, 0],
         description: "Instead of blood, a powerful magnetic force courses throughout Beldum's body. This Pokémon communicates with others by sending controlled pulses of magnetism.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0375",
@@ -10901,6 +11651,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [0, 0],
         description: "When two Beldum fuse together, Metang is formed. The brains of the Beldum are joined by a magnetic nervous system. By linking its brains magnetically, this Pokémon generates strong psychokinetic power.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0376",
@@ -10930,6 +11682,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [0, 0],
         description: "Metagross is the result of two Metang achieving fusion. When hunting, this Pokémon pins the prey to the ground under its massive body. It then eats the helpless victim using the large mouth on its stomach.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0377",
@@ -10959,6 +11713,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Regirock's body is composed entirely of rocks. Recently, a study made the startling discovery that the rocks were all unearthed from different locations.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0378",
@@ -10988,6 +11744,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Regice cloaks itself with frigid air of -328 degrees Fahrenheit. Things will freeze solid just by going near this Pokémon. Its icy body is so cold, it will not melt even if it is immersed in magma.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0379",
@@ -11017,6 +11775,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Registeel was imprisoned by people in ancient times. The metal composing its body is thought to be a curious substance that is not of this earth.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0380",
@@ -11046,6 +11806,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 100],
         description: "Latias is highly intelligent and capable of understanding human speech. It is covered with a glass-like down. The Pokémon enfolds its body with its down and refracts light to alter its appearance.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0381",
@@ -11075,6 +11837,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [100, 0],
         description: "Latios will only open its heart to a Trainer with a compassionate spirit. This Pokémon can fly faster than a jet plane by folding its forelegs to minimize air resistance.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0382",
@@ -11104,6 +11868,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Kyogre is said to be the personification of the sea itself. Legends tell of its many clashes against Groudon, as each sought to gain the power of nature.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0383",
@@ -11133,6 +11899,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Groudon is said to be the personification of the land itself. Legends tell of its many clashes against Kyogre, as each sought to gain the power of nature.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0384",
@@ -11162,6 +11930,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Rayquaza is said to have lived for hundreds of millions of years. Legends remain of how it put to rest the clash between Kyogre and Groudon.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0385",
@@ -11191,6 +11961,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "A legend states that Jirachi will make true any wish that is written on notes attached to its head when it awakens. If this Pokémon senses danger, it will fight without awakening.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0386",
@@ -11220,6 +11992,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "The DNA of a space virus underwent a sudden mutation upon exposure to a laser beam and resulted in Deoxys. The crystalline organ on this Pokémon's chest appears to be its brain.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0387",
@@ -11249,6 +12023,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.GRASS],
         genderRatios: [87.5, 12.5],
         description: "This Pokémon becomes more energetic the more sunlight there is. The part resembling a shell is similar to silt and is slightly damp and warm to the touch.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0388",
@@ -11278,6 +12054,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.GRASS],
         genderRatios: [87.5, 12.5],
         description: "Appears where there is clean spring water. The fruit that grows on the shrubs on its shell is sweet, nutritious, and truly delicious.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0389",
@@ -11307,6 +12085,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.GRASS],
         genderRatios: [87.5, 12.5],
         description: "This remarkable, large-bodied Pokémon would serve beautifully as borrowed scenery for a garden, and its strength is peerless. Torterra roams the wilderness in search of clean water.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0390",
@@ -11336,6 +12116,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [87.5, 12.5],
         description: "Full of vigor and always in high spirits. It was once known by the name “Lantern-Tail” and feared as some kind of apparition.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0391",
@@ -11365,6 +12147,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [87.5, 12.5],
         description: "The deeper the blue on its face, the more powerful it will grow to become. It leaps about every which way and lands powerful blows against its opponents with the flame on its tail.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0392",
@@ -11394,6 +12178,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [87.5, 12.5],
         description: "A tall, hardy Pokémon with a dazzling appearance. It shrouds itself in flame and battles as if engaged in dance—truly a sight to behold.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0393",
@@ -11423,6 +12209,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "Prefers cold climes and appears along coasts. It's an adorable little thing—as cute as any child—but it's also prideful, unwilling to accept handouts from people.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0394",
@@ -11452,6 +12240,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "It swims gracefully through the frigid sea and sings with a voice like the roaring tide. It has powerful, sturdy wings and dignity to match.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0395",
@@ -11481,6 +12271,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "Since ancient times, it has been revered by the people of Hisui, who call it the Master of the Waves. Its wings are a match for even master-crafted blades.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0396",
@@ -11510,6 +12302,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "They live in the fields and mountains, gathering in large flocks. Their cries are quite obnoxious. Though small, their wings are strong—a strike from them leaves pain that persists for a week.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0397",
@@ -11539,6 +12333,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "They form remarkably large flocks and are constantly fighting amongst themselves. I suspect that those with magnificent plumes on their heads are the strong ones.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0398",
@@ -11568,6 +12364,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "It has left the flock, having gained strength enough to survive on its own. The astounding force with which Staraptor flies through the air allows it to carry away large, burly targets.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0399",
@@ -11597,6 +12395,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Bidoof has an unsophisticated face and is rarely flustered by anything. There have been incidents involving Bidoof sauntering into villages and gnawing on the houses without a single care.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0400",
@@ -11626,6 +12426,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Bibarel fur repels water and is also a fantastic material for heat retention. These Pokémon create dams on rivers to live in.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0401",
@@ -11655,6 +12457,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "When the trees take on new hues, more of these Pokémon appear. The tone they create by striking their antennae together resembles that of the marimba, an instrument of foreign lands.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0402",
@@ -11684,6 +12488,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "It uses its cutlass-like arms to produce sound, the melody of which varies from individual to individual. It is a worthwhile endeavor to seek out one's favorite tunes.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0403",
@@ -11713,6 +12519,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Shakes its body to generate electricity. Its stature belies its aggression—one must be patient to tame this Pokémon.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0404",
@@ -11742,6 +12550,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Proudly uses its electrified claws as weapons. It seems to be a gracious Pokémon, evenly sharing the spoils of the hunt with others of its kind.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0405",
@@ -11771,6 +12581,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "They form packs, each having one male as leader. Legends say that when Luxray's two eyes shimmer with gold, the Pokémon can see through anything.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0406",
@@ -11800,6 +12612,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [50, 50],
         description: "When the sun's light strengthens, the bud atop this Pokémon's head opens. This is a sign to the people that the harsh winter is over, and the season of budding has begun.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0407",
@@ -11829,6 +12643,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY, helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "Hidden within the bouquet on each hand are thorned whips loaded with virulent poison. Roserade moves gracefully as it corners its prey and mercilessly lashes them with its whips.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0408",
@@ -11858,6 +12674,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER],
         genderRatios: [87.5, 12.5],
         description: "An incredibly rare sight. They duel each other by ramming their heads together, and the resulting sound echoes throughout the area like the pealing of a bell.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0409",
@@ -11887,6 +12705,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER],
         genderRatios: [87.5, 12.5],
         description: "Very little is known about its biology. Can knock down massive trees by smashing its beautiful, pearl-like crown against them.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0410",
@@ -11916,6 +12736,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER],
         genderRatios: [87.5, 12.5],
         description: "Much remains unknown about this Pokémon, as few have ever seen it. However, we know that it is calm and dislikes conflict, and it enjoys polishing its face against trees and rocks.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0411",
@@ -11945,6 +12767,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER],
         genderRatios: [87.5, 12.5],
         description: "Its face is sturdy—as strong as diamond—and this hardness offers a very stable defense. Much about this species is still unknown, such as its natural habitat.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0412",
@@ -11974,6 +12798,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "If its cloak is even slightly damaged, Burmy will immediately repair it with whatever is close at hand. The Pokémon within the cloak is scrawny and vulnerable to the cold.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0413",
@@ -12003,6 +12829,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [0, 100],
         description: "The cloak—fashioned from plant matter—has merged with the Pokémon and is now part of the body, like fur or skin. I suspect this fusion is an effect of the energy involved in evolution.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0414",
@@ -12032,6 +12860,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [100, 0],
         description: "Scatters steel-colored scales as it flaps its wings. Despite being observed feeding primarily on the nectar of flowers, Mothim is not often seen around flower gardens.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0415",
@@ -12061,6 +12891,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [87.5, 12.5],
         description: "They swear fealty to a queen Pokémon and work diligently to gather nectar. Each swarm produces a different flavor of honey.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0416",
@@ -12090,6 +12922,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [0, 100],
         description: "Commands its subjects to build its hive. It will dispatch any interlopers who dare sneak into its nest and use them as nourishment for itself.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0417",
@@ -12119,6 +12953,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.FAIRY],
         genderRatios: [50, 50],
         description: "A species related to the Pikachu line. Though Pachirisu is a calm Pokémon, it still presents a danger should one touch its electrified tail or cheeks.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0418",
@@ -12148,6 +12984,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "It moves freely in the water by spinning its forked tail for propulsion. The resemblance to the screw of a steamboat is coincidental.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0419",
@@ -12177,6 +13015,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Has a long, rather splendid flotation sac, which prevents Floatzel from drowning even in stormy seas. One might glimpse this species around fishing hamlets from time to time.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0420",
@@ -12206,6 +13046,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY, helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "Once the fruit growing alongside the main body is large and plump, Cherubi will use the nutrients within to evolve. The fruit then detaches, becoming nourishment for other creatures.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0421",
@@ -12235,6 +13077,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY, helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "Motionless, save for the occasional quiver. A rich array of Pokémon can be found gathered around it, drawn by the scent exuded from Cherrim's folded petals.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0422",
@@ -12264,6 +13108,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "Found in abundance on seashores bordering warm waters. Shellos are unexpectedly friendly and will crawl toward any person they see. Take care not to get coated in mucus!",
+        height: 0,
+        weight: 0
     },
     {
         id: "0423",
@@ -12293,6 +13139,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "Eats beach sand for nourishment. Should one Gastrodon encounter another of a different color, a fierce battle will inevitably ensue.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0424",
@@ -12322,6 +13170,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "To affirm their kinship, members of this species will form a ring by linking their newly doubled tails together. On rare occasions, humans have been accepted into such rings.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0425",
@@ -12351,6 +13201,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "Said to lure away young children and carry them off to the afterlife. Some whisper that Drifloon are formed of reincarnated human souls, but these rumors are as yet unconfirmed.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0426",
@@ -12380,6 +13232,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "It drifts along at dusk, perfectly silent. Its transient, melancholy aspect touches some people deeply—every so often, one will come upon a song or poem devoted to Drifblim.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0427",
@@ -12409,6 +13263,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [50, 50],
         description: "My hypothesis as to why Buneary rolls up its ears is that its hearing is far too keen. I surmise that the Pokémon protects its hearing by limiting the sound that may enter its ears.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0428",
@@ -12438,6 +13294,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [50, 50],
         description: "Its fur is warm and yet remarkably light. This Pokémon kicks as though it were a master of karate, driving back its opponents with ease.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0429",
@@ -12467,6 +13325,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "The incantations Mismagius chants can ward against misfortune, so a custom exists of inviting it into one's home. Incur the Pokémon's displeasure, however, and disaster will surely ensue.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0430",
@@ -12496,6 +13356,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "One cry from this Pokémon, and a murder of Murkrow come flying. At such times, one would think the curtain of night had fallen, plunging the world into jet-black darkness.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0431",
@@ -12525,6 +13387,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [25, 75],
         description: "Bewitches humans with its helical tail and piercing gaze. Its hidden claws are quite sharp as well, making this Pokémon an exceedingly tricky opponent if antagonized.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0432",
@@ -12554,6 +13418,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [25, 75],
         description: "Though impudent and difficult to tame, Purugly enjoys great popularity due to its fur, the beauty of which surpasses even velveteen.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0433",
@@ -12583,6 +13449,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [50, 50],
         description: "This Pokémon gave me an excruciating headache when it seemingly cried out without making a sound. Perhaps there are some sounds that the human ear is simply incapable of hearing.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0434",
@@ -12612,6 +13480,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "The poison that gushes from its aft end is accompanied by an utterly evil-smelling odor with such potency that one whiff can induce memory loss.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0435",
@@ -12641,6 +13511,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Sprays a poisonous fluid to take down prey. Sometimes, unable to stomach the stench of its own fluid, it leaves the bested prey uneaten.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0436",
@@ -12670,6 +13542,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [0, 0],
         description: "Floats using a mysterious energy. The pattern engraved upon its back is held as sacred and can sometimes be found in imagery from ancient cemeteries and other such timeworn places.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0437",
@@ -12699,6 +13573,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [0, 0],
         description: "Some believe that its bell-like cry opens holes to another world. It has been revered as a deity since ancient times.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0438",
@@ -12728,6 +13604,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [50, 50],
         description: "Its tears elicit sympathy from those who see them, but do not be deceived! This expulsion of body water is merely a physiological mechanism for keeping itself in good health.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0439",
@@ -12757,6 +13635,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [50, 50],
         description: "Known to turn up in bustling marketplaces now and again. It mimics people much as a child would, then watches how they react, eyes sparkling.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0440",
@@ -12786,6 +13666,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 100],
         description: "In imitation of Chansey, it keeps a round stone tucked into its belly pouch and cherishes it dearly. It gets along well with children and will sometimes play house with them for fun.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0441",
@@ -12815,6 +13697,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "A versatile performer skilled in the imitation of human speech. It is said that older, more experienced Chatot can even understand the meaning of the words they mimic.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0442",
@@ -12844,6 +13728,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "It lays curses by thinking wicked thoughts. Writings tell that this Pokémon was born out of the assembly of five score and eight malevolent spirits.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0443",
@@ -12873,6 +13759,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "It nests in caves untouched by sunlight. Its sharp teeth may fall out when worn away or after an impact, but they regrow within a few days.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0444",
@@ -12902,6 +13790,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "Though Gabite are usually of a violent disposition, when I gave one a glass bead it had been eyeing covetously, it suddenly became quite docile.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0445",
@@ -12931,6 +13821,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "Soars across the heavens at blinding speed—a magnificent sight! It has a feral disposition. Utmost caution is required if one meets a Garchomp out in the wilds.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0446",
@@ -12960,6 +13852,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [87.5, 12.5],
         description: "Its robust stomach allows it to nonchalantly devour even rotted matter. It pays frequent visits to villages, seeking out food scraps intended for compost.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0447",
@@ -12989,6 +13883,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [87.5, 12.5],
         description: "Though infantile in appearance, it has the mysterious ability to read the minds of humans. The pure of heart are met with Riolu's approval, while those of ill nature earn only its loathing.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0448",
@@ -13018,6 +13914,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [87.5, 12.5],
         description: "A most gallant-looking creature. It emits energy waves and controls them with precision, using them to sense even faraway beings. I have given the name “aura” to this power.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0449",
@@ -13047,6 +13945,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Though large and languid, Hippopotas is difficult to detect due to its tendency to burrow into and lurk beneath the soil. When agitated or excited, it expels sand from its nostrils.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0450",
@@ -13076,6 +13976,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Short-tempered and easily moved to violence. It whips up whirlwinds of sand to crush its foes' spirits, then goes in for the attack.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0451",
@@ -13105,6 +14007,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG, helper_enum_1.EggGroup.WATER3],
         genderRatios: [50, 50],
         description: "Its claws are not only razor-sharp but poisonous, making Skorupi a highly dangerous Pokémon. It seems to be weakened by cold temperatures, however.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0452",
@@ -13134,6 +14038,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG, helper_enum_1.EggGroup.WATER3],
         genderRatios: [50, 50],
         description: "Has a brutish, ferocious temperament. With immense strength and a sturdy shell off which swords will bounce, it rampages about and wreaks havoc.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0453",
@@ -13163,6 +14069,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [50, 50],
         description: "A poison wielder with a dastardly personality. Despite such qualities, this species is afforded a measure of popularity due to its peculiar cry and comical features.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0454",
@@ -13192,6 +14100,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [50, 50],
         description: "Its crimson claws contain a virulent toxin. This toxin can be made into a tonic by diluting it, mixing it with several types of wild grass, and boiling it down over two days.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0455",
@@ -13221,6 +14131,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "Though this is a plant Pokémon, it has a gluttonous and unruly temperament. Carnivine attacks its prey with its cavernous maw wide open.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0456",
@@ -13250,6 +14162,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER2],
         genderRatios: [50, 50],
         description: "What a gorgeous sight this Pokémon is as it swims with its long, pink-painted caudal fins fluttering behind it. Finneon's beautiful appearance has led to its nickname: “finery fish.”",
+        height: 0,
+        weight: 0
     },
     {
         id: "0457",
@@ -13279,6 +14193,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER2],
         genderRatios: [50, 50],
         description: "Uses its gleaming fins to hunt its prey. The view of Lumineon schooling near the surface of the sea at night is breathtaking— it's as though there were shining stars right there.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0458",
@@ -13308,6 +14224,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [50, 50],
         description: "Though ball-like in shape, this Pokémon is a proficient swimmer. I have discovered that if a Mantyke spends much time with schools of Remoraid, it will eventually achieve evolution.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0459",
@@ -13337,6 +14255,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "One is likely to encounter this Pokémon while out in the snow. There are stories of Snover appearing in human settlements but doing no harm—rather, they bond with the children.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0460",
@@ -13366,6 +14286,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "A powerful Pokémon that can split huge boulders with ease. Dislikes associating with others and chooses to live quietly deep within the mountains, playing with the snow.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0461",
@@ -13395,6 +14317,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "This species corners prey as a pack, under the guidance of a leader. Weavile displays increased cunning, leading me to speculate that its evolution caused further brain development.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0462",
@@ -13424,6 +14348,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [0, 0],
         description: "I theorize that a special magnetic field influenced this Pokémon, changing its molecular structure and causing it to evolve. It emits strange radio waves toward space from its antenna.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0463",
@@ -13453,6 +14379,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER],
         genderRatios: [50, 50],
         description: "Its tongue can extend and contract freely, and it is capable of reaching lengths over 10 times Lickilicky's height. Beware of the saliva, as it contains corrosive elements.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0464",
@@ -13482,6 +14410,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "This Pokémon evolved through use of a curious item. Its rocklike hide is composed of a mysterious substance and can withstand a blow from a masterwork sword with nary a scratch.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0465",
@@ -13511,6 +14441,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "Draped with long vines, it resembles a shrub in appearance. It swings bundles of vines as though they were arms, wrapping them around prey to ensnare them.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0466",
@@ -13540,6 +14472,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [75, 25],
         description: "Its evolution was induced by an unusual item, and its electrical output rises along with its heart rate. From its tails, it can unleash an electric current measuring 20,000 volts.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0467",
@@ -13569,6 +14503,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [75, 25],
         description: "Use of a strange item caused this Pokémon to evolve. Fireballs launched from the ends of its tubelike arms are hot enough to melt an iron pot in an instant.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0468",
@@ -13598,6 +14534,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING, helper_enum_1.EggGroup.FAIRY],
         genderRatios: [87.5, 12.5],
         description: "Scant few have ever sighted this Pokémon. After studying what literature remains, I am certain Togekiss will reveal itself when peace reigns in the land.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0469",
@@ -13627,6 +14565,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Extremely violent. When hunting, it wastes - of its energy, aiming only for prey's most vulnerable spots. Any who manage to tame this Pokémon must be of incredible bravery.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0470",
@@ -13656,6 +14596,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "Cells similar to those of plants have been found in its fur. Its hard tail can fell a large tree with one stroke, and the tail's sharpness exceeds even that of a sword crafted by a master.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0471",
@@ -13685,6 +14627,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "Glaceon is able to lower its body temperature very quickly. It freezes the atmosphere, creating diamond dust that glitters like gems while it flutters and dances around.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0472",
@@ -13714,6 +14658,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "It glides soundlessly on pitch-black wings and sinks sharp fangs into the throat of its prey. It takes on a look of satisfaction once it has entirely drained its prey of blood.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0473",
@@ -13743,6 +14689,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "This species reached its zenith during the period known as the ice age. I suspect that Hisui's frigid climate is in harmony with Mamoswine's constitution, thus awakening hidden potential.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0474",
@@ -13772,6 +14720,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [0, 0],
         description: "A curious item induced this evolution. The Pokémon's offensive capabilities have greatly increased, but the strangeness of its behavior has magnified in equal measure. This worries me.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0475",
@@ -13801,6 +14751,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE, helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [100, 0],
         description: "The blades extending from its elbows are sharper than the finest swords. Its swordsmanship, albeit self-taught, is astonishingly impressive.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0476",
@@ -13830,6 +14782,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "It is able to emit powerful magnetism, allowing it control over the iron sand that forms its luscious mustache. Using this iron sand, Probopass forms hard stones with which it smites its prey.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0477",
@@ -13859,6 +14813,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "Comes to those whose lives have come to an end and escorts their souls to the afterlife. Known to mistakenly take the souls of those who yet have life left in them, albeit rarely.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0478",
@@ -13888,6 +14844,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY, helper_enum_1.EggGroup.MINERAL],
         genderRatios: [0, 100],
         description: "A Pokémon inhabited by the soul of a woman who died bearing a grudge in the snowy mountains. Legends of Froslass placing deathly curses on misbehaving men send shivers down my spine.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0479",
@@ -13917,6 +14875,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [0, 0],
         description: "This bizarre Pokémon appears to be a will-o'-the-wisp powered by electricity. Be wary, as Rotom is both smart and mischievous.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0480",
@@ -13946,6 +14906,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "A Pokémon feared but also respected for stealing away the memories of evildoers. I have found records that suggest Uxie holds dominion over knowledge.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0481",
@@ -13975,6 +14937,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Known as the Being of Emotion. In legend, this Pokémon was feared, as any who showed disrespect would have their emotions thrown into disarray.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0482",
@@ -14004,6 +14968,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "The dreaded Being of Willpower. Legends tell of this Pokémon manipulating the will of its adversaries and turning them into puppets of its own.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0483",
@@ -14033,6 +14999,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "This Pokémon is revered as a deity in Hisuian legend. The birth of Dialga was what caused the vast river of time to begin flowing in our world.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0484",
@@ -14062,6 +15030,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "This Pokémon is feared as a deity in Hisuian legend. The birth of Palkia was what caused the walls of our world to disappear, creating a sky that spans for infinity.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0485",
@@ -14091,6 +15061,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [50, 50],
         description: "Stories tell of this Pokémon being birthed from the boiling magma within Mount Coronet. Its molten-steel body holds many mysteries.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0486",
@@ -14120,6 +15092,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "According to legend, Regigigas pulled landmasses together and bound them with rope to create the continent of Hisui. Though I have my doubts, the story could well contain a shred of truth.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0487",
@@ -14149,6 +15123,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "There is one Hisuian verse that tells of a powerful light creating a deep shadow. I imagine that this deep shadow is Giratina.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0488",
@@ -14178,6 +15154,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 100],
         description: "Cresselia is reminiscent of the crescent moon. It leaves a brilliant line of light in its wake as it flies across the night sky. I daresay it resembles the heavenly maiden who created the Milky Way.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0489",
@@ -14207,6 +15185,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FAIRY],
         genderRatios: [0, 0],
         description: "Can be seen floating offshore during seasons when the seas are warm. Its azure body blends in with the ocean waters—logic suggests this is a defense mechanism against natural predators.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0490",
@@ -14236,6 +15216,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FAIRY],
         genderRatios: [0, 0],
         description: "Rumored to migrate across the oceans and visit Hisui's coastal waters only rarely. Although Manaphy resembles Phione, it is also quite different. The relation between the two is unclear.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0491",
@@ -14265,6 +15247,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "On a moonless night, a strange incident occurred in which every one of a village's inhabitants suffered nightmares. The villagers attested that Darkrai appeared before them in these nightmares.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0492",
@@ -14294,6 +15278,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "When the turning of seasons brings the cruel winter to its end and the joyous people give thanks to the heavens, Shaymin appears and covers the withered land with flowers.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0493",
@@ -14323,6 +15309,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "It is the heavenly fount from which pours the light that shines across Hisui. Its luminance guides and protects all Pokémon. Hisuian mythology states that Arceus is the creator of all things.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0494",
@@ -14352,6 +15340,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "When it shares the infinite energy it creates, that being's entire body will be overflowing with power.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0495",
@@ -14381,6 +15371,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.GRASS],
         genderRatios: [87.5, 12.5],
         description: "They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0496",
@@ -14410,6 +15402,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.GRASS],
         genderRatios: [87.5, 12.5],
         description: "It moves along the ground as if sliding. Its swift movements befuddle its foes, and it then attacks with a vine whip.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0497",
@@ -14439,6 +15433,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.GRASS],
         genderRatios: [87.5, 12.5],
         description: "It only gives its all against strong opponents who are not fazed by the glare from Serperior's noble eyes.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0498",
@@ -14468,6 +15464,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "It can deftly dodge its foe's attacks while shooting fireballs from its nose. It roasts berries before it eats them.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0499",
@@ -14497,6 +15495,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "The more it eats, the more fuel it has to make the fire in its stomach stronger. This fills it with even more power.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0500",
@@ -14526,6 +15526,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0501",
@@ -14555,6 +15557,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "This Pokémon from the Unova region uses the shell on its belly as a weapon to cut down its foes. Thus, I've conferred upon this shell the name “scalchop.”",
+        height: 0,
+        weight: 0
     },
     {
         id: "0502",
@@ -14584,6 +15588,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "Its exquisite double-scalchop technique is likely the result of daily training, and it can send even masters of the blade fleeing in defeat.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0503",
@@ -14613,6 +15619,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "One swing of the sword incorporated in its armor can fell an opponent. A simple glare from one of them quiets everybody.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0504",
@@ -14642,6 +15650,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Extremely cautious, one of them will always be on the lookout, but it won't notice a foe coming from behind.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0505",
@@ -14671,6 +15681,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "When they see an enemy, their tails stand high, and they spit the seeds of berries stored in their cheek pouches.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0506",
@@ -14700,6 +15712,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "This Pokémon is far brighter than the average child, and Lillipup won't forget the love it receives or any abuse it suffers.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0507",
@@ -14729,6 +15743,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Herdier is a very smart and friendly Pokémon. So much so that there's a theory that Herdier was the first Pokémon to partner with people.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0508",
@@ -14758,6 +15774,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Stoutland is immensely proud of its impressive moustache. It's said that moustache length is what determines social standing among this species.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0509",
@@ -14787,6 +15805,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Opponents that get drawn in by its adorable behavior come away with stinging scratches from its claws and stinging pride from its laughter.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0510",
@@ -14816,6 +15836,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "This stealthy Pokémon sneaks up behind prey without making any sound at all. It competes with Thievul for territory.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0511",
@@ -14845,6 +15867,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "It's good at finding berries and gathers them from all over. It's kind enough to share them with friends.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0512",
@@ -14874,6 +15898,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0513",
@@ -14903,6 +15929,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "This Pokémon lives in caves in volcanoes. The fire within the tuft on its head can reach 600 degrees Fahrenheit.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0514",
@@ -14932,6 +15960,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "When it gets excited, embers rise from its head and tail and it gets hot. For some reason, it loves sweets.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0515",
@@ -14961,6 +15991,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "The water stored inside the tuft on its head is full of nutrients. Plants that receive its water grow large.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0516",
@@ -14990,6 +16022,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "It prefers places with clean water. When its tuft runs low, it replenishes it by siphoning up water with its tail.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0517",
@@ -15019,6 +16053,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "It eats dreams and releases mist. The mist is pink when it's eating a good dream, and black when it's eating a nightmare.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0518",
@@ -15048,6 +16084,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "It drowses and dreams all the time. It's best to leave it be if it's just woken up, as it's a terrible grump when freshly roused from sleep.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0519",
@@ -15077,6 +16115,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "Where people go, these Pokémon follow. If you're scattering food for them, be careful— several hundred of them can gather at once.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0520",
@@ -15106,6 +16146,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "It can fly moderately quickly. No matter how far it travels, it can always find its way back to its master and its nest.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0521",
@@ -15135,6 +16177,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "Males have plumage on their heads. They will never let themselves feel close to anyone other than their Trainers.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0522",
@@ -15164,6 +16208,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0523",
@@ -15193,6 +16239,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0524",
@@ -15222,6 +16270,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "The hexagonal hole is its ear. Deep in that ear is an energy core, so if you stick your hand in there, Roggenrola will be very angry!",
+        height: 0,
+        weight: 0
     },
     {
         id: "0525",
@@ -15251,6 +16301,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "It explores caves in search of underground water. It's not comfortable around water, so this Pokémon takes great care in lapping it up.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0526",
@@ -15280,6 +16332,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "Although its energy blasts can blow away a dump truck, they have a limitation— they can only be fired when the sun is out.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0527",
@@ -15309,6 +16363,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "While inside a cave, if you look up and see lots of heart-shaped marks lining the walls, it's evidence that Woobat live there.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0528",
@@ -15338,6 +16394,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "The auspicious shape of this Pokémon's nose apparently led some regions to consider Swoobat a symbol of good luck.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0529",
@@ -15367,6 +16425,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "It's a digger, using its claws to burrow through the ground. It causes damage to vegetable crops, so many farmers have little love for it.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0530",
@@ -15396,6 +16456,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "It's not uncommon for tunnels that appear to have formed naturally to actually be a result of Excadrill's rampant digging.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0531",
@@ -15425,6 +16487,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY],
         genderRatios: [50, 50],
         description: "This Pokémon has a kind heart. By touching with its feelers, Audino can gauge other creatures' feelings and physical conditions.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0532",
@@ -15454,6 +16518,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [75, 25],
         description: "It loves helping out with construction projects. It loves it so much that if rain causes work to halt, it swings its log around and throws a tantrum.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0533",
@@ -15483,6 +16549,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [75, 25],
         description: "Gurdurr excels at demolition—construction is not its forte. In any case, there's skill in the way this Pokémon wields its metal beam.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0534",
@@ -15512,6 +16580,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [75, 25],
         description: "Concrete mixed by Conkeldurr is much more durable than normal concrete, even when the compositions of the two materials are the same.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0535",
@@ -15541,6 +16611,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1],
         genderRatios: [50, 50],
         description: "It uses sound waves to communicate with others of its kind. People and other Pokémon species can't hear its cries of warning.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0536",
@@ -15570,6 +16642,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1],
         genderRatios: [50, 50],
         description: "On occasion, their cries are sublimely pleasing to the ear. Palpitoad with larger lumps on their bodies can sing with a wider range of sounds.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0537",
@@ -15599,6 +16673,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1],
         genderRatios: [50, 50],
         description: "The vibrating of the bumps all over its body causes earthquake-like tremors. Seismitoad and Croagunk are similar species.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0538",
@@ -15628,6 +16704,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [100, 0],
         description: "It performs throwing moves with first-rate skill. Over the course of many battles, Throh's belt grows darker as it absorbs its wearer's sweat.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0539",
@@ -15657,6 +16735,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [100, 0],
         description: "Tying their belts gets them pumped and makes their punches more destructive. Disturbing their training angers them.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0540",
@@ -15686,6 +16766,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "This Pokémon makes clothes for itself. It chews up leaves and sews them with sticky thread extruded from its mouth.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0541",
@@ -15715,6 +16797,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Forests where Swadloon live have superb foliage because the nutrients they make from fallen leaves nourish the plant life.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0542",
@@ -15744,6 +16828,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "It keeps its eggs warm with heat from fermenting leaves. It also uses leaves to make warm wrappings for Sewaddle.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0543",
@@ -15773,6 +16859,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Its fangs are highly venomous. If this Pokémon finds prey it thinks it can eat, it leaps for them without any thought of how things might turn out.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0544",
@@ -15802,6 +16890,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Whirlipede protects itself with a sturdy shell and poisonous spikes while it stores up the energy it'll need for evolution.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0545",
@@ -15831,6 +16921,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Scolipede engage in fierce territorial battles with Centiskorch. At the end of one of these battles, the victor makes a meal of the loser.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0546",
@@ -15860,6 +16952,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS, helper_enum_1.EggGroup.FAIRY],
         genderRatios: [50, 50],
         description: "It shoots cotton from its body to protect itself. If it gets caught up in hurricane-strength winds, it can get sent to the other side of the Earth.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0547",
@@ -15889,6 +16983,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS, helper_enum_1.EggGroup.FAIRY],
         genderRatios: [50, 50],
         description: "As long as this Pokémon bathes in sunlight, its cotton keeps growing. If too much cotton fluff builds up, Whimsicott tears it off and scatters it.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0548",
@@ -15918,6 +17014,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS],
         genderRatios: [0, 100],
         description: "The leaves on its head are highly valued for medicinal purposes. Dry the leaves in the sun, boil them, and then drink the bitter decoction for remarkably effective relief from fatigue.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0549",
@@ -15947,6 +17045,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS],
         genderRatios: [0, 100],
         description: "No matter how much time and money is spent raising it, its flowers are the most beautiful when they bloom in the wild.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0550",
@@ -15976,6 +17076,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER2],
         genderRatios: [50, 50],
         description: "It's so vicious that it's called the Thug of the River. Yet Basculin is still targeted by predators, such as Dondozo and Bombirdier.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0551",
@@ -16005,6 +17107,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "It submerges itself in sand and moves as if swimming. This wise behavior keeps its enemies from finding it and maintains its temperature.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0552",
@@ -16034,6 +17138,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Thanks to the special membrane covering its eyes, it can see its surroundings clearly, even in the middle of the night.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0553",
@@ -16063,6 +17169,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "This Pokémon is known as the Bully of the Sands. Krookodile's mighty jaws can bite through heavy plates of iron with almost no effort at all.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0554",
@@ -16092,6 +17200,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "It derives its power from fire burning inside its body. If the fire dwindles, this Pokémon will immediately fall asleep.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0555",
@@ -16121,6 +17231,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Its internal fire burns at 2,500 degrees Fahrenheit, making enough power that it can destroy a dump truck with one punch.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0556",
@@ -16150,6 +17262,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "With noises that could be mistaken for the rattles of maracas, it creates an upbeat rhythm, startling bird Pokémon and making them fly off in a hurry.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0557",
@@ -16179,6 +17293,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG, helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "When it finds a stone appealing, it creates a hole inside it and uses it as its home. This Pokémon is the natural enemy of Roggenrola and Rolycoly.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0558",
@@ -16208,6 +17324,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG, helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "This highly territorial Pokémon prefers dry climates. It won't come out of its boulder on rainy days",
+        height: 0,
+        weight: 0
     },
     {
         id: "0559",
@@ -16237,6 +17355,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "It protects itself with its durable skin. It's thought that this Pokémon will evolve once its skin has completely stretched out.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0560",
@@ -16266,6 +17386,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "While mostly known for having the temperament of an aggressive ruffian, this Pokémon takes very good care of its family, friends, and territory.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0561",
@@ -16295,6 +17417,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "Psychic power allows these Pokémon to fly. Some say they were the guardians of an ancient city. Others say they were the guardians' emissaries.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0562",
@@ -16324,6 +17448,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL, helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "The spirit of a person from a bygone age became this Pokémon. It rambles through ruins, searching for someone who knows its face.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0563",
@@ -16353,6 +17479,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL, helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "There are many depictions of Cofagrigus decorating ancient tombs. They're symbols of the wealth that kings of bygone eras had.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0564",
@@ -16382,6 +17510,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.WATER3],
         genderRatios: [87.5, 12.5],
         description: "This Pokémon inhabited ancient seas. Although it can only crawl, it still comes up onto land in search of prey.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0565",
@@ -16411,6 +17541,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.WATER3],
         genderRatios: [87.5, 12.5],
         description: "Carracosta completely devours its prey—bones, shells, and all. Because of this, Carracosta's own shell grows thick and sturdy.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0566",
@@ -16440,6 +17572,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING, helper_enum_1.EggGroup.WATER3],
         genderRatios: [87.5, 12.5],
         description: "This Pokémon was successfully restored from a fossil. As research suggested, Archen is unable to fly. But it's very good at jumping.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0567",
@@ -16469,6 +17603,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING, helper_enum_1.EggGroup.WATER3],
         genderRatios: [87.5, 12.5],
         description: "It needs a running start to take off. If Archeops wants to fly, it first needs to run nearly 25 mph, building speed over a course of about 2.5 miles.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0568",
@@ -16498,6 +17634,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "Its favorite places are unsanitary ones. If you leave trash lying around, you could even find one of these Pokémon living in your room.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0569",
@@ -16527,6 +17665,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "This Pokémon eats trash, which turns into poison inside its body. The main component of the poison depends on what sort of trash was eaten.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0570",
@@ -16556,6 +17696,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "Zorua sometimes transforms into a person and goes into cities to search for food. When Zorua does this, it usually takes on the form of a child.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0571",
@@ -16585,6 +17727,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "Each has the ability to fool a large group of people simultaneously. They protect their lair with illusory scenery.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0572",
@@ -16614,6 +17758,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [25, 75],
         description: "The way it brushes away grime with its tail can be helpful when cleaning. But its focus on spotlessness can make cleaning more of a hassle.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0573",
@@ -16643,6 +17789,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [25, 75],
         description: "Its body secretes oil that this Pokémon spreads over its nest as a coating to protect it from dust. Cinccino won't tolerate even a speck of the stuff.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0574",
@@ -16672,6 +17820,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [25, 75],
         description: "This Pokémon is normally very innocent. When it is staring at something invisible, it is unblinking and utterly silent.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0575",
@@ -16701,6 +17851,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [25, 75],
         description: "Using its psychic power, it arranges pebbles to form the shapes of constellations. Some people believe this Pokémon came from outer space.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0576",
@@ -16730,6 +17882,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [25, 75],
         description: "Gothitelle unleashes psychic energy and shows opponents dreams of the universe's end. These dreams are apparently ethereal and beautiful.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0577",
@@ -16759,6 +17913,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "It communicates with others telepathically. Its body is encapsulated in liquid, but if it takes a heavy blow, the liquid will leak out.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0578",
@@ -16788,6 +17944,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "Its psychic power can supposedly cover a range of more than half a mile—but only if its two brains can agree with each other.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0579",
@@ -16817,6 +17975,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "While it could use its psychic abilities in battle, this Pokémon prefers to swing its powerful arms around to beat opponents into submission.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0580",
@@ -16846,6 +18006,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "They are better at swimming than flying, and they happily eat their favorite food, peat moss, as they dive underwater.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0581",
@@ -16875,6 +18037,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "Despite their elegant appearance, they can flap their wings strongly and fly for thousands of miles.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0582",
@@ -16904,6 +18068,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "Unable to survive in hot areas, it makes itself comfortable by breathing out air cold enough to cause snow. It burrows into the snow to sleep.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0583",
@@ -16933,6 +18099,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "It blasts enemies with cold air reaching −148 degrees Fahrenheit, freezing them solid. But it spares their lives afterward—it's a kind Pokémon.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0584",
@@ -16962,6 +18130,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "When its anger reaches a breaking point, this Pokémon unleashes a fierce blizzard that freezes every creature around it, be they friend or foe.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0585",
@@ -16991,6 +18161,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Their coloring changes according to the seasons and can be slightly affected by the temperature and humidity as well.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0586",
@@ -17020,6 +18192,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "It seems that a Sawsbuck with many flowers on its antlers will grow at a slightly slower pace because the flowers absorb the Pokémon's nutrients.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0587",
@@ -17049,6 +18223,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "This Pokémon absolutely loves sweet berries. Sometimes it stuffs its cheeks full of so much food that it can't fly properly.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0588",
@@ -17078,6 +18254,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Its strange physiology reacts to electrical energy in interesting ways. The presence of a Shelmet will cause this Pokémon to evolve.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0589",
@@ -17107,6 +18285,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "It charges its enemies, lances at the ready. An image of one of its duels is captured in a famous painting of Escavalier clashing with Sirfetch'd.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0590",
@@ -17136,6 +18316,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "There is a theory that the developer of the modern-day Poké Ball really liked Foongus, but this has not been confirmed.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0591",
@@ -17165,6 +18347,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "Be wary of the poisonous spores it releases. Mushrooms resembling Amoonguss's caps will grow out of anywhere the spores touch.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0592",
@@ -17194,6 +18378,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "Using the invisible poison spikes on its veillike arms and legs, it paralyzes its enemies and causes them to drown.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0593",
@@ -17223,6 +18409,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "Fishermen are terrified of Jellicent. It's rumored to drag them into the sea and steal their lives away.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0594",
@@ -17252,6 +18440,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.WATER2],
         genderRatios: [50, 50],
         description: "Fishermen take them along on long voyages, because if you have an Alomomola with you, there'll be no need for a doctor or medicine.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0595",
@@ -17281,6 +18471,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Joltik can be found clinging to other Pokémon. It's soaking up static electricity because it can't produce a charge on its own.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0596",
@@ -17310,6 +18502,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "It launches electrified fur from its abdomen as its means of attack. Opponents hit by the fur could be in for three full days and nights of paralysis.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0597",
@@ -17339,6 +18533,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS, helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "Mossy caves are their preferred dwellings. Enzymes contained in mosses help Ferroseed's spikes grow big and strong.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0598",
@@ -17368,6 +18564,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS, helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "This Pokémon scrapes its spikes across rocks, and then uses the tips of its feelers to absorb the nutrients it finds within the stone.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0599",
@@ -17397,6 +18595,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [0, 0],
         description: "The two minigears that mesh together are predetermined. Each will rebound from other minigears without meshing.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0600",
@@ -17426,6 +18626,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [0, 0],
         description: "When Klang goes all out, the minigear links up perfectly with the outer part of the big gear, and this Pokémon's rotation speed increases sharply.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0601",
@@ -17455,6 +18657,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [0, 0],
         description: "From its spikes, it launches powerful blasts of electricity. Its red core contains an enormous amount of energy.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0602",
@@ -17484,6 +18688,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "These Pokémon move in schools. They have an electricity-generating organ, so they discharge electricity if in danger.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0603",
@@ -17513,6 +18719,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "They coil around foes and shock them with electricity-generating organs that seem simply to be circular patterns.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0604",
@@ -17542,6 +18750,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0605",
@@ -17571,6 +18781,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [50, 50],
         description: "This Pokémon was discovered about 50 years ago. Its highly developed brain enables it to exert its psychic powers.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0606",
@@ -17600,6 +18812,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [50, 50],
         description: "It has strong psychic powers. Using its fingers that flash three different colors, it controls its opponents and rewrites their memories.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0607",
@@ -17629,6 +18843,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "The flame on its head keeps its body slightly warm. This Pokémon takes lost children by the hand to guide them to the spirit world.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0608",
@@ -17658,6 +18874,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "It lurks in cities, pretending to be a lamp. Once it finds someone whose death is near, it will trail quietly after them.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0609",
@@ -17687,6 +18905,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "This Pokémon haunts dilapidated mansions. It sways its arms to hypnotize opponents with the ominous dancing of its flames.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0610",
@@ -17716,6 +18936,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "They play with each other by knocking their large tusks together. Their tusks break sometimes, but they grow back so quickly that it isn't a concern.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0611",
@@ -17745,6 +18967,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "Its skin is as hard as a suit of armor. Fraxure's favorite strategy is to tackle its opponents, stabbing them with its tusks at the same time.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0612",
@@ -17774,6 +18998,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "This Pokémon nests in caves and abandoned mines. It is docile, but it will become incredibly angry if its tusks are touched, so beware.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0613",
@@ -17803,6 +19029,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Many of this species can be found along the shorelines of cold regions. If a Cubchoo lacks dangling snot, there's a chance it is sick.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0614",
@@ -17832,6 +19060,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "It is a ferocious, carnivorous Pokémon. Once it captures its prey, it will breathe cold air onto the prey to freeze and preserve it.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0615",
@@ -17861,6 +19091,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [0, 0],
         description: "Cryogonal appear during cold seasons. It is said that people and Pokémon who die on snowy mountains are reborn into these Pokémon.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0616",
@@ -17890,6 +19122,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "When attacked, it tightly shuts the lid of its shell. This reaction fails to protect it from Karrablast, however, because they can still get into the shell.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0617",
@@ -17919,6 +19153,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "It moves with blinding speed and lobs poison at foes. Featuring Accelgor as a main character is a surefire way to make a movie or comic popular.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0618",
@@ -17948,6 +19184,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "Thanks to bacteria that lived in the mud flats with it, this Pokémon developed the organs it uses to generate electricity.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0619",
@@ -17977,6 +19215,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [50, 50],
         description: "Though small, Mienfoo's temperament is fierce. Any creature that approaches Mienfoo carelessly will be greeted with a flurry of graceful attacks.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0620",
@@ -18006,6 +19246,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [50, 50],
         description: "When Mienshao comes across a truly challenging opponent, it will lighten itself by biting off the fur on its arms.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0621",
@@ -18035,6 +19277,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.DRAGON, helper_enum_1.EggGroup.MONSTER],
         genderRatios: [50, 50],
         description: "Druddigon are vicious and cunning. They take up residence in nests dug out by other Pokémon, treating the stolen nests as their own lairs.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0622",
@@ -18064,6 +19308,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [0, 0],
         description: "This Pokémon was created from clay. It received orders from its master many thousands of years ago, and it still follows those orders to this day.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0623",
@@ -18093,6 +19339,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [0, 0],
         description: "There's a theory that inside Golurk is a perpetual motion machine that produces limitless energy, but this belief hasn't been proven.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0624",
@@ -18122,6 +19370,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [50, 50],
         description: "Pawniard will fearlessly challenge even powerful foes. In a pinch, it will cling to opponents and pierce them with the blades all over its body.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0625",
@@ -18151,6 +19401,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [50, 50],
         description: "This Pokémon commands a group of several Pawniard. Groups that are defeated in territorial disputes are absorbed by the winning side.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0626",
@@ -18180,6 +19432,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "These Pokémon can crush a car with no more than a headbutt. Bouffalant with more hair on their heads hold higher positions within the herd.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0627",
@@ -18209,6 +19463,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [100, 0],
         description: "Its chick-like looks belie its hotheadedness. It challenges its parents at every opportunity, desperate to prove its strength.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0628",
@@ -18238,6 +19494,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [100, 0],
         description: "Known as “the hero of the skies,” this Pokémon is so proud and so brave that it will never retreat, even when it's injured.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0629",
@@ -18267,6 +19525,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [0, 100],
         description: "Vullaby grow quickly. Bones that have gotten too small for older Vullaby to wear often get passed down to younger ones in the nest.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0630",
@@ -18296,6 +19556,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [0, 100],
         description: "They adorn themselves with bones. There seem to be fashion trends among them, as different bones come into and fall out of popularity.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0631",
@@ -18325,6 +19587,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "There's a hole in its tail that allows it to draw in the air it needs to keep its fire burning. If the hole gets blocked, this Pokémon will fall ill.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0632",
@@ -18354,6 +19618,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "With their large mandibles, these Pokémon can crunch their way through rock. They work together to protect their eggs from Sandaconda.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0633",
@@ -18383,6 +19649,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "It nests deep inside a cave. Food there is scarce, so Deino will sink its teeth into anything that moves and attempt to eat it.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0634",
@@ -18412,6 +19680,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "The two heads have different likes and dislikes. Because the heads fight with each other, Zweilous gets stronger without needing to rely on others.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0635",
@@ -18441,6 +19711,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "It's said that Hydreigon grew ferocious because people in times long past loathed it, considering it to be evil incarnate and attacking it relentlessly.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0636",
@@ -18470,6 +19742,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "This Pokémon was called the Larva That Stole the Sun. The fire Larvesta spouts from its horns can cut right through a sheet of iron.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0637",
@@ -18499,6 +19773,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Its burning body causes it to be unpopular in hot parts of the world, but in cold ones, Volcarona is revered as an embodiment of the sun.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0638",
@@ -18528,6 +19804,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "This Pokémon appears in a legend alongside Terrakion and Virizion, fighting against humans in defense of the Unova region's Pokémon.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0639",
@@ -18557,6 +19835,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "It has phenomenal power. It will mercilessly crush anyone or anything that bullies small Pokémon.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0640",
@@ -18586,6 +19866,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "A legend tells of this Pokémon working together with Cobalion and Terrakion to protect the Pokémon of the Unova region.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0641",
@@ -18615,6 +19897,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [100, 0],
         description: "This storm-stirring Pokémon is said to cause the seasons to turn by whipping up the air. I suspect its humanlike form to be a false one.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0642",
@@ -18644,6 +19928,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [100, 0],
         description: "They say this wielder of electricity has waged war with its nemesis, Tornadus, since time immemorial. The lightning bolts it hurls pierce the very earth and enrich the soil.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0643",
@@ -18673,6 +19959,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "According to myth, if people ignore truth and let themselves become consumed by greed, Reshiram will arrive to burn their kingdoms down.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0644",
@@ -18702,6 +19990,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Mythology tells us that if people lose the righteousness in their hearts, their kingdoms will be razed by Zekrom's lightning.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0645",
@@ -18731,6 +20021,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [100, 0],
         description: "When the incarnations of wind and of lightning clash, Landorus arrives to quell the conflict. After the tempests and thunderbolts abate, the land is sure to be blessed with bountiful harvests.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0646",
@@ -18760,6 +20052,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Dwelling within it is a power even greater than that of Reshiram or Zekrom, but the extreme cold keeps that power bound.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0647",
@@ -18789,6 +20083,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Cobalion, Terrakion, and Virizion taught this Pokémon how to fight. It dashes across the world, seeking more opportunities to further its training.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0648",
@@ -18818,6 +20114,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Its melodies are sung with a special vocalization method that can control the feelings of those who hear it.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0649",
@@ -18847,6 +20145,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "This Pokémon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0650",
@@ -18876,6 +20176,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0651",
@@ -18905,6 +20207,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "They strengthen their lower bodies by running into one another. They are very kind and won't start fights.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0652",
@@ -18934,6 +20238,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "Its Tackle is forceful enough to flip a 50-ton tank. It shields its allies from danger with its own body.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0653",
@@ -18963,6 +20269,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "As it walks, it munches on a twig in place of a snack. It intimidates opponents by puffing hot air out of its ears.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0654",
@@ -18992,6 +20300,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "When the twig is plucked from its tail, friction sets the twig alight. The flame is used to send signals to its allies.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0655",
@@ -19021,6 +20331,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "Using psychic power, it generates a fiery vortex of 5,400 degrees Fahrenheit, incinerating foes swept into this whirl of flame.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0656",
@@ -19050,6 +20362,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1],
         genderRatios: [87.5, 12.5],
         description: "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0657",
@@ -19079,6 +20393,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1],
         genderRatios: [87.5, 12.5],
         description: "It can throw bubble-covered pebbles with precise control, hitting empty cans up to a hundred feet away.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0658",
@@ -19108,6 +20424,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1],
         genderRatios: [87.5, 12.5],
         description: "It appears and vanishes with a ninja's grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0659",
@@ -19137,6 +20455,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "It's very sensitive to danger. The sound of Corviknight's flapping will have Bunnelby digging a hole to hide underground in moments.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0660",
@@ -19166,6 +20486,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "With power equal to an excavator, it can dig through dense bedrock. It's a huge help during tunnel construction.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0661",
@@ -19195,6 +20517,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "Fletchling can be found in both rural and urban areas. They once had a huge territorial dispute with Squawkabilly. Fights broke out all over town.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0662",
@@ -19224,6 +20548,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "Fletchinder scatters embers in tall grass where bug Pokémon might be hiding and then catches them as they come leaping out.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0663",
@@ -19253,6 +20579,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "When it gets excited, it vents sparks from the gaps between its feathers. These unburnable feathers are used as a fireproof material.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0664",
@@ -19282,6 +20610,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Any poison this Pokémon takes in is converted into a black powder and secreted. That's why Scatterbug can eat poisonous leaves and roots.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0665",
@@ -19311,6 +20641,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Spewpa doesn't live in a fixed location. It roams where it pleases across the fields and mountains, building up the energy it needs to evolve.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0666",
@@ -19340,6 +20672,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0667",
@@ -19369,6 +20703,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [12.5, 87.5],
         description: "When Litleo are young, female Pyroar will teach them how to hunt. Once the Litleo mature, they will leave the pride and set out on their own.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0668",
@@ -19398,6 +20734,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [12.5, 87.5],
         description: "The mane of a male Pyroar heats up to over 3,600 degrees Fahrenheit during battle. Merely approaching it will cause severe burns.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0669",
@@ -19427,6 +20765,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY],
         genderRatios: [0, 100],
         description: "It's not safe without the power of a flower, but it will keep traveling around until it finds one with the color and shape it wants.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0670",
@@ -19456,6 +20796,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY],
         genderRatios: [0, 100],
         description: "It gives its own power to flowers, pouring its heart into caring for them. Floette never forgives anyone who messes up a flower bed.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0671",
@@ -19485,6 +20827,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY],
         genderRatios: [0, 100],
         description: "It controls the flowers it grows. The petal blizzards that Florges triggers are overwhelming in their beauty and power.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0672",
@@ -19514,6 +20858,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "As long as it has sunlight and water, Skiddo can make energy with the leaves on its body, allowing it to live on rocky mountains barren of food.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0673",
@@ -19543,6 +20889,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "It can sense the feelings of others by touching them with its horns. This species has assisted people with their work since 5,000 years ago.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0674",
@@ -19572,6 +20920,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [50, 50],
         description: "Wanting to make sure it's taken seriously, Pancham's always giving others a glare. But if it's not focusing, it ends up smiling.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0675",
@@ -19601,6 +20951,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [50, 50],
         description: "Using its leaf, Pangoro can predict the moves of its opponents. It strikes with punches that can turn a dump truck into scrap with just one hit.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0676",
@@ -19630,6 +20982,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "There was an era when aristocrats would compete to see who could trim their Furfrou's fur into the most exquisite style.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0677",
@@ -19659,6 +21013,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "There's enough psychic power in Espurr to send a wrestler flying, but because this power can't be controlled, Espurr finds it troublesome.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0678",
@@ -19688,6 +21044,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "The eyeball patterns on the interior of its ears emit psychic energy. It keeps the patterns tightly covered because that power is too immense.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0679",
@@ -19717,6 +21075,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "Honedge's soul once belonged to a person who was killed a long time ago by the sword that makes up Honedge's body.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0680",
@@ -19746,6 +21106,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "The two swords employ a strategy of rapidly alternating between offense and defense to bring down their prey.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0681",
@@ -19775,6 +21137,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "Apparently, it can detect the innate qualities of leadership. According to legend, whoever it recognizes is destined to become king.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0682",
@@ -19804,6 +21168,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY],
         genderRatios: [50, 50],
         description: "A scent pouch within this Pokémon's body allows it to create various scents. A change in its diet will alter the fragrance it produces.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0683",
@@ -19833,6 +21199,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY],
         genderRatios: [50, 50],
         description: "The scent that constantly emits from its fur is so powerful that this Pokémon's companions will eventually lose their sense of smell.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0684",
@@ -19862,6 +21230,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY],
         genderRatios: [50, 50],
         description: "The sweet smell of cotton candy perfumes Swirlix's fluffy fur. This Pokémon spits out sticky string to tangle up its enemies.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0685",
@@ -19891,6 +21261,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY],
         genderRatios: [50, 50],
         description: "By taking in a person's scent, it can sniff out their mental and physical condition. It's hoped that this skill will have many medical applications.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0686",
@@ -19920,6 +21292,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.WATER2],
         genderRatios: [50, 50],
         description: "It spins while making its luminescent spots flash. These spots allow it to communicate with others by using different patterns of light.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0687",
@@ -19949,6 +21323,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.WATER2],
         genderRatios: [50, 50],
         description: "Gazing at its luminescent spots will quickly induce a hypnotic state, putting the observer under Malamar's control.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0688",
@@ -19978,6 +21354,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER3],
         genderRatios: [50, 50],
         description: "After two Binacle find a suitably sized rock, they adhere themselves to it and live together. They cooperate to gather food during high tide.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0689",
@@ -20007,6 +21385,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER3],
         genderRatios: [50, 50],
         description: "Having an eye on each palm allows it to keep watch in all directions. In a pinch, its limbs start to act on their own to ensure the enemy's defeat.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0690",
@@ -20036,6 +21416,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "This Pokémon is a poor swimmer. If it's caught in a fierce storm, it will sometimes get washed far away and become unable to return to its home.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0691",
@@ -20065,6 +21447,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "Using a liquid poison, Dragalge indiscriminately attacks anything that wanders into its territory. This poison can corrode the undersides of boats.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0692",
@@ -20094,6 +21478,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.WATER3],
         genderRatios: [50, 50],
         description: "Clauncher's claws will regrow if they fall off. The meat inside the claws is edible, but it has a distinct flavor that doesn't appeal to all tastes.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0693",
@@ -20123,6 +21509,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.WATER3],
         genderRatios: [50, 50],
         description: "Clawitzer can move through the water at a speed of 60 knots by using gas inside its body to expel water from the back of its claw.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0694",
@@ -20152,6 +21540,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "The sun powers this Pokémon's electricity generation. Interruption of that process stresses Helioptile to the point of weakness.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0695",
@@ -20181,6 +21571,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "A now-vanished desert culture treasured these Pokémon. Appropriately, when Heliolisk came to the Galar region, treasure came with them.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0696",
@@ -20210,6 +21602,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [87.5, 12.5],
         description: "This is an ancient Pokémon, revived in modern times. It has a violent disposition, and it'll tear apart anything it gets between its hefty jaws.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0697",
@@ -20239,6 +21633,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [87.5, 12.5],
         description: "Complete restoration is impossible, allowing room for theories that its entire body was once covered in a feather-like coat.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0698",
@@ -20268,6 +21664,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER],
         genderRatios: [87.5, 12.5],
         description: "This Pokémon was successfully restored from a fossil. In the past, it lived with others of its kind in cold lands where there were fewer predators.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0699",
@@ -20297,6 +21695,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER],
         genderRatios: [87.5, 12.5],
         description: "An Aurorus was found frozen solid within a glacier, just as it appeared long ago, which became quite a big event in the news.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0700",
@@ -20326,6 +21726,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "It emits a soothing aura from its ribbon-shaped organs. It wraps these appendages around quarrelers to instantly restore calm to the situation.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0701",
@@ -20355,6 +21757,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING, helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [50, 50],
         description: "Its elegant finishing moves—performed by nimbly leaping around using its wings—are polished in the forest where it was born and raised.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0702",
@@ -20384,6 +21788,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.FAIRY],
         genderRatios: [50, 50],
         description: "Dedenne emit electrical waves from the whiskers on their cheeks to communicate with each other. When low on electricity, they curl up and sleep.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0703",
@@ -20413,6 +21819,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY, helper_enum_1.EggGroup.MINERAL],
         genderRatios: [0, 0],
         description: "It's said that somewhere in the world, there's a mineral vein housing a large pack of slumbering Carbink. It's also said that this pack has a queen.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0704",
@@ -20442,6 +21850,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "Goomy hides away in the shade of trees, where it's nice and humid. If the slime coating its body dries out, the Pokémon instantly becomes lethargic.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0705",
@@ -20471,6 +21881,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "When Sliggoo senses danger, the mucus coating its entire body becomes more concentrated—it'll dissolve anything.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0706",
@@ -20500,6 +21912,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "This Pokémon is uncontrollable when enraged. It rampages on and on, lashing its tail with enough power to send a dump truck flying.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0707",
@@ -20529,6 +21943,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "In the past, noble families entrusted their vault keys to a Klefki. They passed the Klefki down through the generations, taking good care of it.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0708",
@@ -20558,6 +21974,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS, helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "After a lost child perished in the forest, their spirit possessed a tree stump, causing the spirit's rebirth as this Pokémon.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0709",
@@ -20587,6 +22005,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS, helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "People fear it due to a belief that it devours any who try to cut down trees in its forest, but to the Pokémon it shares its woods with, it's kind.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0710",
@@ -20616,6 +22036,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "The pumpkin body is inhabited by a spirit trapped in this world. As the sun sets, it becomes restless and active.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0711",
@@ -20645,6 +22067,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "Singing in eerie voices, they wander town streets on the night of the new moon. Anyone who hears their song is cursed.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0712",
@@ -20674,6 +22098,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "Bergmite protects itself by coating its body in ice formed by frigid air of −148 degrees Fahrenheit. It fights with Frigibax whenever they meet.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0713",
@@ -20703,6 +22129,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "This Pokémon uses its massive icy body to flatten anything that gets in its way. When it's floating out on the ocean, it looks exactly like drift ice.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0714",
@@ -20732,6 +22160,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "Noibat can change the frequency of its sound waves at will, and it generates ultrasonic waves of up to 200,000 hertz.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0715",
@@ -20761,6 +22191,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "In the dark, even Hydreigon are terrified of this Pokémon. But in the light, Noivern is the one that avoids battle.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0716",
@@ -20790,6 +22222,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Legends say it can share eternal life. It slept for a thousand years in the form of a tree before its revival.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0717",
@@ -20819,6 +22253,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "When this legendary Pokémon's wings and tail feathers spread wide and glow red, it absorbs the life force of living creatures.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0718",
@@ -20848,6 +22284,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "This is Zygarde's form when about half of its pieces have been assembled. It plays the role of monitoring the ecosystem.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0719",
@@ -20877,6 +22315,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "A sudden transformation of Carbink, its pink, glimmering body is said to be the loveliest sight in the whole world.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0720",
@@ -20906,6 +22346,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "In its true form, it possess a huge amount of power. Legends of its avarice tell how it once carried off an entire castle to gain the treasure hidden within.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0721",
@@ -20935,6 +22377,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "It lets out billows of steam and disappears into the dense fog. It's said to live in mountains where humans do not tread.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0722",
@@ -20964,6 +22408,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [87.5, 12.5],
         description: "At a distance, it launches its sharp feathers while flying about. If the enemy gets too close, Rowlet switches tactics and delivers vicious kicks.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0723",
@@ -20993,6 +22439,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [87.5, 12.5],
         description: "Regularly basks in sunlight to gather power—presumably due to the frigid climate. -theless, the edges of the blade quills set into its wings are keen as ever.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0724",
@@ -21022,6 +22470,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [87.5, 12.5],
         description: "In a tenth of a second, it can nock and fire an arrow quill, piercing an opponent's weak point before they notice what's happening.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0725",
@@ -21051,6 +22501,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "It spends even the smallest amount of downtime grooming its fur with its tongue. Loose fur gathers in its stomach and serves as fuel for fiery moves.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0726",
@@ -21080,6 +22532,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "In the midst of battle, the fire pouch on Torracat's neck rings like a bell and produces stronger flames than usual.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0727",
@@ -21109,6 +22563,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "Incineroar's rough and aggressive behavior is its most notable trait, but the way it helps out small Pokémon shows that it has a kind side as well.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0728",
@@ -21138,6 +22594,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "If Popplio want to create big, powerful balloons, they must be persistent. It takes daily practice for these Pokémon to develop their skills.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0729",
@@ -21167,6 +22625,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "As if dancing, it artfully dodges the attacks of its enemies. All the while, it's busy forming a bunch of balloons to overwhelm its foes.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0730",
@@ -21196,6 +22656,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "With its mouth, it makes sonic waves that sound like beautiful singing. It uses the sonic waves to control its water balloons.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0731",
@@ -21225,6 +22687,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "This Pokémon feeds on berries, whose leftover seeds become the ammunition for the attacks it fires off from its mouth.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0732",
@@ -21254,6 +22718,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "It eats berries and stores their seeds in its beak. When it encounters enemies or prey, it fires off all the seeds in a burst.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0733",
@@ -21283,6 +22749,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "When it battles, its beak heats up. The temperature can easily exceed 212 degrees Fahrenheit, causing severe burns when it hits.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0734",
@@ -21312,6 +22780,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "It spends its waking hours searching endlessly for food. When Yungoos is hungry, its ferocity gains a certain edge.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0735",
@@ -21341,6 +22811,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Gumshoos specializes in relentlessly tracking down prey. The simple-minded Skwovet doesn't seem to provide Gumshoos enough challenge.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0736",
@@ -21370,6 +22842,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Its natural enemies, like Rookidee, may flee rather than risk getting caught in its large mandibles that can snap thick tree branches.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0737",
@@ -21399,6 +22873,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "While its durable shell protects it from attacks, Charjabug strikes at enemies with jolts of electricity discharged from the tips of its jaws.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0738",
@@ -21428,6 +22904,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "It builds up electricity in its abdomen, focuses it through its jaws, and then fires the electricity off in concentrated beams.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0739",
@@ -21457,6 +22935,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER3],
         genderRatios: [50, 50],
         description: "If it loses its pincers, they'll quickly regrow. The pincers are popular ingredients in paella since their shells produce a tasty soup stock.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0740",
@@ -21486,6 +22966,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER3],
         genderRatios: [50, 50],
         description: "Though its punches are powerful, this Pokémon's movements are sluggish. It blows icy bubbles from its mouth to immobilize its opponents.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0741",
@@ -21515,6 +22997,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [25, 75],
         description: "This Pokémon is incredibly popular, possibly because its passionate dancing is a great match with the temperament of Paldean people.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0742",
@@ -21544,6 +23028,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG, helper_enum_1.EggGroup.FAIRY],
         genderRatios: [50, 50],
         description: "An opponent's aura can tell Cutiefly what that opponent's next move will be. Then Cutiefly can glide around the attack and strike back.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0743",
@@ -21573,6 +23059,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG, helper_enum_1.EggGroup.FAIRY],
         genderRatios: [50, 50],
         description: "It makes pollen puffs from pollen and nectar. The puffs' effects depend on the type of ingredients and how much of each one is used.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0744",
@@ -21602,6 +23090,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "This Pokémon is very friendly when it's young. Its disposition becomes vicious once it matures, but it never forgets the kindness of its master.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0745",
@@ -21631,6 +23121,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "With swift movements, this Pokémon gradually backs its prey into a corner. Lycanroc's fangs are always aimed toward opponents' weak spots.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0746",
@@ -21660,6 +23152,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER2],
         genderRatios: [50, 50],
         description: "When it's in trouble, its eyes moisten and begin to shine. The shining light attracts its comrades, and they stand together against their enemies.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0747",
@@ -21689,6 +23183,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1],
         genderRatios: [50, 50],
         description: "It has excellent regenerative capabilities. Legs that a Mareanie has lost have a very bitter, astringent flavor—they're not suitable as food.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0748",
@@ -21718,6 +23214,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1],
         genderRatios: [50, 50],
         description: "This Pokémon lives within a dome made by its own legs. Toxapex monitors its surroundings by sensing the flow of the tide through its spikes.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0749",
@@ -21747,6 +23245,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "This Pokémon covers itself in mud that it has regurgitated. The mud won't dry out even if it's exposed to the sun for a long time.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0750",
@@ -21776,6 +23276,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "This Pokémon has been treasured not just for its physical labor but also because it produces high-quality mud used for making pottery.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0751",
@@ -21805,6 +23307,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "It forms a water bubble at the rear of its body and then covers its head with it. Meeting another Dewpider means comparing water-bubble sizes.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0752",
@@ -21834,6 +23338,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "It launches water bubbles with its legs, drowning prey within the bubbles. This Pokémon can then take its time to savor its meal.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0753",
@@ -21863,6 +23369,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "Many Trainers give their Fomantis their own flowerpots so they can sunbathe in peace and quiet.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0754",
@@ -21892,6 +23400,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "A lot of time and effort is required to maintain the vivid colors of its petals. This Pokémon puts its Trainer's attentiveness to the test.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0755",
@@ -21921,6 +23431,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "Pokémon living in the forest eat the delicious caps on Morelull's head. The caps regrow overnight.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0756",
@@ -21950,6 +23462,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "Its flickering spores lure in prey and put them to sleep. Once this Pokémon has its prey snoozing, it drains their vitality with its fingertips.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0757",
@@ -21979,6 +23493,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [87.5, 12.5],
         description: "Only female Salandit can produce gas laden with pheromones. Males entranced by this gas will do whatever the females tell them.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0758",
@@ -22008,6 +23524,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [0, 100],
         description: "Salazzle makes its opponents light-headed with poisonous gas, then captivates them with alluring movements to turn them into loyal servants.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0759",
@@ -22037,6 +23555,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "The way it protects itself by flailing its arms may be an adorable sight, but stay well away. This is flailing that can snap thick tree trunks.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0760",
@@ -22066,6 +23586,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "The moves it uses to take down its prey would make a martial artist jealous. It tucks subdued prey under its arms to carry them to its nest.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0761",
@@ -22095,6 +23617,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS],
         genderRatios: [0, 100],
         description: "Its sweat is sweet, like syrup made from boiled-down fruit. Because of this, Bounsweet was highly valued in the past, when sweeteners were scarce.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0762",
@@ -22124,6 +23648,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS],
         genderRatios: [0, 100],
         description: "Steenee bounces energetically through forests. If the rind that peels off its body is pulverized, it can be used to treat stomach pains.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0763",
@@ -22153,6 +23679,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS],
         genderRatios: [0, 100],
         description: "This Pokémon is proud and aggressive. However, it is said that a Tsareena will instantly become calm if someone touches the crown on its calyx.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0764",
@@ -22182,6 +23710,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS],
         genderRatios: [25, 75],
         description: "Comfey picks flowers with its vine and decorates itself with them. For some reason, flowers won't wither once they're attached to a Comfey.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0765",
@@ -22211,6 +23741,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "People used to mistake Oranguru for a human when they saw it issue command after command to the other Pokémon of the forest.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0766",
@@ -22240,6 +23772,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "The boss chooses 10 members of the group to go out hunting. The hunting party will evenly split the food they find with the rest of the group.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0767",
@@ -22269,6 +23803,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG, helper_enum_1.EggGroup.WATER3],
         genderRatios: [50, 50],
         description: "It's nature's cleaner—it eats anything and everything, including garbage and rotten things. The ground near its nest is always clean.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0768",
@@ -22298,6 +23834,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG, helper_enum_1.EggGroup.WATER3],
         genderRatios: [50, 50],
         description: "They live in sunken ships or in holes in the seabed. When Golisopod and Grapploct battle, the loser becomes the winner's meal.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0769",
@@ -22327,6 +23865,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "It flings sand into the eyes of its prey and tries to close in on them while they're blinded, but since Sandygast is so slow, the prey tends to escape.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0770",
@@ -22356,6 +23896,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "The terrifying Palossand drags smaller Pokémon into its sandy body. Once its victims are trapped, it drains them of their vitality whenever it pleases.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0771",
@@ -22385,6 +23927,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1],
         genderRatios: [50, 50],
         description: "It lives in warm, shallow waters. If it encounters a foe, it will spit out its internal organs as a means to punch them.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0772",
@@ -22414,6 +23958,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Rumor has it that the theft of top-secret research notes led to a new instance of this Pokémon being created in the Galar region.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0773",
@@ -22443,6 +23989,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "A solid bond of trust between this Pokémon and its Trainer awakened the strength hidden within Silvally. It can change its type at will.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0774",
@@ -22472,6 +24020,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [0, 0],
         description: "It lives in the ozone layer, where it becomes food for stronger Pokémon. When it tries to run away, it falls to the ground.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0775",
@@ -22501,6 +24051,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Komala spends its entire life sleeping. It feeds on leaves that contain a potent poison only Komala can break down.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0776",
@@ -22530,6 +24082,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "Eating sulfur in its volcanic habitat is what causes explosive compounds to develop in its shell. Its droppings are also dangerously explosive.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0777",
@@ -22559,6 +24113,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.FAIRY],
         genderRatios: [50, 50],
         description: "With the long hairs on its back, this Pokémon takes in electricity from other electric Pokémon. It stores what it absorbs in an electric sac.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0778",
@@ -22588,6 +24144,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "Even as it struggles beneath the cloth to repair the broken neck of its disguise, Mimikyu keeps up its impersonation of Pikachu.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0779",
@@ -22617,6 +24175,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER2],
         genderRatios: [50, 50],
         description: "It grinds its teeth with great force to stimulate its brain. It fires the psychic energy created by this process from the protuberance on its head.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0780",
@@ -22646,6 +24206,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "The mountains it calls home are nearly two miles in height. On rare occasions, it descends to play with the children living in the towns below.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0781",
@@ -22675,6 +24237,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [0, 0],
         description: "Its chain-like green seaweed can stretch outward for hundreds of yards. For some reason, it gets along well with Skrelp.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0782",
@@ -22704,6 +24268,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "Jangmo-o strikes its scales to communicate with others of its kind. Its scales are actually fur that's become as hard as metal.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0783",
@@ -22733,6 +24299,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "The scales it sheds can be molded and processed to make pots and pans. They conduct heat well, so they're a popular item.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0784",
@@ -22762,6 +24330,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "It clatters its tail scales to unnerve opponents. This Pokémon will battle only those who stand steadfast in the face of this display.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0785",
@@ -22791,6 +24361,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "The lightning-wielding guardian deity of Melemele, Tapu Koko is brimming with curiosity and appears before people from time to time.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0786",
@@ -22820,6 +24392,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "It heals the wounds of people and Pokémon by sprinkling them with its sparkling scales. This guardian deity is worshiped on Akala.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0787",
@@ -22849,6 +24423,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "It makes ringing sounds with its tail to let others know where it is, avoiding unneeded conflicts. This guardian deity of Ula'ula controls plants.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0788",
@@ -22878,6 +24454,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "This guardian deity of Poni Island manipulates water. Because it lives deep within a thick fog, it came to be both feared and revered.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0789",
@@ -22907,6 +24485,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Cosmog is very curious but not very cautious, often placing itself in danger. If things start to look dicey, it teleports away.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0790",
@@ -22936,6 +24516,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "It sucks in dust from the air at an astounding rate, frantically building up energy within its core as preparation for evolution.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0791",
@@ -22965,6 +24547,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "When light radiates from its body, this Pokémon could almost appear to be the sun. It will dispel any darkness and light up the world.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0792",
@@ -22994,6 +24578,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Known as the Beast That Calls the Moon, this Pokémon lives by taking in any and all light and converting it into its own energy.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0793",
@@ -23023,6 +24609,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "It appeared in this world from an Ultra Wormhole. Nihilego appears to be a parasite that lives by feeding on people and Pokémon.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0794",
@@ -23052,6 +24640,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Although it's alien to this world and a danger here, it's apparently a common organism in the world where it normally lives.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0795",
@@ -23081,6 +24671,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Although it's alien to this world and a danger here, it's apparently a common organism in the world where it normally lives.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0796",
@@ -23110,6 +24702,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "They've been dubbed Ultra Beasts. Some of them stand unmoving, like trees, with their arms and legs stuck into the ground.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0797",
@@ -23139,6 +24733,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Although it's alien to this world and a danger here, it's apparently a common organism in the world where it normally lives.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0798",
@@ -23168,6 +24764,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Although it's alien to this world and a danger here, it's apparently a common organism in the world where it normally lives.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0799",
@@ -23197,6 +24795,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Although it's alien to this world and a danger here, it's apparently a common organism in the world where it normally lives.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0800",
@@ -23226,6 +24826,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "It survives by absorbing light. After a long time spent slumbering underground, impurities accumulated within it, causing its body to darken.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0801",
@@ -23255,6 +24857,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "It synchronizes its consciousness with others to understand their feelings. This faculty makes it useful for taking care of people.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0802",
@@ -23284,6 +24888,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "By slipping into the shadow of a martial arts master and copying their movements, this Pokémon learned the ultimate techniques.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0803",
@@ -23313,6 +24919,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "An Ultra Beast that lives in a different world, it cackles wildly as it sprays its opponents with poison from the needles on its head.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0804",
@@ -23342,6 +24950,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "One kind of Ultra Beast, it fires a glowing, venomous liquid from its needles. This liquid is also immensely adhesive.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0805",
@@ -23371,6 +24981,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "When stone walls started moving and attacking, the brute's true identity was this mysterious life-form, which brings to mind an Ultra Beast.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0806",
@@ -23400,6 +25012,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "A UB that appeared from an Ultra Wormhole, it causes explosions, then takes advantage of opponents' surprise to rob them of their vitality.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0807",
@@ -23429,6 +25043,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "It electrifies its claws and tears its opponents apart with them. Even if they dodge its attack, they'll be electrocuted by the flying sparks.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0808",
@@ -23458,6 +25074,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "It melts particles of iron and other metals found in the subsoil, so it can absorb them into its body of molten steel.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0809",
@@ -23487,6 +25105,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Centrifugal force is behind the punches of Melmetal's heavy hex-nut arms. Melmetal is said to deliver the strongest punches of all Pokémon.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0810",
@@ -23512,6 +25132,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.GRASS],
         genderRatios: [87.5, 12.5],
         description: "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0811",
@@ -23537,6 +25159,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.GRASS],
         genderRatios: [87.5, 12.5],
         description: "When it's drumming out rapid beats in battle, it gets so caught up in the rhythm that it won't even notice that it's already knocked out its opponent.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0812",
@@ -23562,6 +25186,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.GRASS],
         genderRatios: [87.5, 12.5],
         description: "The one with the best drumming techniques becomes the boss of the troop. It has a gentle disposition and values harmony among its group.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0813",
@@ -23587,6 +25213,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [87.5, 12.5],
         description: "A warm-up of running around gets fire energy coursing through this Pokémon's body. Once that happens, it's ready to fight at full power.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0814",
@@ -23612,6 +25240,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [87.5, 12.5],
         description: "It kicks berries right off the branches of trees and then juggles them with its feet, practicing its footwork.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0815",
@@ -23637,6 +25267,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [87.5, 12.5],
         description: "It's skilled at both offense and defense, and it gets pumped up when cheered on. But if it starts showboating, it could put itself in a tough spot.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0816",
@@ -23662,6 +25294,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won't be able to resist weeping.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0817",
@@ -23687,6 +25321,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "A clever combatant, this Pokémon battles using water balloons created with moisture secreted from its palms.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0818",
@@ -23712,6 +25348,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FIELD],
         genderRatios: [87.5, 12.5],
         description: "Its nictitating membranes let it pick out foes' weak points so it can precisely blast them with water that shoots from its fingertips at Mach 3.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0819",
@@ -23737,6 +25375,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "No matter how much it stuffs its belly with food, it is always anxious about getting hungry again. So, it stashes berries in its cheeks and tail.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0820",
@@ -23762,6 +25402,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "This Pokémon makes off with heaps of fallen berries by wrapping them in its tail, which is roughly twice the length of its body.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0821",
@@ -23787,6 +25429,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "The females are fussier than the males. If another creature dirties a female Rookidee's wings, it'll peck the offender relentlessly in a burning rage.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0822",
@@ -23812,6 +25456,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "It's said that the reason behind Corvisquire's high level of intelligence is the large size of its brain relative to those of other bird Pokémon.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0823",
@@ -23837,6 +25483,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "Corviknight can't serve as a taxi service in Paldea because the Pokémon's natural predators will attack it while it flies, endangering the customer.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0824",
@@ -23862,6 +25510,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Often found in gardens, this Pokémon has hairs on its body that it uses to assess its surroundings.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0825",
@@ -23887,6 +25537,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "It barely moves, but it's still alive. Hiding in its shell without food or water seems to have awakened its psychic powers.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0826",
@@ -23912,6 +25564,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "It's famous for its high level of intelligence, and the large size of its brain is proof that it also possesses immense psychic power.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0827",
@@ -23937,6 +25591,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Cunning and cautious, this Pokémon survives by stealing food from others. It erases its tracks with swipes of its tail as it makes off with its plunder.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0828",
@@ -23962,6 +25618,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "It secretly marks potential targets with a scent. By following the scent, it stalks its targets and steals from them when they least expect it.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0829",
@@ -23987,6 +25645,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "It anchors itself in the ground with its single leg, then basks in the sun. After absorbing enough sunlight, its petals spread as it blooms brilliantly.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0830",
@@ -24012,6 +25672,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS],
         genderRatios: [50, 50],
         description: "The seeds attached to its cotton fluff are full of nutrients. It spreads them on the wind so that plants and other Pokémon can benefit from them.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0831",
@@ -24037,6 +25699,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Its curly fleece is such an effective cushion that this Pokémon could fall off a cliff and stand right back up at the bottom, unharmed.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0832",
@@ -24062,6 +25726,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Weave a carpet from its springy wool, and you end up with something closer to a trampoline. You'll start to bounce the moment you set foot on it.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0833",
@@ -24087,6 +25753,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.WATER1],
         genderRatios: [50, 50],
         description: "Its large front tooth is still growing in. When the tooth itches, this Pokémon will bite another Chewtle's horn, and the two Pokémon will tussle.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0834",
@@ -24112,6 +25780,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MONSTER, helper_enum_1.EggGroup.WATER1],
         genderRatios: [50, 50],
         description: "Drednaw lurks along the shoreline. When prey come to drink water, Drednaw stretches its neck out and chomps down on them.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0835",
@@ -24137,6 +25807,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "This Pokémon is very popular as a herding dog in the Galar region. As it runs, it generates electricity from the base of its tail.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0836",
@@ -24162,6 +25834,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "This Pokémon generates electricity and channels it into its legs to keep them going strong. Boltund can run nonstop for three full days.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0837",
@@ -24187,6 +25861,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "Chunks of the surface of this Pokémon's body that have grown old and flaked off have long been used for fuel as an alternative to coal.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0838",
@@ -24212,6 +25888,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "Due to the coal tar created inside it, the heap of coal on Carkol's back never falls apart, even when the Pokémon rolls around at high speeds.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0839",
@@ -24237,6 +25915,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "It's gentle usually but fearsome when angered. With a body that burns at over 2,700 degrees Fahrenheit, it crushes foes and turns them to ash.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0840",
@@ -24262,6 +25942,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "As soon as it's born, it burrows into an apple. Not only does the apple serve as its food source, but the flavor of the fruit determines its evolution.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0841",
@@ -24287,6 +25969,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "It flutters around while seeking an opening in the opponent's guard, then attacks by spitting acidic liquid strong enough to melt metal.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0842",
@@ -24312,6 +25996,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.GRASS, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "When some Lechonk come along to lick the sweet nectar on Appletun's back, Appletun will spew sticky nectar at them to drive them away.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0843",
@@ -24337,6 +26023,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "Silicobra's large nostrils are specialized for spraying sand, so this Pokémon is not very good at telling apart different smells.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0844",
@@ -24362,6 +26050,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "The sand it spews contains sharp, pointy gravel, which is actually just sand that Sandaconda's saliva has hardened into irregular shapes.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0845",
@@ -24387,6 +26077,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FLYING],
         genderRatios: [50, 50],
         description: "This hungry Pokémon swallows Arrokuda whole. Occasionally, it makes a mistake and tries to swallow a Pokémon other than its preferred prey.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0846",
@@ -24412,6 +26104,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER2],
         genderRatios: [50, 50],
         description: "Arrokuda can swim quickly only in a straight line. The ones that become sluggish from overeating are the first to be targeted by flocks of Wattrel.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0847",
@@ -24437,6 +26131,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER2],
         genderRatios: [50, 50],
         description: "It spins its tail fins to leap from the water, then viciously bites down on Wingull flying close to the water's surface.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0848",
@@ -24462,6 +26158,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [50, 50],
         description: "It has no problem drinking dirty water. An organ inside Toxel's body filters such water into a poisonous liquid that is harmless to Toxel.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0849",
@@ -24487,6 +26185,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [50, 50],
         description: "As it scatters toxic sweat and emits electricity, a melody that sounds like it came from a guitar reverberates through the surrounding area.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0850",
@@ -24512,6 +26212,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "It wraps prey up with its heated body, cooking them in its coils. Once they're well-done, it will voraciously nibble them down to the last morsel.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0851",
@@ -24537,6 +26239,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "When it heats up, its body temperature reaches about 1,500 degrees Fahrenheit. It lashes its body like a whip and launches itself at enemies.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0852",
@@ -24562,6 +26266,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [50, 50],
         description: "It's very curious, but its means of investigating things is to try to punch them with its tentacles. The search for food is what brings it onto land.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0853",
@@ -24587,6 +26293,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [50, 50],
         description: "A body made up of nothing but muscle makes the grappling moves this Pokémon performs with its tentacles tremendously powerful.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0854",
@@ -24612,6 +26320,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL, helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [0, 0],
         description: "Some fanatics will go to great pains to prepare the perfect tea and teacup, eagerly waiting for a Sinistea to come and possess their selections.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0855",
@@ -24637,6 +26347,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL, helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [0, 0],
         description: "Apparently a Polteageist's disposition is affected by the type of tea the Pokémon came from. What teapot it inhabits makes no difference.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0856",
@@ -24662,6 +26374,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY],
         genderRatios: [0, 100],
         description: "It senses the feelings of other living creatures. Be careful not to expose it to strong emotions for too long, or it will end up exhausted.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0857",
@@ -24687,6 +26401,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY],
         genderRatios: [0, 100],
         description: "The moment this Pokémon finds someone who's emitting strong emotions, it will pummel them senseless with its braids to silence them.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0858",
@@ -24712,6 +26428,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY],
         genderRatios: [0, 100],
         description: "Hatterene knocks out those that intrude in its home forest by blasting them with a beam, then slashing with claws enhanced by psychic power.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0859",
@@ -24737,6 +26455,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY, helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [100, 0],
         description: "The reason this Pokémon causes trouble for those it feels close to is because Impidimp itself gets irritable if it can't absorb negative emotions.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0860",
@@ -24762,6 +26482,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY, helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [100, 0],
         description: "This Pokémon absorbs negative emotions and turns them into energy. It's popular with people who tend to think gloomy thoughts.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0861",
@@ -24787,6 +26509,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY, helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [100, 0],
         description: "This Pokémon has complete control over its hair. Grimmsnarl normally keeps its hair wrapped around its body to support its muscles.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0862",
@@ -24812,6 +26536,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Its voice is staggering in volume. Obstagoon has a tendency to take on a threatening posture and shout—this move is known as Obstruct.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0863",
@@ -24837,6 +26563,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "After many battles, it evolved dangerous claws that come together to form daggers when extended.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0864",
@@ -24862,6 +26590,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.WATER3],
         genderRatios: [25, 75],
         description: "Its shell is overflowing with its heightened otherworldly energy. The ectoplasm serves as protection for this Pokémon's core spirit.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0865",
@@ -24887,6 +26617,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FLYING, helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "Only Farfetch'd that have survived many battles can attain this evolution. When this Pokémon's leek withers, it will retire from combat.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0866",
@@ -24912,6 +26644,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.HUMANLIKE],
         genderRatios: [50, 50],
         description: "Its amusing movements make it very popular. It releases its psychic power from the pattern on its belly.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0867",
@@ -24937,6 +26671,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL, helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "A powerful curse was woven into an ancient painting. After absorbing the spirit of a Yamask, the painting began to move.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0868",
@@ -24962,6 +26698,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY, helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [0, 100],
         description: "They say that any patisserie visited by Milcery is guaranteed success and good fortune.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0869",
@@ -24987,6 +26725,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY, helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [0, 100],
         description: "The moment it evolved, it took on a bitter flavor. This is because of the way its cells spontaneously shifted during evolution.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0870",
@@ -25012,6 +26752,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY, helper_enum_1.EggGroup.MINERAL],
         genderRatios: [0, 0],
         description: "The six of them work together as one Pokémon. Teamwork is also their battle strategy, and they constantly change their formation as they fight.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0871",
@@ -25037,6 +26779,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.AMORPHOUS],
         genderRatios: [50, 50],
         description: "This Pokémon is so timid that even brushing against seaweed will make it discharge electricity in surprise. Its lips do not conduct electricity.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0872",
@@ -25062,6 +26806,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "Within its internal organs, Snom amplifies the frigid air it gets from eating snow and then uses this amplified air to create icicle-like spikes.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0873",
@@ -25087,6 +26833,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.BUG],
         genderRatios: [50, 50],
         description: "It shows no mercy to any who desecrate fields and mountains. It will fly around on its icy wings, causing a blizzard to chase offenders away.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0874",
@@ -25112,6 +26860,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "The elemental composition of the rocks that form its body were found to match the bedrock of a land far away from this Pokémon's habitat.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0875",
@@ -25137,6 +26887,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.WATER1, helper_enum_1.EggGroup.FIELD],
         genderRatios: [50, 50],
         description: "If you lick the ice covering its face, you'll find it has a faintly salty taste. This species rode here on ocean currents from a cold, faraway land.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0876",
@@ -25162,6 +26914,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FAIRY],
         genderRatios: [50, 50],
         description: "This Pokémon never leaves its Trainer's side. It predicts their actions with its psychic power and takes care of their day-to-day needs.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0877",
@@ -25187,6 +26941,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.FAIRY],
         genderRatios: [50, 50],
         description: "It carries electrically roasted seeds with it as if they're precious treasures. No matter how much it eats, it always gets hungry again in short order.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0878",
@@ -25212,6 +26968,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "Cufant can lift loads weighing five tons. In the mornings, it heads into caves with its herd, in search of the ore on which these Pokémon feed.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0879",
@@ -25237,6 +26995,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.FIELD, helper_enum_1.EggGroup.MINERAL],
         genderRatios: [50, 50],
         description: "Copperajah are prideful, cantankerous Pokémon. Specimens with vibrant green skin command the respect of others of their kind.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0880",
@@ -25262,6 +27022,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "In ancient times, it was unbeatable thanks to its powerful lower body, but it went extinct anyway after it depleted all its plant-based food sources.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0881",
@@ -25287,6 +27049,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "This Pokémon lived on prehistoric seashores and was able to preserve food with the ice on its body. It went extinct because it moved so slowly.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0882",
@@ -25312,6 +27076,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Its mighty legs are capable of running at speeds exceeding 40 mph, but this Pokémon can't breathe unless it's underwater.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0883",
@@ -25337,6 +27103,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Though it's able to capture prey by freezing its surroundings, it has trouble eating the prey afterward because its mouth is on top of its head.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0884",
@@ -25362,6 +27130,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.MINERAL, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "The special metal that composes its body is very light, so this Pokémon has considerable agility. It lives in caves because it dislikes the rain.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0885",
@@ -25387,6 +27157,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "It has a habit of biting at Clauncher even though it doesn't feed on them. This is said to be vestigial behavior from when Dreepy was alive.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0886",
@@ -25412,6 +27184,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "This Pokémon flies around at over 120 miles per hour. If a Drakloak is defeated in a battle, its Dreepy will wander off without a second thought.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0887",
@@ -25437,6 +27211,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.AMORPHOUS, helper_enum_1.EggGroup.DRAGON],
         genderRatios: [50, 50],
         description: "Dragapult can make its whole body transparent by clearing its mind and focusing. Even the Dreepy in Dragapult's horns become invisible.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0888",
@@ -25462,6 +27238,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "This Pokémon has slumbered for many years. Some say it's Zamazenta's elder sister—others say the two Pokémon are rivals.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0889",
@@ -25487,6 +27265,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "This Pokémon slept for aeons while in the form of a statue. It was asleep for so long, people forgot that it ever existed.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0890",
@@ -25512,6 +27292,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "It was inside a meteorite that fell 20,000 years ago. There seems to be a connection between this Pokémon and the Dynamax phenomenon.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0891",
@@ -25537,6 +27319,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [87.5, 12.5],
         description: "If Kubfu pulls the long white hair on its head, its fighting spirit heightens and power wells up from the depths of its belly.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0892",
@@ -25562,6 +27346,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [87.5, 12.5],
         description: "This form of Urshifu is a strong believer in the one-hit KO. Its strategy is to leap in close to foes and land a devastating blow with a hardened fist.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0893",
@@ -25587,6 +27373,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Within dense forests, this Pokémon lives in a pack with others of its kind. It's incredibly aggressive, and the other Pokémon of the forest fear it.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0894",
@@ -25612,6 +27400,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "This Pokémon is a cluster of electrical energy. It's said that removing the rings on Regieleki's body will unleash the Pokémon's latent power.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0895",
@@ -25637,6 +27427,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "An academic theory proposes that Regidrago's arms were once the head of an ancient dragon Pokémon. The theory remains unproven.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0896",
@@ -25662,6 +27454,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Glastrier emits intense cold from its hooves. It's also a belligerent Pokémon—anything it wants, it takes by force.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0897",
@@ -25687,6 +27481,8 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "It probes its surroundings with all its senses save one—it doesn't use its sense of sight. Spectrier's kicks are said to separate soul from body.",
+        height: 0,
+        weight: 0
     },
     {
         id: "0898",
@@ -25712,5 +27508,7 @@ exports.Pokemon = [
         eggGroups: [helper_enum_1.EggGroup.UNDISCOVERED],
         genderRatios: [0, 0],
         description: "Calyrex is known in legend as a king that ruled over Galar in ancient times. It has the power to cause hearts to mend and plants to spring forth.",
+        height: 0,
+        weight: 0
     },
 ];

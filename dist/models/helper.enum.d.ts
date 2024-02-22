@@ -75,5 +75,13 @@ export declare enum PokeBallFlag {
     BUG = "BUG",
     WATER = "WATER",
     POKEDEX = "POKEDEX",
-    TURN = "TURN"
+    TURN = "TURN",
+    SLEEP = "SLEEP",
+    BOOSTED = "BOOSTED",
+    ORIGIN = "ORIGIN"
+}
+export declare enum BagCategory {
+    BALLS = "POKEBALL",
+    BERRIES = "BERRY",
+    MACHINES = "MACHINE"
 }

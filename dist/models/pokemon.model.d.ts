@@ -4,6 +4,8 @@ export interface PokemonModel {
     name: string;
     region: string;
     types: PokemonType[];
+    height: number;
+    weight: number;
     abilities: {
         normal: string[];
         hidden?: string;

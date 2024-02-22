@@ -1,8 +1,14 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getTMsPerPage = exports.getCustomTMsPerPage = exports.getAllMachine = exports.findMachineByRecipe = exports.findMachineByMoves = exports.findMachineByPrice = exports.findMachineByID = exports.getAllTypes = exports.findTypeByName = exports.getAllNature = exports.findNatureByDisliking = exports.findNatureByLiking = exports.findNatureByDecreaseStat = exports.findNatureByIncreaseStat = exports.findNatureByName = exports.getCustomPokemonPerPage = exports.getThirtyPokemon = exports.getAllPokemon = exports.findPokemonByTypes = exports.findPokemonByType = exports.findPokemonByRegion = exports.findPokemonByNormalAbility = exports.findPokemonByName = exports.findPokemonByHiddenAbility = exports.findPokemonByGenderRatio = exports.findPokemonByEggGroup = exports.findPokemonByBaseStat = exports.findPokemonByAbility = exports.findPokemonById = exports.sayHello = void 0;
+exports.getTMsPerPage = exports.getCustomTMsPerPage = exports.getAllMachine = exports.findMachineByRecipe = exports.findMachineByMoves = exports.findMachineByPrice = exports.findMachineByID = exports.getAllTypes = exports.findTypeByName = exports.getAllNature = exports.findNatureByDisliking = exports.findNatureByLiking = exports.findNatureByDecreaseStat = exports.findNatureByIncreaseStat = exports.findNatureByName = exports.getCustomPokemonPerPage = exports.getThirtyPokemon = exports.getAllPokemon = exports.findPokemonByTypes = exports.findPokemonByType = exports.findPokemonByRegion = exports.findPokemonByNormalAbility = exports.findPokemonByName = exports.findPokemonByHiddenAbility = exports.findPokemonByGenderRatio = exports.findPokemonByEggGroup = exports.findPokemonByBaseStat = exports.findPokemonByAbility = exports.findPokemonById = exports.PokeBallFlag = exports.EggGroup = exports.PokemonType = exports.Flavor = exports.Stat = exports.sayHello = void 0;
 var hello_world_1 = require("./hello-world");
 Object.defineProperty(exports, "sayHello", { enumerable: true, get: function () { return hello_world_1.sayHello; } });
+var helper_enum_1 = require("./models/helper.enum");
+Object.defineProperty(exports, "Stat", { enumerable: true, get: function () { return helper_enum_1.Stat; } });
+Object.defineProperty(exports, "Flavor", { enumerable: true, get: function () { return helper_enum_1.Flavor; } });
+Object.defineProperty(exports, "PokemonType", { enumerable: true, get: function () { return helper_enum_1.PokemonType; } });
+Object.defineProperty(exports, "EggGroup", { enumerable: true, get: function () { return helper_enum_1.EggGroup; } });
+Object.defineProperty(exports, "PokeBallFlag", { enumerable: true, get: function () { return helper_enum_1.PokeBallFlag; } });
 var pokemon_core_1 = require("./core/pokemon.core");
 Object.defineProperty(exports, "findPokemonById", { enumerable: true, get: function () { return pokemon_core_1.findPokemonById; } });
 Object.defineProperty(exports, "findPokemonByAbility", { enumerable: true, get: function () { return pokemon_core_1.findPokemonByAbility; } });

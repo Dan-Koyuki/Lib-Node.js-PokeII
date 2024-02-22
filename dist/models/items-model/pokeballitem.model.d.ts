@@ -1,4 +1,4 @@
-import { PokeBallFlag } from "../helper.enum";
+import { BagCategory, PokeBallFlag } from "../helper.enum";
 export interface PokeBallModel {
     id: string;
     name: string;
@@ -11,6 +11,7 @@ export interface PokeBallModel {
     };
     description: string;
     notes?: string;
+    category: BagCategory.BALLS;
 }
 export interface ConditionPokeBall {
     conditionFlag: PokeBallFlag;
