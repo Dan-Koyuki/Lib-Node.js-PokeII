@@ -1,4 +1,4 @@
-import { EggGroup, PokemonType } from "../helper.enum";
+import { EggGroup, PokemonCategory, PokemonType } from "../helper.enum";
 export interface PokemonModel {
     id: string;
     name: string;
@@ -30,5 +30,6 @@ export interface PokemonModel {
     eggGroups: EggGroup[];
     genderRatios: number[];
     description: string;
+    category?: PokemonCategory;
 }
 export declare const MissingNo: PokemonModel;

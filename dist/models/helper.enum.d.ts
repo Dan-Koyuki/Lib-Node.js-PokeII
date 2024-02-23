@@ -4,6 +4,8 @@ export declare enum Stat {
     SPA = "spa",
     SPD = "spd",
     SPEED = "speed",
+    ACC = "accuracy",
+    CRIT = "critical",
     NONE = "none"
 }
 export declare enum Flavor {
@@ -53,6 +55,11 @@ export declare enum EggGroup {
     UNDISCOVERED = "No Eggs Discovered",
     UNKNOWN = "Gender Unknown"
 }
+export declare enum PokemonCategory {
+    LEGEND = "Legendary",
+    MTYH = "Mythical",
+    PSEUDO = "Pseudo Legendary"
+}
 export declare enum PokeBallFlag {
     UB = "ULTRA BEAST",
     SAFARI = "SAFARI",
@@ -83,5 +90,6 @@ export declare enum PokeBallFlag {
 export declare enum BagCategory {
     BALLS = "POKEBALL",
     BERRIES = "BERRY",
-    MACHINES = "MACHINE"
+    MACHINES = "MACHINE",
+    BATTLEITEM = "BATTLE ITEM"
 }

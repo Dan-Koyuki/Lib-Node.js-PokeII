@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getAllPokeBall = exports.findPokeBallByName = exports.getTMsPerPage = exports.getCustomTMsPerPage = exports.getAllMachine = exports.findMachineByRecipe = exports.findMachineByMoves = exports.findMachineByPrice = exports.findMachineByID = exports.getAllTypes = exports.findTypeByName = exports.getAllNature = exports.findNatureByDisliking = exports.findNatureByLiking = exports.findNatureByDecreaseStat = exports.findNatureByIncreaseStat = exports.findNatureByName = exports.getCustomPokemonPerPage = exports.getThirtyPokemon = exports.getAllPokemon = exports.findPokemonByTypes = exports.findPokemonByType = exports.findPokemonByRegion = exports.findPokemonByNormalAbility = exports.findPokemonByName = exports.findPokemonByHiddenAbility = exports.findPokemonByGenderRatio = exports.findPokemonByEggGroup = exports.findPokemonByBaseStat = exports.findPokemonByAbility = exports.findPokemonById = exports.BagCategory = exports.PokeBallFlag = exports.EggGroup = exports.PokemonType = exports.Flavor = exports.Stat = exports.sayHello = void 0;
+exports.getAllBattleItem = exports.findBattleItemByName = exports.getAllPokeBall = exports.findPokeBallByName = exports.getTMsPerPage = exports.getCustomTMsPerPage = exports.getAllMachine = exports.findMachineByRecipe = exports.findMachineByMoves = exports.findMachineByPrice = exports.findMachineByID = exports.getAllTypes = exports.findTypeByName = exports.getAllNature = exports.findNatureByDisliking = exports.findNatureByLiking = exports.findNatureByDecreaseStat = exports.findNatureByIncreaseStat = exports.findNatureByName = exports.getCustomPokemonPerPage = exports.getThirtyPokemon = exports.getAllPokemon = exports.findPokemonByTypes = exports.findPokemonByType = exports.findPokemonByRegion = exports.findPokemonByNormalAbility = exports.findPokemonByName = exports.findPokemonByHiddenAbility = exports.findPokemonByGenderRatio = exports.findPokemonByEggGroup = exports.findPokemonByCategory = exports.findPokemonByBaseStat = exports.findPokemonByAbility = exports.findPokemonById = exports.BagCategory = exports.PokeBallFlag = exports.EggGroup = exports.PokemonType = exports.Flavor = exports.Stat = exports.sayHello = void 0;
 var hello_world_1 = require("./hello-world");
 Object.defineProperty(exports, "sayHello", { enumerable: true, get: function () { return hello_world_1.sayHello; } });
 var helper_enum_1 = require("./models/helper.enum");
@@ -14,6 +14,7 @@ var pokemon_core_1 = require("./core/pokemon.core");
 Object.defineProperty(exports, "findPokemonById", { enumerable: true, get: function () { return pokemon_core_1.findPokemonById; } });
 Object.defineProperty(exports, "findPokemonByAbility", { enumerable: true, get: function () { return pokemon_core_1.findPokemonByAbility; } });
 Object.defineProperty(exports, "findPokemonByBaseStat", { enumerable: true, get: function () { return pokemon_core_1.findPokemonByBaseStat; } });
+Object.defineProperty(exports, "findPokemonByCategory", { enumerable: true, get: function () { return pokemon_core_1.findPokemonByCategory; } });
 Object.defineProperty(exports, "findPokemonByEggGroup", { enumerable: true, get: function () { return pokemon_core_1.findPokemonByEggGroup; } });
 Object.defineProperty(exports, "findPokemonByGenderRatio", { enumerable: true, get: function () { return pokemon_core_1.findPokemonByGenderRatio; } });
 Object.defineProperty(exports, "findPokemonByHiddenAbility", { enumerable: true, get: function () { return pokemon_core_1.findPokemonByHiddenAbility; } });
@@ -46,3 +47,6 @@ Object.defineProperty(exports, "getTMsPerPage", { enumerable: true, get: functio
 var pokebalitem_core_1 = require("./core/items-core/pokebalitem.core");
 Object.defineProperty(exports, "findPokeBallByName", { enumerable: true, get: function () { return pokebalitem_core_1.findPokeBallByName; } });
 Object.defineProperty(exports, "getAllPokeBall", { enumerable: true, get: function () { return pokebalitem_core_1.getAllPokeBall; } });
+var battleitem_core_1 = require("./core/items-core/battleitem.core");
+Object.defineProperty(exports, "findBattleItemByName", { enumerable: true, get: function () { return battleitem_core_1.findBattleItemByName; } });
+Object.defineProperty(exports, "getAllBattleItem", { enumerable: true, get: function () { return battleitem_core_1.getAllBattleItem; } });

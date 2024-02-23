@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.BagCategory = exports.PokeBallFlag = exports.EggGroup = exports.PokemonType = exports.Flavor = exports.Stat = void 0;
+exports.BagCategory = exports.PokeBallFlag = exports.PokemonCategory = exports.EggGroup = exports.PokemonType = exports.Flavor = exports.Stat = void 0;
 var Stat;
 (function (Stat) {
     Stat["ATK"] = "atk";
@@ -8,6 +8,8 @@ var Stat;
     Stat["SPA"] = "spa";
     Stat["SPD"] = "spd";
     Stat["SPEED"] = "speed";
+    Stat["ACC"] = "accuracy";
+    Stat["CRIT"] = "critical";
     Stat["NONE"] = "none";
 })(Stat || (exports.Stat = Stat = {}));
 var Flavor;
@@ -60,6 +62,12 @@ var EggGroup;
     EggGroup["UNDISCOVERED"] = "No Eggs Discovered";
     EggGroup["UNKNOWN"] = "Gender Unknown";
 })(EggGroup || (exports.EggGroup = EggGroup = {}));
+var PokemonCategory;
+(function (PokemonCategory) {
+    PokemonCategory["LEGEND"] = "Legendary";
+    PokemonCategory["MTYH"] = "Mythical";
+    PokemonCategory["PSEUDO"] = "Pseudo Legendary";
+})(PokemonCategory || (exports.PokemonCategory = PokemonCategory = {}));
 var PokeBallFlag;
 (function (PokeBallFlag) {
     PokeBallFlag["UB"] = "ULTRA BEAST";
@@ -93,4 +101,5 @@ var BagCategory;
     BagCategory["BALLS"] = "POKEBALL";
     BagCategory["BERRIES"] = "BERRY";
     BagCategory["MACHINES"] = "MACHINE";
+    BagCategory["BATTLEITEM"] = "BATTLE ITEM";
 })(BagCategory || (exports.BagCategory = BagCategory = {}));

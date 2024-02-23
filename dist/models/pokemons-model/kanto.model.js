@@ -4466,6 +4466,7 @@ exports.KantoPokemon = [
         description: "Articuno is a legendary bird Pokémon that can control ice. The flapping of its wings chills the air. As a result, it is said that when this Pokémon flies, snow will fall.",
         height: 1.7,
         weight: 122.1,
+        category: helper_enum_1.PokemonCategory.LEGEND,
     },
     {
         id: "0145",
@@ -4497,6 +4498,7 @@ exports.KantoPokemon = [
         description: "Zapdos is a legendary bird Pokémon that has the ability to control electricity. It usually lives in thunderclouds. The Pokémon gains power if it is stricken by lightning bolts.",
         height: 1.6,
         weight: 116,
+        category: helper_enum_1.PokemonCategory.LEGEND,
     },
     {
         id: "0146",
@@ -4528,6 +4530,7 @@ exports.KantoPokemon = [
         description: "Moltres is a legendary bird Pokémon that has the ability to control fire. If this Pokémon is injured, it is said to dip its body in the molten magma of a volcano to burn and heal itself.",
         height: 2,
         weight: 132.3,
+        category: helper_enum_1.PokemonCategory.LEGEND,
     },
     {
         id: "0147",
@@ -4559,6 +4562,7 @@ exports.KantoPokemon = [
         description: "Dratini continually molts and sloughs off its old skin. It does so because the life energy within its body steadily builds to reach uncontrollable levels.",
         height: 1.8,
         weight: 7.3,
+        category: helper_enum_1.PokemonCategory.PSEUDO,
     },
     {
         id: "0148",
@@ -4590,6 +4594,7 @@ exports.KantoPokemon = [
         description: "Dragonair stores an enormous amount of energy inside its body. It is said to alter weather conditions in its vicinity by discharging energy from the crystals on its neck and tail.",
         height: 4,
         weight: 36.4,
+        category: helper_enum_1.PokemonCategory.PSEUDO,
     },
     {
         id: "0149",
@@ -4621,6 +4626,7 @@ exports.KantoPokemon = [
         description: "Dragonite is capable of circling the globe in just 16 hours. It is a kindhearted Pokémon that leads lost and foundering ships in a storm to the safety of land.",
         height: 2.2,
         weight: 463,
+        category: helper_enum_1.PokemonCategory.PSEUDO,
     },
     {
         id: "0150",
@@ -4652,6 +4658,7 @@ exports.KantoPokemon = [
         description: "Mewtwo is a Pokémon that was created by genetic manipulation. However, even though the scientific power of humans created this Pokémon's body, they failed to endow Mewtwo with a compassionate heart.",
         height: 2,
         weight: 269,
+        category: helper_enum_1.PokemonCategory.LEGEND,
     },
     {
         id: "0151",
@@ -4683,5 +4690,6 @@ exports.KantoPokemon = [
         description: "Mew is said to possess the genetic composition of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.",
         height: 0.4,
         weight: 8.8,
+        category: helper_enum_1.PokemonCategory.MTYH,
     },
 ];

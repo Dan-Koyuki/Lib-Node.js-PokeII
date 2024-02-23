@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getCustomPokemonPerPage = exports.getThirtyPokemon = exports.getAllPokemon = exports.findPokemonByGenderRatio = exports.findPokemonByEggGroup = exports.findPokemonByBaseStat = exports.findPokemonByNormalAbility = exports.findPokemonByHiddenAbility = exports.findPokemonByAbility = exports.findPokemonByTypes = exports.findPokemonByType = exports.findPokemonByRegion = exports.findPokemonByName = exports.findPokemonById = void 0;
+exports.getCustomPokemonPerPage = exports.getThirtyPokemon = exports.getAllPokemon = exports.findPokemonByCategory = exports.findPokemonByGenderRatio = exports.findPokemonByEggGroup = exports.findPokemonByBaseStat = exports.findPokemonByNormalAbility = exports.findPokemonByHiddenAbility = exports.findPokemonByAbility = exports.findPokemonByTypes = exports.findPokemonByType = exports.findPokemonByRegion = exports.findPokemonByName = exports.findPokemonById = void 0;
 const alola_model_1 = require("../models/pokemons-model/alola.model");
 const galar_model_1 = require("../models/pokemons-model/galar.model");
 const hisui_model_1 = require("../models/pokemons-model/hisui.model");
@@ -344,6 +344,23 @@ const findPokemonByGenderRatio = (ratio, gender) => {
     return res;
 };
 exports.findPokemonByGenderRatio = findPokemonByGenderRatio;
+/**
+ *
+ * @param {string} category - catgeory of the Pokemon (Pseudo Legendary, Legendary, Mythical)
+ * @returns - Array that include all corresponding pokemon;
+ */
+const findPokemonByCategory = (category) => {
+    const valid = ["Legendary", "Pseudo Legendary", "Mythical"];
+    if (!valid.includes((0, helper_tools_1.capitalize)(category))) {
+        throw new Error("No such Pokemon Category!");
+    }
+    if (typeof category !== 'string') {
+        throw new Error("Invalid Format!");
+    }
+    const res = Pokemon.filter((pokemon) => pokemon.category === (0, helper_tools_1.capitalize)(category));
+    return res;
+};
+exports.findPokemonByCategory = findPokemonByCategory;
 /**
  * @returns - all pokemon object you can have.. careful there are more or less around 890 object. big object in fact. use the page one if you worried..
  */

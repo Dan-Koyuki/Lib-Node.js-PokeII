@@ -10,14 +10,14 @@
 - **Items**: Search for Items. Current Items Available:
   - **TM (Technical Machine)**
   - **PokeBalls**
+  - **Battle Items**
   ### To Be Added:
   - Items (separate file):
-    - Berry
-    - Story Item
-    - Held Item
-    - Evolution Item
-    - Misc
-    - Key
+    - Berries
+    - Keys
+    - TM Ingredients
+    - Items
+    - Medicines
   - Moves
   - Learnset (separate file):
     - Level Up

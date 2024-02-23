@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.TMError = exports.PokeballError = void 0;
+exports.BattleItemError = exports.TMError = exports.PokeballError = void 0;
 const helper_enum_1 = require("../helper.enum");
 exports.PokeballError = {
     id: "000",
@@ -14,6 +14,7 @@ exports.PokeballError = {
     description: "Always Failed.",
     notes: "This is an Error Flag.",
     category: helper_enum_1.BagCategory.BALLS,
+    held: true
 };
 exports.TMError = {
     id: "000",
@@ -23,4 +24,18 @@ exports.TMError = {
     price: 0,
     recipe: ["Arceus Ring"],
     category: helper_enum_1.BagCategory.MACHINES,
+    held: false
+};
+exports.BattleItemError = {
+    id: "00",
+    name: "X None",
+    description: "An item that sharply reduces All stat of a Pokémon in battle. This effect disappears if the Pokémon leaves the battle.",
+    price: 0,
+    sell_price: 0,
+    category: helper_enum_1.BagCategory.BATTLEITEM,
+    held: true,
+    effect: {
+        statFlag: helper_enum_1.Stat.NONE,
+        multiplier: 0,
+    }
 };

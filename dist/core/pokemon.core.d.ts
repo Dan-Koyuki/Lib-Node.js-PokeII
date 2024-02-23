@@ -68,6 +68,12 @@ export declare const findPokemonByEggGroup: (eggGroup: string) => PokemonModel[]
  */
 export declare const findPokemonByGenderRatio: (ratio: number, gender: string) => PokemonModel[];
 /**
+ *
+ * @param {string} category - catgeory of the Pokemon (Pseudo Legendary, Legendary, Mythical)
+ * @returns - Array that include all corresponding pokemon;
+ */
+export declare const findPokemonByCategory: (category: string) => PokemonModel[];
+/**
  * @returns - all pokemon object you can have.. careful there are more or less around 890 object. big object in fact. use the page one if you worried..
  */
 export declare const getAllPokemon: () => PokemonModel[];
