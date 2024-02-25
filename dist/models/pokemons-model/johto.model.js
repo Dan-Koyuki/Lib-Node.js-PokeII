@@ -3110,6 +3110,6 @@ exports.JohtoPokemon = [
         description: "This Pokémon came from the future by crossing over time. It is thought that so long as Celebi appears, a bright and shining future awaits us.",
         height: 0.6,
         weight: 11,
-        category: helper_enum_1.PokemonCategory.MTYH,
+        category: helper_enum_1.PokemonCategory.MYTH,
     },
 ];

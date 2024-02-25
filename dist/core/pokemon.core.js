@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getCustomPokemonPerPage = exports.getThirtyPokemon = exports.getAllPokemon = exports.findPokemonByCategory = exports.findPokemonByGenderRatio = exports.findPokemonByEggGroup = exports.findPokemonByBaseStat = exports.findPokemonByNormalAbility = exports.findPokemonByHiddenAbility = exports.findPokemonByAbility = exports.findPokemonByTypes = exports.findPokemonByType = exports.findPokemonByRegion = exports.findPokemonByName = exports.findPokemonById = void 0;
+exports.sortPokemonByName = exports.sortPokemonByHeight = exports.sortPokemonByWeight = exports.getCustomPokemonPerPage = exports.getThirtyPokemon = exports.getAllPokemon = exports.findPokemonByCategory = exports.findPokemonByGenderRatio = exports.findPokemonByEggGroup = exports.findPokemonByBaseStat = exports.findPokemonByNormalAbility = exports.findPokemonByHiddenAbility = exports.findPokemonByAbility = exports.findPokemonByTypes = exports.findPokemonByType = exports.findPokemonByRegion = exports.findPokemonByName = exports.findPokemonById = void 0;
 const alola_model_1 = require("../models/pokemons-model/alola.model");
 const galar_model_1 = require("../models/pokemons-model/galar.model");
 const hisui_model_1 = require("../models/pokemons-model/hisui.model");
@@ -49,16 +49,16 @@ const findPokemonByName = (name) => {
         throw new Error("Invalid Pokemon Name. Please Provide a correct Pokemon Name.");
     }
     const req = (0, helper_tools_1.capitalize)(name);
-    const res = kanto_model_1.KantoPokemon.find((pokemon) => (pokemon.name === req)) ||
-        johto_model_1.JohtoPokemon.find((pokemon) => (pokemon.name === req)) ||
-        hoenn_model_1.HoennPokemon.find((pokemon) => (pokemon.name === req)) ||
-        sinnoh_model_1.SinnohPokemon.find((pokemon) => (pokemon.name === req)) ||
-        unova_model_1.UnovaPokemon.find((pokemon) => (pokemon.name === req)) ||
-        kalos_model_1.KalosPokemon.find((pokemon) => (pokemon.name === req)) ||
-        alola_model_1.AlolaPokemon.find((pokemon) => (pokemon.name === req)) ||
-        galar_model_1.GalarPokemon.find((pokemon) => (pokemon.name === req)) ||
-        hisui_model_1.HisuiPokemon.find((pokemon) => (pokemon.name === req)) ||
-        paldea_model_1.PaldeaPokemon.find((pokemon) => (pokemon.name === req)) ||
+    const res = kanto_model_1.KantoPokemon.find((pokemon) => pokemon.name === req) ||
+        johto_model_1.JohtoPokemon.find((pokemon) => pokemon.name === req) ||
+        hoenn_model_1.HoennPokemon.find((pokemon) => pokemon.name === req) ||
+        sinnoh_model_1.SinnohPokemon.find((pokemon) => pokemon.name === req) ||
+        unova_model_1.UnovaPokemon.find((pokemon) => pokemon.name === req) ||
+        kalos_model_1.KalosPokemon.find((pokemon) => pokemon.name === req) ||
+        alola_model_1.AlolaPokemon.find((pokemon) => pokemon.name === req) ||
+        galar_model_1.GalarPokemon.find((pokemon) => pokemon.name === req) ||
+        hisui_model_1.HisuiPokemon.find((pokemon) => pokemon.name === req) ||
+        paldea_model_1.PaldeaPokemon.find((pokemon) => pokemon.name === req) ||
         pokemons_model_1.MissingNo;
     if (res.id === "0000") {
         throw new Error("MissingNo!");
@@ -354,7 +354,7 @@ const findPokemonByCategory = (category) => {
     if (!valid.includes((0, helper_tools_1.capitalize)(category))) {
         throw new Error("No such Pokemon Category!");
     }
-    if (typeof category !== 'string') {
+    if (typeof category !== "string") {
         throw new Error("Invalid Format!");
     }
     const res = Pokemon.filter((pokemon) => pokemon.category === (0, helper_tools_1.capitalize)(category));
@@ -392,6 +392,59 @@ const getCustomPokemonPerPage = (pageNumber, itemsPerPage) => {
     return Pokemon.slice(startIndex, endIndex);
 };
 exports.getCustomPokemonPerPage = getCustomPokemonPerPage;
+const sortPokemonByWeight = (order) => {
+    if (typeof order !== "string") {
+        throw new Error("Invalid Order Format!");
+    }
+    if (order.toLowerCase() !== 'ascending' && order.toLowerCase() !== "descending") {
+        throw new Error("Invalid Order Format!");
+    }
+    let OrderedPokemon = [];
+    if (order.toLowerCase() === "ascending") {
+        OrderedPokemon = Pokemon.sort((poke1, poke2) => poke1.weight - poke2.weight);
+    }
+    else if (order.toLowerCase() === "descending") {
+        OrderedPokemon = Pokemon.sort((poke1, poke2) => poke2.weight - poke1.weight);
+    }
+    return OrderedPokemon;
+};
+exports.sortPokemonByWeight = sortPokemonByWeight;
+const sortPokemonByHeight = (order) => {
+    if (typeof order !== "string") {
+        throw new Error("Invalid Order Format!");
+    }
+    if (order.toLowerCase() !== "ascending" &&
+        order.toLowerCase() !== "descending") {
+        throw new Error("Invalid Order Format!");
+    }
+    let OrderedPokemon = [];
+    if (order.toLowerCase() === "ascending") {
+        OrderedPokemon = Pokemon.sort((poke1, poke2) => poke1.height - poke2.height);
+    }
+    else if (order.toLowerCase() === "descending") {
+        OrderedPokemon = Pokemon.sort((poke1, poke2) => poke2.height - poke1.height);
+    }
+    return OrderedPokemon;
+};
+exports.sortPokemonByHeight = sortPokemonByHeight;
+const sortPokemonByName = (order) => {
+    if (typeof order !== "string") {
+        throw new Error("Invalid Order Format!");
+    }
+    if (order.toLowerCase() !== "ascending" &&
+        order.toLowerCase() !== "descending") {
+        throw new Error("Invalid Order Format!");
+    }
+    let orderedPokemon = [];
+    if (order.toLowerCase() === "ascending") {
+        orderedPokemon = Pokemon.sort((poke1, poke2) => poke1.name.localeCompare(poke2.name));
+    }
+    else if (order.toLowerCase() === "descending") {
+        orderedPokemon = Pokemon.sort((poke1, poke2) => poke2.name.localeCompare(poke1.name));
+    }
+    return orderedPokemon;
+};
+exports.sortPokemonByName = sortPokemonByName;
 /**
  * todo - Create Advance Filter (Filter after Filter);
  * @param {PokemonModel[]} - Array of Filtered Pokemon;

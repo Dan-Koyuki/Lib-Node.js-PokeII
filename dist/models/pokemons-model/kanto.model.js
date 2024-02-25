@@ -4690,6 +4690,6 @@ exports.KantoPokemon = [
         description: "Mew is said to possess the genetic composition of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.",
         height: 0.4,
         weight: 8.8,
-        category: helper_enum_1.PokemonCategory.MTYH,
+        category: helper_enum_1.PokemonCategory.MYTH,
     },
 ];

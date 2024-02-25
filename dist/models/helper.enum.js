@@ -65,7 +65,7 @@ var EggGroup;
 var PokemonCategory;
 (function (PokemonCategory) {
     PokemonCategory["LEGEND"] = "Legendary";
-    PokemonCategory["MTYH"] = "Mythical";
+    PokemonCategory["MYTH"] = "Mythical";
     PokemonCategory["PSEUDO"] = "Pseudo Legendary";
 })(PokemonCategory || (exports.PokemonCategory = PokemonCategory = {}));
 var PokeBallFlag;

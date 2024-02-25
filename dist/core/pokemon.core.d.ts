@@ -85,6 +85,9 @@ export declare const getThirtyPokemon: (pagesNumber: number) => PokemonModel[];
  * @returns - An array of PokemonModel objects based on the specified page and items per page.
  */
 export declare const getCustomPokemonPerPage: (pageNumber: number, itemsPerPage: number) => PokemonModel[];
+export declare const sortPokemonByWeight: (order: string) => PokemonModel[];
+export declare const sortPokemonByHeight: (order: string) => PokemonModel[];
+export declare const sortPokemonByName: (order: string) => PokemonModel[];
 /**
  * todo - Create Advance Filter (Filter after Filter);
  * @param {PokemonModel[]} - Array of Filtered Pokemon;

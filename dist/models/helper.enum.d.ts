@@ -57,7 +57,7 @@ export declare enum EggGroup {
 }
 export declare enum PokemonCategory {
     LEGEND = "Legendary",
-    MTYH = "Mythical",
+    MYTH = "Mythical",
     PSEUDO = "Pseudo Legendary"
 }
 export declare enum PokeBallFlag {
