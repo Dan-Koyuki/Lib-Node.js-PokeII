@@ -3,6 +3,13 @@
 
   Written in TypeScript make it flexible for both TypeScript and JavaScript Project.
 
+## Change-Logs
+  - 1.0.6
+    - TM Ingredient Items added
+    - add Sinnoh Pokemon height & weight
+    - add Moves Model Prototype
+    I was wondering if i should continue this..
+
 ## Features
 - **Pokedex**: Filter and Search Pokemon easily by its ID, Name, Region, Stats and other to get its info.
 - **Natures**: Filter and Search Nature easily to get its info.
