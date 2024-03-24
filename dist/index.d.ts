@@ -5,3 +5,4 @@ export { findTypeByName, getAllTypes } from "./core/type.core";
 export { findMachineByID, findMachineByPrice, findMachineByMoves, findMachineByRecipe, getAllMachine, getCustomTMsPerPage, getTMsPerPage, } from "./core/items-core/machineitem.core";
 export { findPokeBallByName, getAllPokeBall, } from "./core/items-core/pokebalitem.core";
 export { findBattleItemByName, getAllBattleItem, } from "./core/items-core/battleitem.core";
+export { getAllMaterial, findMaterialByName } from "./core/items-core/machinematerial.core";

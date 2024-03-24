@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.BattleItemError = exports.TMError = exports.PokeballError = void 0;
+exports.MaterialError = exports.BattleItemError = exports.TMError = exports.PokeballError = void 0;
 const helper_enum_1 = require("../helper.enum");
 exports.PokeballError = {
     id: "000",
@@ -38,4 +38,10 @@ exports.BattleItemError = {
         statFlag: helper_enum_1.Stat.NONE,
         multiplier: 0,
     }
+};
+exports.MaterialError = {
+    id: '000',
+    name: "Rayquaza\'s Skin",
+    price: 0,
+    league_point: 0,
 };

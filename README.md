@@ -6,7 +6,6 @@
 ## Change-Logs
   - 1.0.6
     - TM Ingredient Items added
-    - add Sinnoh Pokemon height & weight
     - add Moves Model Prototype
     I was wondering if i should continue this..
 
